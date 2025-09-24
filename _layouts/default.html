@@ -24,13 +24,11 @@
             padding-bottom: 20px;
             border-bottom: 2px solid #e9ecef;
         }
-        h1 {
-            color: #2c3e50;
-            margin-bottom: 10px;
-        }
-        .subtitle {
-            color: #6c757d;
-            font-size: 1.1em;
+        .logo {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
         }
         nav {
             text-align: center;
@@ -87,11 +85,11 @@
 </head>
 <body>
     <header>
-        <h1><a href="{{ "/" | relative_url }}" style="text-decoration: none; color: inherit;">{{ site.title }}</a></h1>
-        <p class="subtitle">{{ site.description }}</p>
+        <a href="{{ "/" | relative_url }}">
+            <img src="{{ "/assets/images/floydhub_logo_large_transparent.png" | relative_url }}" alt="FloydHub" class="logo">
+        </a>
         <nav>
             <a href="{{ "/" | relative_url }}">Home</a>
-            <a href="{{ "/about" | relative_url }}">About</a>
         </nav>
     </header>
 

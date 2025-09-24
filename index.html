@@ -3,9 +3,6 @@ layout: default
 ---
 
 <div class="home">
-    <h1>Welcome to {{ site.title }}</h1>
-    <p class="intro">{{ site.description }}</p>
-
     {% if site.posts.size > 0 %}
         <h2>Latest Posts</h2>
         <ul class="post-list">
@@ -34,16 +31,6 @@ layout: default
 </div>
 
 <style>
-    .intro {
-        font-size: 1.2em;
-        color: #6c757d;
-        margin-bottom: 40px;
-        text-align: center;
-    }
-    .home h1 {
-        text-align: center;
-        margin-bottom: 20px;
-    }
     .home h2 {
         border-bottom: 2px solid #e9ecef;
         padding-bottom: 10px;
