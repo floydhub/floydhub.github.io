@@ -2,6 +2,7 @@
 """
 Ghost to Jekyll converter - Single post test
 Converts the "Metrics on FloydHub" post from Ghost JSON export to Jekyll markdown
+Includes image downloading functionality
 """
 
 import json
@@ -9,6 +10,9 @@ import re
 from datetime import datetime
 from html2text import HTML2Text
 import os
+import requests
+from urllib.parse import urlparse
+import time
 
 def convert_ghost_urls(content, base_url="https://floydhub.github.io"):
     """Convert Ghost __GHOST_URL__ placeholders to actual URLs"""
@@ -43,6 +47,73 @@ def create_jekyll_filename(date_string, slug):
     """Create Jekyll filename format: YYYY-MM-DD-slug.md"""
     dt = datetime.fromisoformat(date_string.replace('Z', '+00:00'))
     return f"{dt.strftime('%Y-%m-%d')}-{slug}.md"
+
+def download_image(url, local_path, ghost_base_url="https://floydhub.ghost.io"):
+    """Download an image from Ghost blog to local assets directory"""
+    try:
+        # Convert floydhub.github.io URLs back to ghost.io for downloading
+        if "floydhub.github.io" in url:
+            download_url = url.replace("https://floydhub.github.io", ghost_base_url)
+        else:
+            download_url = url
+
+        print(f"Downloading: {download_url}")
+        print(f"Saving to: {local_path}")
+
+        # Create directory if it doesn't exist
+        os.makedirs(os.path.dirname(local_path), exist_ok=True)
+
+        # Download with headers to avoid blocking
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+        }
+
+        response = requests.get(download_url, headers=headers, timeout=30)
+        response.raise_for_status()
+
+        # Write image to file
+        with open(local_path, 'wb') as f:
+            f.write(response.content)
+
+        print(f"✅ Downloaded: {os.path.basename(local_path)}")
+        return True
+
+    except Exception as e:
+        print(f"❌ Error downloading {url}: {e}")
+        return False
+
+def process_images_in_content(content, ghost_base_url="https://floydhub.ghost.io"):
+    """Download images and update their references in content"""
+
+    # Find all image references
+    img_pattern = r'!\[([^\]]*)\]\((https://floydhub\.github\.io/content/images/[^)]+)\)'
+    images = re.findall(img_pattern, content)
+
+    downloaded_images = []
+
+    for alt_text, img_url in images:
+        # Parse the image path
+        parsed_url = urlparse(img_url)
+        img_path = parsed_url.path
+
+        # Create local path: /content/images/... -> assets/images/content/images/...
+        local_path = f"assets/images{img_path}"
+
+        # Download the image
+        if download_image(img_url, local_path, ghost_base_url):
+            # Update the content to use local path
+            jekyll_path = f"/assets/images{img_path}"
+            content = content.replace(img_url, jekyll_path)
+            downloaded_images.append({
+                'original': img_url,
+                'local': local_path,
+                'jekyll': jekyll_path
+            })
+
+        # Small delay between downloads
+        time.sleep(1)
+
+    return content, downloaded_images
 
 def extract_test_post():
     """Extract the Metrics on FloydHub post from Ghost JSON"""
@@ -80,6 +151,17 @@ def extract_test_post():
     # Convert content
     content_html = convert_ghost_urls(content_html)
     markdown_content = convert_html_to_markdown(content_html)
+
+    # Process and download images
+    print(f"\n🖼️  Processing images in post...")
+    markdown_content, downloaded_images = process_images_in_content(markdown_content)
+
+    if downloaded_images:
+        print(f"✅ Downloaded {len(downloaded_images)} images:")
+        for img in downloaded_images:
+            print(f"   • {img['original']} → {img['jekyll']}")
+    else:
+        print("ℹ️  No images found to download")
 
     # Create Jekyll frontmatter
     frontmatter = {

@@ -18,7 +18,7 @@ Training time metrics are values emitted by the training code that you can use t
 
 **If you are running Keras jobs, you do not have to do anything to use this feature! FloydHub will automagically parse Keras logs and convert them into beautiful graphs that appear in the job page.**
 
-![training_metrics](https://floydhub.github.io/content/images/2018/03/training_metrics.png)
+![training_metrics](/assets/images/content/images/2018/03/training_metrics.png)
 
 In case you are using a different framework, you can also send any numeric training metric by simply logging them in json format from your script. For example, in your training loop, you can print the accuracy and loss values in this format:
     
@@ -37,7 +37,7 @@ Deep learning training consumes a lot of system resources like GPU, CPU and disk
 
 The job page now contains a new section - [System Metrics](https://docs.floydhub.com/guides/jobs/metrics/#system-metrics). It shows the resource utilization of the instance where your job is running in real time and updated every minute.
 
-![system_metrics](https://floydhub.github.io/content/images/2018/03/system_metrics.png)
+![system_metrics](/assets/images/content/images/2018/03/system_metrics.png)
 
 These graphs are timestamped and along with the training metrics, can be used to pinpoint issues in code that is causing resource exhaustion. On the other hand, if you notice expensive resources like `GPU Utilization` is not consistenly used, it is time to tune your training code and feed a larger batch size to your training code. You no longer have to wonder "Is my code using the GPU?"!
 
