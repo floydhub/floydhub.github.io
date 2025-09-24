@@ -115,6 +115,31 @@ def process_images_in_content(content, ghost_base_url="https://floydhub.ghost.io
 
     return content, downloaded_images
 
+def get_author_info(post_id, ghost_data):
+    """Get author information for a post"""
+    db_data = ghost_data['db'][0]['data']
+
+    # Find author ID from posts_authors relationship
+    author_id = None
+    for relationship in db_data['posts_authors']:
+        if relationship['post_id'] == post_id:
+            author_id = relationship['author_id']
+            break
+
+    if not author_id:
+        return None
+
+    # Find author details from users
+    for user in db_data['users']:
+        if user['id'] == author_id:
+            return {
+                'name': user.get('name', 'Unknown Author'),
+                'slug': user.get('slug', 'unknown'),
+                'bio': user.get('bio', '')
+            }
+
+    return None
+
 def extract_test_post():
     """Extract the Metrics on FloydHub post from Ghost JSON"""
 
@@ -135,9 +160,13 @@ def extract_test_post():
         print("Metrics post not found!")
         return
 
+    # Get author information
+    author_info = get_author_info(metrics_post['id'], ghost_data)
+
     print(f"Found post: {metrics_post['title']}")
     print(f"Published: {metrics_post['published_at']}")
     print(f"Slug: {metrics_post['slug']}")
+    print(f"Author: {author_info['name'] if author_info else 'Unknown'}")
     print(f"Feature image: {metrics_post.get('feature_image', 'None')}")
 
     # Extract content - prefer HTML over mobiledoc
@@ -169,6 +198,7 @@ def extract_test_post():
         'title': metrics_post['title'],
         'date': format_date_for_jekyll(metrics_post['published_at']),
         'slug': metrics_post['slug'],
+        'author': author_info['name'] if author_info else 'FloydHub Team',
         'excerpt': metrics_post.get('custom_excerpt') or metrics_post.get('plaintext', '')[:200] + '...',
         'feature_image': metrics_post.get('feature_image'),
         'tags': ['metrics', 'monitoring', 'deep-learning']  # Add some relevant tags

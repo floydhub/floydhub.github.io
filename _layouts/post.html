@@ -10,7 +10,8 @@ layout: default
                 {{ page.date | date: "%B %d, %Y" }}
             </time>
             {% if page.author %}
-                • by {{ page.author }}
+                <span class="author-separator">•</span>
+                <span class="author-name">by {{ page.author }}</span>
             {% endif %}
         </div>
     </header>
@@ -42,6 +43,17 @@ layout: default
     .post-header h1 {
         margin-bottom: 10px;
         color: #2c3e50;
+    }
+    .post-meta {
+        color: #6c757d;
+        font-size: 0.9em;
+    }
+    .author-separator {
+        margin: 0 8px;
+    }
+    .author-name {
+        color: #495057;
+        font-weight: 500;
     }
     .post-content {
         margin-bottom: 40px;
