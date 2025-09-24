@@ -141,41 +141,41 @@ def get_author_info(post_id, ghost_data):
     return None
 
 def extract_test_post():
-    """Extract the Metrics on FloydHub post from Ghost JSON"""
+    """Extract the GPT-2 post from Ghost JSON"""
 
     # Load Ghost export
     with open('floydhub-blog.ghost.2025-09-24-21-16-37.json', 'r', encoding='utf-8') as f:
         ghost_data = json.load(f)
 
-    # Find the Metrics post
+    # Find the GPT-2 post
     posts = ghost_data['db'][0]['data']['posts']
-    metrics_post = None
+    target_post = None
 
     for post in posts:
-        if post['title'] == "Metrics on FloydHub":
-            metrics_post = post
+        if post['slug'] == "gpt2":
+            target_post = post
             break
 
-    if not metrics_post:
-        print("Metrics post not found!")
+    if not target_post:
+        print("GPT-2 post not found!")
         return
 
     # Get author information
-    author_info = get_author_info(metrics_post['id'], ghost_data)
+    author_info = get_author_info(target_post['id'], ghost_data)
 
-    print(f"Found post: {metrics_post['title']}")
-    print(f"Published: {metrics_post['published_at']}")
-    print(f"Slug: {metrics_post['slug']}")
+    print(f"Found post: {target_post['title']}")
+    print(f"Published: {target_post['published_at']}")
+    print(f"Slug: {target_post['slug']}")
     print(f"Author: {author_info['name'] if author_info else 'Unknown'}")
-    print(f"Feature image: {metrics_post.get('feature_image', 'None')}")
+    print(f"Feature image: {target_post.get('feature_image', 'None')}")
 
     # Extract content - prefer HTML over mobiledoc
-    content_html = metrics_post.get('html', '')
+    content_html = target_post.get('html', '')
     if not content_html:
         print("No HTML content found, trying mobiledoc...")
-        mobiledoc = json.loads(metrics_post.get('mobiledoc', '{}'))
+        mobiledoc = json.loads(target_post.get('mobiledoc', '{}'))
         # For this test, we'll use the HTML version
-        content_html = metrics_post.get('html', '')
+        content_html = target_post.get('html', '')
 
     # Convert content
     content_html = convert_ghost_urls(content_html)
@@ -195,20 +195,20 @@ def extract_test_post():
     # Create Jekyll frontmatter
     frontmatter = {
         'layout': 'post',
-        'title': metrics_post['title'],
-        'date': format_date_for_jekyll(metrics_post['published_at']),
-        'slug': metrics_post['slug'],
+        'title': target_post['title'],
+        'date': format_date_for_jekyll(target_post['published_at']),
+        'slug': target_post['slug'],
         'author': author_info['name'] if author_info else 'FloydHub Team',
-        'excerpt': metrics_post.get('custom_excerpt') or metrics_post.get('plaintext', '')[:200] + '...',
-        'feature_image': metrics_post.get('feature_image'),
-        'tags': ['metrics', 'monitoring', 'deep-learning']  # Add some relevant tags
+        'excerpt': target_post.get('custom_excerpt') or target_post.get('plaintext', '')[:200] + '...',
+        'feature_image': target_post.get('feature_image'),
+        'tags': ['gpt-2', 'nlp', 'language-models', 'openai', 'deep-learning']  # Add relevant tags for GPT-2
     }
 
     # Remove None values
     frontmatter = {k: v for k, v in frontmatter.items() if v is not None}
 
     # Create Jekyll post file
-    filename = create_jekyll_filename(metrics_post['published_at'], metrics_post['slug'])
+    filename = create_jekyll_filename(target_post['published_at'], target_post['slug'])
     filepath = f"_posts/{filename}"
 
     # Generate Jekyll post content
