@@ -6,9 +6,9 @@
 
 ## Progress Overview
 
-- ✅ **Completed**: 21 posts
+- ✅ **Completed**: 41 posts
 - 🔄 **In Progress**: 0 posts
-- ⏳ **Pending**: 62 posts
+- ⏳ **Pending**: 42 posts
 
 ## Instructions
 
@@ -63,26 +63,26 @@
 | ⏳ | On Building an Instagram Street Art Dataset and Detection Model | `instagram-street-art` | Leonard Bogdonoff | 2019-01-29 |  |  |
 | ⏳ | Haggis, Not Haggis: How to build a haggis detection app with TensorFlow, Keras, and FloydHub for Burns Night | `haggis-not-haggis` | Euan Wielewski | 2019-01-24 |  |  |
 | ⏳ | Inverting Facial Recognition Models | `inverting-facial-recognition-models` | Irhum Shafkat | 2019-01-23 |  |  |
-| ⏳ | Using NLP to Automate Customer Support, Part Two | `automate-customer-support-part-two` | Cathal Horan | 2019-01-17 |  |  |
-| ⏳ | Improving Access to Sexual Health Education in Kenya with Artificial Intelligence | `improving-access-to-sexual-health-education` | Charlie Harrington | 2019-01-15 |  |  |
-| ⏳ | Exploring DNA with Deep Learning | `exploring-dna-with-deep-learning` | Charlie Harrington | 2019-01-10 |  |  |
-| ⏳ | Teaching Humans How to Teach Computers | `teaching-humans-how-to-teach-computers` | Charlie Harrington | 2019-01-08 |  |  |
-| ⏳ | Using Sentence Embeddings to Automate Customer Support, Part One | `automate-customer-support-part-one` | Cathal Horan | 2018-12-19 |  |  |
-| ⏳ | Spinning Up a Pong AI With Deep Reinforcement Learning | `spinning-up-with-deep-reinforcement-learning` | Michaël Trazzi | 2018-12-06 |  |  |
-| ⏳ | Reading Minds with Deep Learning | `reading-minds-with-deep-learning` | Samuel Lynn-Evans | 2018-11-29 |  |  |
-| ⏳ | Generating Classical Music with Neural Networks | `generating-classical-music-with-neural-networks` | Charlie Harrington | 2018-11-28 |  |  |
-| ⏳ | Recognize relatives using deep learning | `build-image-classification-app-with-fastai` | Charlie Harrington | 2018-11-21 |  |  |
-| ⏳ | DeOldify: Colorizing and Restoring Old Images and Videos with Deep Learning | `colorizing-and-restoring-old-images-with-deep-learning` | Charlie Harrington | 2018-11-13 |  |  |
-| ⏳ | How to become a FloydHub A.I. Writer | `write-for-floydhub` | Charlie Harrington | 2018-11-07 |  |  |
-| ⏳ | Found in translation: Building a language translator from scratch with deep learning | `language-translator` | Samuel Lynn-Evans | 2018-10-10 |  |  |
-| ⏳ | How to code The Transformer in PyTorch | `the-transformer-in-pytorch` | Samuel Lynn-Evans | 2018-10-09 |  |  |
-| ⏳ | Practical Guide to Hyperparameters Optimization for Deep Learning Models | `guide-to-hyperparameters-search-for-deep-learning-models` | Alessio Gozzoli | 2018-09-05 |  |  |
-| ⏳ | Counting the Crowd at Shake Shack with Deep Learning | `humans-of-ml-dimitri-roche` | Charlie Harrington | 2018-08-29 |  |  |
-| ⏳ | Asking questions to images with deep learning: a visual-question-answering tutorial | `asking-questions-to-images-with-deep-learning` | Somin Wadhwa | 2018-08-09 |  |  |
-| ⏳ | Ten Techniques Learned From fast.ai | `ten-techniques-from-fast-ai` | Samuel Lynn-Evans | 2018-08-01 |  |  |
-| ⏳ | Exploring Computational Creativity with Neural Networks | `humans-of-ml-kalai-ramea` | Charlie Harrington | 2018-07-30 |  |  |
-| ⏳ | Revolutionizing the Fashion Industry with Artificial Intelligence | `humans-of-ml-leanne-luce` | Charlie Harrington | 2018-07-25 |  |  |
-| ⏳ | 5 advanced features that save you time on FloydHub | `advanced-features` | Naren Thiagarajan | 2018-07-03 |  |  |
+| ✅ | Using NLP to Automate Customer Support, Part Two | `automate-customer-support-part-two` | Cathal Horan | 2019-01-17 | [/automate-customer-support-part-two/](https://floydhub.github.io/automate-customer-support-part-two/) | NLP customer service automation |
+| ✅ | Improving Access to Sexual Health Education in Kenya with Artificial Intelligence | `improving-access-to-sexual-health-education` | Charlie Harrington | 2019-01-15 | [/improving-access-to-sexual-health-education/](https://floydhub.github.io/improving-access-to-sexual-health-education/) | SophieBot NLP health app |
+| ✅ | Exploring DNA with Deep Learning | `exploring-dna-with-deep-learning` | Charlie Harrington | 2019-01-10 | [/exploring-dna-with-deep-learning/](https://floydhub.github.io/exploring-dna-with-deep-learning/) | DNA analysis with CNNs |
+| ✅ | Teaching Humans How to Teach Computers | `teaching-humans-how-to-teach-computers` | Charlie Harrington | 2019-01-08 | [/teaching-humans-how-to-teach-computers/](https://floydhub.github.io/teaching-humans-how-to-teach-computers/) | AI education with Siraj Raval |
+| ✅ | Using Sentence Embeddings to Automate Customer Support, Part One | `automate-customer-support-part-one` | Cathal Horan | 2018-12-19 | [/automate-customer-support-part-one/](https://floydhub.github.io/automate-customer-support-part-one/) | Word embeddings for support |
+| ✅ | Spinning Up a Pong AI With Deep Reinforcement Learning | `spinning-up-with-deep-reinforcement-learning` | Michaël Trazzi | 2018-12-06 | [/spinning-up-with-deep-reinforcement-learning/](https://floydhub.github.io/spinning-up-with-deep-reinforcement-learning/) | Deep RL game tutorial |
+| ✅ | Reading Minds with Deep Learning | `reading-minds-with-deep-learning` | Samuel Lynn-Evans | 2018-11-29 | [/reading-minds-with-deep-learning/](https://floydhub.github.io/reading-minds-with-deep-learning/) | Brain-computer interfaces |
+| ✅ | Generating Classical Music with Neural Networks | `generating-classical-music-with-neural-networks` | Charlie Harrington | 2018-11-28 | [/generating-classical-music-with-neural-networks/](https://floydhub.github.io/generating-classical-music-with-neural-networks/) | Clara LSTM music generator |
+| ✅ | Recognize relatives using deep learning | `build-image-classification-app-with-fastai` | Charlie Harrington | 2018-11-21 | [/build-image-classification-app-with-fastai/](https://floydhub.github.io/build-image-classification-app-with-fastai/) | FastAI family classifier |
+| ✅ | DeOldify: Colorizing and Restoring Old Images and Videos with Deep Learning | `colorizing-and-restoring-old-images-with-deep-learning` | Charlie Harrington | 2018-11-13 | [/colorizing-and-restoring-old-images-with-deep-learning/](https://floydhub.github.io/colorizing-and-restoring-old-images-with-deep-learning/) | Advanced image colorization |
+| ✅ | How to become a FloydHub A.I. Writer | `write-for-floydhub` | Charlie Harrington | 2018-11-07 | [/write-for-floydhub/](https://floydhub.github.io/write-for-floydhub/) | Guest writing program |
+| ✅ | Found in translation: Building a language translator from scratch with deep learning | `language-translator` | Samuel Lynn-Evans | 2018-10-10 | [/language-translator/](https://floydhub.github.io/language-translator/) | Seq2seq translation tutorial |
+| ✅ | How to code The Transformer in PyTorch | `the-transformer-in-pytorch` | Samuel Lynn-Evans | 2018-10-09 | [/the-transformer-in-pytorch/](https://floydhub.github.io/the-transformer-in-pytorch/) | Attention mechanism tutorial |
+| ✅ | Practical Guide to Hyperparameters Optimization for Deep Learning Models | `guide-to-hyperparameters-search-for-deep-learning-models` | Alessio Gozzoli | 2018-09-05 | [/guide-to-hyperparameters-search-for-deep-learning-models/](https://floydhub.github.io/guide-to-hyperparameters-search-for-deep-learning-models/) | Model tuning best practices |
+| ✅ | Counting the Crowd at Shake Shack with Deep Learning | `humans-of-ml-dimitri-roche` | Charlie Harrington | 2018-08-29 | [/humans-of-ml-dimitri-roche/](https://floydhub.github.io/humans-of-ml-dimitri-roche/) | Computer vision crowd counting |
+| ✅ | Asking questions to images with deep learning: a visual-question-answering tutorial | `asking-questions-to-images-with-deep-learning` | Somin Wadhwa | 2018-08-09 | [/asking-questions-to-images-with-deep-learning/](https://floydhub.github.io/asking-questions-to-images-with-deep-learning/) | VQA accessibility tech |
+| ✅ | Ten Techniques Learned From fast.ai | `ten-techniques-from-fast-ai` | Samuel Lynn-Evans | 2018-08-01 | [/ten-techniques-from-fast-ai/](https://floydhub.github.io/ten-techniques-from-fast-ai/) | FastAI best practices |
+| ✅ | Exploring Computational Creativity with Neural Networks | `humans-of-ml-kalai-ramea` | Charlie Harrington | 2018-07-30 | [/humans-of-ml-kalai-ramea/](https://floydhub.github.io/humans-of-ml-kalai-ramea/) | AI art and creativity research |
+| ✅ | Revolutionizing the Fashion Industry with Artificial Intelligence | `humans-of-ml-leanne-luce` | Charlie Harrington | 2018-07-25 | [/humans-of-ml-leanne-luce/](https://floydhub.github.io/humans-of-ml-leanne-luce/) | Fashion tech and wearables |
+| ✅ | 5 advanced features that save you time on FloydHub | `advanced-features` | Naren Thiagarajan | 2018-07-03 | [/advanced-features/](https://floydhub.github.io/advanced-features/) | Platform productivity features |
 | ✅ | Generating Commencement Speeches With Markov Chains | `markov-chains` | Charlie Harrington | 2018-06-19 | [/markov-chains/](https://floydhub.github.io/markov-chains/) | NLP text generation tutorial |
 | ✅ | Automate FloydHub with Celery | `automate-floydhub-with-celery` | FloydHub | 2018-06-11 | [/automate-floydhub-with-celery/](https://floydhub.github.io/automate-floydhub-with-celery/) | API automation with Celery |
 | ✅ | Workspaces on FloydHub | `workspaces` | Sai Soundararaj | 2018-06-05 | [/workspaces/](https://floydhub.github.io/workspaces/) | Cloud IDE feature launch |
