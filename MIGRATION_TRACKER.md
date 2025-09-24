@@ -6,9 +6,9 @@
 
 ## Progress Overview
 
-- ✅ **Completed**: 12 posts
+- ✅ **Completed**: 21 posts
 - 🔄 **In Progress**: 0 posts
-- ⏳ **Pending**: 71 posts
+- ⏳ **Pending**: 62 posts
 
 ## Instructions
 
@@ -83,16 +83,16 @@
 | ⏳ | Exploring Computational Creativity with Neural Networks | `humans-of-ml-kalai-ramea` | Charlie Harrington | 2018-07-30 |  |  |
 | ⏳ | Revolutionizing the Fashion Industry with Artificial Intelligence | `humans-of-ml-leanne-luce` | Charlie Harrington | 2018-07-25 |  |  |
 | ⏳ | 5 advanced features that save you time on FloydHub | `advanced-features` | Naren Thiagarajan | 2018-07-03 |  |  |
-| ⏳ | Generating Commencement Speeches With Markov Chains | `markov-chains` | Charlie Harrington | 2018-06-19 |  |  |
-| ⏳ | Automate FloydHub with Celery | `automate-floydhub-with-celery` | FloydHub | 2018-06-11 |  |  |
-| ⏳ | Workspaces on FloydHub | `workspaces` | Sai Soundararaj | 2018-06-05 |  |  |
+| ✅ | Generating Commencement Speeches With Markov Chains | `markov-chains` | Charlie Harrington | 2018-06-19 | [/markov-chains/](https://floydhub.github.io/markov-chains/) | NLP text generation tutorial |
+| ✅ | Automate FloydHub with Celery | `automate-floydhub-with-celery` | FloydHub | 2018-06-11 | [/automate-floydhub-with-celery/](https://floydhub.github.io/automate-floydhub-with-celery/) | API automation with Celery |
+| ✅ | Workspaces on FloydHub | `workspaces` | Sai Soundararaj | 2018-06-05 | [/workspaces/](https://floydhub.github.io/workspaces/) | Cloud IDE feature launch |
 | ✅ | Metrics on FloydHub | `metrics-on-floydhub` | Naren Thiagarajan | 2018-03-30 | [/metrics-on-floydhub/](https://floydhub.github.io/metrics-on-floydhub/) | Test post with images |
-| ⏳ | FloydHub for Teams | `floydhub-for-teams` | Charlie Harrington | 2018-03-13 |  |  |
-| ⏳ | Teaching My Robot With TensorFlow | `teaching-my-robot-with-tensorflow` | Charlie Harrington | 2018-01-25 |  |  |
-| ⏳ | Turning Design Mockups Into Code With Deep Learning | `turning-design-mockups-into-code-with-deep-learning` | Emil Wallner | 2018-01-09 |  |  |
-| ⏳ | Benchmarking FloydHub instances | `benchmarking-floydhub-instances` | Alessio Gozzoli | 2017-12-08 |  |  |
-| ⏳ | Checkpointing Tutorial for TensorFlow, Keras, and PyTorch | `checkpointing-tutorial-for-tensorflow-keras-and-pytorch` | Alessio Gozzoli | 2017-11-22 |  |  |
-| ⏳ | Creating Datasets from Public URLs | `creating-datasets-from-public-urls` | Charlie Harrington | 2017-11-04 |  |  |
+| ✅ | FloydHub for Teams | `floydhub-for-teams` | Charlie Harrington | 2018-03-13 | [/floydhub-for-teams/](https://floydhub.github.io/floydhub-for-teams/) | Team collaboration features |
+| ✅ | Teaching My Robot With TensorFlow | `teaching-my-robot-with-tensorflow` | Charlie Harrington | 2018-01-25 | [/teaching-my-robot-with-tensorflow/](https://floydhub.github.io/teaching-my-robot-with-tensorflow/) | Anki Cozmo robot ML tutorial |
+| ✅ | Turning Design Mockups Into Code With Deep Learning | `turning-design-mockups-into-code-with-deep-learning` | Emil Wallner | 2018-01-09 | [/turning-design-mockups-into-code-with-deep-learning/](https://floydhub.github.io/turning-design-mockups-into-code-with-deep-learning/) | pix2code deep learning project |
+| ✅ | Benchmarking FloydHub instances | `benchmarking-floydhub-instances` | Alessio Gozzoli | 2017-12-08 | [/benchmarking-floydhub-instances/](https://floydhub.github.io/benchmarking-floydhub-instances/) | GPU performance comparison |
+| ✅ | Checkpointing Tutorial for TensorFlow, Keras, and PyTorch | `checkpointing-tutorial-for-tensorflow-keras-and-pytorch` | Alessio Gozzoli | 2017-11-22 | [/checkpointing-tutorial-for-tensorflow-keras-and-pytorch/](https://floydhub.github.io/checkpointing-tutorial-for-tensorflow-keras-and-pytorch/) | Model saving and resuming |
+| ✅ | Creating Datasets from Public URLs | `creating-datasets-from-public-urls` | Charlie Harrington | 2017-11-04 | [/creating-datasets-from-public-urls/](https://floydhub.github.io/creating-datasets-from-public-urls/) | Dataset management feature |
 | ✅ | Generating Six-Pack Abs With TensorFlow pix2pix | `generating-six-pack-abs-with-tensorflow` | Naren Thiagarajan | 2017-10-18 | [/generating-six-pack-abs-with-tensorflow/](https://floydhub.github.io/generating-six-pack-abs-with-tensorflow/) | Fitness motivation with GANs |
 | ✅ | Colorizing B&W Photos with Neural Networks | `colorizing-b-w-photos-with-neural-networks` | Emil Wallner | 2017-10-14 | [/colorizing-b-w-photos-with-neural-networks/](https://floydhub.github.io/colorizing-b-w-photos-with-neural-networks/) | Deep learning colorization tutorial |
 | ✅ | Building Your First ConvNet | `building-your-first-convnet` | Somin Wadhwa | 2017-10-05 | [/building-your-first-convnet/](https://floydhub.github.io/building-your-first-convnet/) | Beginner CNN tutorial |
