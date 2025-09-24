@@ -1,359 +1,52 @@
-<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
-<head>
-	<title>Floyd | Deep Learning Platform</title>
+---
+layout: default
+---
 
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
+<div class="home">
+    <h1>Welcome to {{ site.title }}</h1>
+    <p class="intro">{{ site.description }}</p>
 
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="favicon.ico">
+    {% if site.posts.size > 0 %}
+        <h2>Latest Posts</h2>
+        <ul class="post-list">
+            {% for post in site.posts limit: 10 %}
+                <li>
+                    <h2>
+                        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                    </h2>
+                    <div class="post-meta">
+                        {{ post.date | date: "%B %d, %Y" }}
+                        {% if post.author %} • {{ post.author }}{% endif %}
+                    </div>
+                    {% if post.excerpt %}
+                        <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
 
-	<!-- Web Fonts -->
-	<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
+        {% if site.posts.size > 10 %}
+            <p><a href="/archive.html">View all posts →</a></p>
+        {% endif %}
+    {% else %}
+        <p>No posts yet. Stay tuned for deep learning insights and tutorials!</p>
+    {% endif %}
+</div>
 
-	<!-- CSS Global Compulsory -->
-	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-
-	<!-- CSS Header and Footer -->
-	<link rel="stylesheet" href="assets/css/headers/header-v6.css">
-	<link rel="stylesheet" href="assets/css/footers/footer-v1.css">
-
-	<!-- CSS Implementing Plugins -->
-	<link rel="stylesheet" href="assets/plugins/animate.css">
-	<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
-	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="assets/plugins/sliding-panel/style.css">
-	<link rel="stylesheet" href="assets/plugins/cube-portfolio/cubeportfolio/css/cubeportfolio.min.css">
-	<link rel="stylesheet" href="assets/plugins/cube-portfolio/cubeportfolio/custom/custom-cubeportfolio.css">
-	<link rel="stylesheet" href="assets/plugins/parallax-slider/css/parallax-slider.css">
-	<link rel="stylesheet" href="assets/plugins/fancybox/source/jquery.fancybox.css">
-	<link rel="stylesheet" href="assets/plugins/owl-carousel/owl-carousel/owl.carousel.css">
-
-	<!-- CSS Theme -->
-	<link rel="stylesheet" href="assets/css/theme-colors/default.css" id="style_color">
-	<link rel="stylesheet" href="assets/css/theme-skins/dark.css">
-
-	<!-- CSS Customization -->
-	<link rel="stylesheet" href="assets/css/custom.css">
-	
-	<!-- Analytics -->
-	 <script type="text/javascript">
-      (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script");r.type="text/javascript";
-      r.async=true;r.src="https://d24n15hnbwhuhn.cloudfront.net/libs/amplitude-3.1.0-min.gz.js";
-      r.onload=function(){e.amplitude.runQueuedFunctions()};var i=t.getElementsByTagName("script")[0];
-      i.parentNode.insertBefore(r,i);function s(e,t){e.prototype[t]=function(){this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));
-      return this}}var o=function(){this._q=[];return this};var a=["add","append","clearAll","prepend","set","setOnce","unset"];
-      for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[];return this;
-      };var p=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"];
-      for(var l=0;l<p.length;l++){s(c,p[l])}n.Revenue=c;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId"];
-      function v(e){function t(t){e[t]=function(){e._q.push([t].concat(Array.prototype.slice.call(arguments,0)));
-      }}for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){e=(!e||e.length===0?"$default_instance":e).toLowerCase();
-      if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]};e.amplitude=n;
-      })(window,document);
-      amplitude.getInstance().init("f291950c841caa4790e83c5868320496");
-      amplitude.getInstance().logEvent('home_page');
-    </script>
-</head>
-
-<body class="header-fixed header-fixed-space promo-padding-top sliding-panel-ini sliding-panel-flag-right">
-	<div class="wrapper">
-		<!--=== Header v6 ===-->
-		<div class="header-v6 header-classic-white header-sticky">
-			<!-- Navbar -->
-			<div class="navbar mega-menu" role="navigation">
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="menu-container">
-
-						<!-- Navbar Brand -->
-						<div class="navbar-brand">
-							<a href="index.html">
-								<img class="default-logo" src="assets/img/logo_white.png" alt="Logo">
-								<img class="shrink-logo" src="assets/img/logo_black.png" alt="Logo">
-							</a>
-						</div>
-						<!-- End Navbar Brand -->
-
-					</div>
-				</div>
-			</div>
-			<!-- End Navbar -->
-		</div>
-		<!--=== End Header v6 ===-->
-
-		<!-- Promo Block -->
-		<div class="promo-bg-pattern-v1-light promo-bg-fixed content-xlg parallaxBg height-500">
-			<div class="container text-center" data-start="opacity: 1;" data-320="opacity: 0;">
-				<div class="margin-bottom-20">
-					<a class="promo-video-icon-wrap color-dark rounded-x animated fadeInUp wow cbp-lightbox" data-wow-duration="1.5s" data-wow-delay=".5s" data-title="Video Presentation" href="https://www.youtube.com/watch?v=wdxDM6Y0p5c&rel=0&showinfo=0">
-						<i class="promo-video-icon icon-control-play"></i>
-					</a>
-					<div id="cbp-lightbox" class="dp-none"></div>
-				</div>
-
-				
-				<h2 class="promo-text-v2 color-darker animated fadeInUp wow margin-bottom-20" data-wow-duration="1s" data-wow-delay="0.5s">Accelerate your Deep Learning</h2>
-
-				<span class="promo-text-v1 color-dark margin-bottom-20 animated fadeInUp wow" data-wow-duration="1s" data-wow-delay="0.5s" style="border-bottom:0px;">
-					From Exploration to Production
-				</span><br />
-
-				<div class="animated fadeInUp wow" data-wow-duration="1.2s" data-wow-delay="1.5s">
-					<a href="https://goo.gl/forms/tXdHJOTh9iEkgM1q1" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-dark btn-u-block rounded-4x">Join the waitlist</a>
-				</div>
-			</div>
-		</div>
-		<!-- End Promo Block -->
-
-		<!--=== Content Part ===-->
-		<div class="content-md">
-			<div class="container">
-				<!-- Service Box -->
-				<div class="row text-center margin-bottom-60">
-					<div class="col-md-4 flat-service md-margin-bottom-50">
-						<img alt="" src="assets/img/icons/flat/02.png" class="image-md margin-bottom-20">
-						<h2 class="title-v3-md margin-bottom-10">Open Source</h2>
-						<p>Floyd is an open source project. We'd love for you to get involved</p>
-					</div>
-					<div class="col-md-4 flat-service md-margin-bottom-50">
-						<img alt="" src="assets/img/icons/flat/03.png" class="image-md margin-bottom-20">
-						<h2 class="title-v3-md margin-bottom-10">Beginner Friendly</h2>
-						<p>Easy to use. Plenty of plug and play modules. Get up and running in no time</p>
-					</div>
-					<div class="col-md-4 flat-service md-margin-bottom-50">
-						<img alt="" src="assets/img/icons/flat/01.png" class="image-md margin-bottom-20">
-						<h2 class="title-v3-md margin-bottom-10">Tools for Experts</h2>
-						<p>Floyd automates the common tasks so you can focus on deep learning</p>
-					</div>
-				</div>
-				<!-- End Service Box -->
-			</div><!--/container -->
-
-			<div class="bg-color-light">
-				<div class="container content-sm">
-					<div class="row">
-						<div class="col-md-6 md-margin-bottom-50">
-							<img alt="" src="assets/img/floyd/floyd-expt-zoom.png" class="img-responsive">
-						</div>
-						<div class="col-md-6">
-							<br><br><br>
-							<div class="headline-left margin-bottom-30">
-								<h2 class="headline-brd">Interactive, Visual Workspace</h2>
-								<p>Drag and drop datasets and modules to build your pipeline visually</p>
-							</div>
-							<ul class="list-unstyled lists-v2 margin-bottom-30">
-								<li><i class="fa fa-check"></i> Easy to build and monitor complex pipelines</li>
-								<li><i class="fa fa-check"></i> Create your own modules, or choose from popular community modules</li>
-								<li><i class="fa fa-check"></i> Floyd manages environments and dependencies using Docker, so you don't have to</li>
-								<li><i class="fa fa-check"></i> Intelligent caching to avoid rerunning expensive modules</li>
-							</ul>
-							<a class="btn-u btn-brd btn-brd-hover btn-u-dark cbp-lightbox" data-title="Video Presentation" href="https://www.youtube.com/watch?v=azsNi_c_j74&rel=0&showinfo=0">
-								See Video Tutorial
-							</a>
-							
-						</div><!--/end row-->
-					</div>
-				</div>
-			</div>
-			<br />
-			<div class="bg-color-light">
-				<div class="container content-sm">
-					<div class="row">
-						<div class="col-md-6">
-							<br><br><br>
-							<div class="headline-left margin-bottom-30">
-								<h2 class="headline-brd">Iterate on you Ideas, hassle free</h2>
-								<p>Floyd keeps your code, data, parameters, results and environments in one place</p>
-							</div>
-							<ul class="list-unstyled lists-v2 margin-bottom-30">
-								<li><i class="fa fa-check"></i> Run multiple experiments in parallel and keep everything tracked</li>
-								<li><i class="fa fa-check"></i> Make all your experiments fully reproducible and shareable</li>
-								<li><i class="fa fa-check"></i> Floyd automated scheduling, notifications & resource monitoring</li>
-								<li><i class="fa fa-check"></i> Run in the cloud or on-prem and integrate with your infrastructure</li>
-							</ul>
-							<a class="btn-u btn-brd btn-brd-hover btn-u-dark" href="https://goo.gl/forms/tXdHJOTh9iEkgM1q1">Join the waitlist</a>
-						</div><!--/end row-->
-						<div class="col-md-6 md-margin-bottom-50">
-							<img alt="" src="assets/img/floyd/expts-table.png" class="img-responsive">
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="container content-sm">
-				<div class="headline-center margin-bottom-60">
-					<h2>Features</h2>
-				</div><!--/end Headline Center-->
-
-				<!-- Portfolio Box -->
-				<ul class="list-unstyled row portfolio-box">
-					<li class="col-sm-4 md-margin-bottom-50">
-						<a href="assets/img/main/console.png" title="CLI and Python SDK" data-rel="gallery" class="thumbnail">
-							<img alt="" src="assets/img/floyd/console.png" class="full-width img-responsive" style="pointer-events:none, cursor:default">
-						</a>
-						<div class="headline-left margin-bottom-10"><h3 class="headline-brd">CLI and Python SDK</h3></div>
-						<p>Not a fan of GUI? Use Floyd via CLI, REST API or Python SDK to integrate into your workflow</p>
-					</li>
-					<li class="col-sm-4 md-margin-bottom-50">
-						<a href="assets/img/main/repo.png" title="Registry of plug-and-play Modules" data-rel="gallery" class="thumbnail">
-							<img alt="" src="assets/img/floyd/repo.png" class="full-width img-responsive" style="pointer-events:none, cursor:default">
-						</a>
-						<div class="headline-left margin-bottom-10"><h3 class="headline-brd">Registry of plug-and-play Modules</h3></div>
-						<p>Use popular deep learning algorithms from the registy in your pipeline. Batteries included </p>
-					</li>
-					<li class="col-sm-4 md-margin-bottom-50">
-						<a href="assets/img/main/tech.png" title="Plays well with Others" data-rel="gallery" class="thumbnail">
-							<img alt="" src="assets/img/floyd/tech.png" class="full-width img-responsive" style="pointer-events:none, cursor:default">
-						</a>
-						<div class="headline-left margin-bottom-10"><h3 class="headline-brd">Plays well with Others</h3></div>
-						<p>Floyd integrates seamlessly with Docker, Github and AWS. More coming soon! </p>
-					</li>
-				</ul>
-				<!-- End Portfolio Box -->
-			</div><!--/end container-->
-
-			<!-- Flat Background Block -->
-			<div class="flat-bg-block-v1 parallaxBg margin-bottom-60">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-7 md-margin-bottom-60">
-							<div class="headline-left margin-bottom-20">
-								<h2 class="headline-brd">Floyd Cloud</h2>
-								<p>(Coming soon) A central hub to run your deep learning pipelines on scalable GPU hardware, store your data and collaborate in realtime</p>
-							</div><!--/end Headline Left-->
-
-							<div class="row">
-								<div class="col-sm-5">
-									<ul class="list-unstyled checked-list">
-										<li><i class="fa fa-check"></i> Provision GPUs with zero-setups</li>
-										<li><i class="fa fa-check"></i> Ship models to production in one click</li>
-										<li><i class="fa fa-check"></i> Real time collaboration</li>
-									</ul>
-								</div>
-								<div class="col-sm-5 col-sm-offset-1">
-									<ul class="list-unstyled checked-list">
-										<!--
-										<li><i class="fa fa-check"></i> Donec id elit non mi porta gravida</li>
-										<li><i class="fa fa-check"></i> Corporate and Creative</li>
-										<li><i class="fa fa-check"></i> Responsive Bootstrap Template</li>
-										<li><i class="fa fa-check"></i> Corporate and Creative</li>
-										-->
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-5">
-							<!--
-							<img alt="" src="assets/img/mockup/2.png" class="img-over img-responsive">
-							-->
-						</div>
-					</div>
-				</div><!--/end container-->
-			</div>
-			<!-- End Flat Background Block -->
-
-			<!-- Flat Testimonials -->
-			<!--
-			<div class="flat-testimonials bg-image-v1 parallaxBg1 margin-bottom-60" style="background-position: 50% 241px;">
-				<div class="container">
-					<div class="headline-center headline-light margin-bottom-60">
-						<h2>Floyd Public Registry</h2>
-						<p>The registry is a collection of open source deep learning algorithms and modules. Use it directly in your pipelines wihout worrying about setups and dependencies.</p>
-					</div>
-
-					<div class="row">
-						<div class="col-sm-4">
-							<div class="flat-testimonials-in md-margin-bottom-50">
-								<img alt="" src="assets/img/team/img1-sm.jpg" class="rounded-x img-responsive">
-								<h3>Anthony Connor</h3>
-								<span class="color-green">Software Developer</span>
-								<p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis, magna id sem ipsum mi interduml</p>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="flat-testimonials-in md-margin-bottom-50">
-								<img alt="" src="assets/img/team/img2-sm.jpg" class="rounded-x img-responsive">
-								<h3>Angela Danil</h3>
-								<span class="color-green">Web Designer</span>
-								<p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis, magna id sem ipsum mi interduml</p>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="flat-testimonials-in">
-								<img alt="" src="assets/img/team/img3-sm.jpg" class="rounded-x img-responsive">
-								<h3>Anthony Connor</h3>
-								<span class="color-green">Software Developer</span>
-								<p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis, magna id sem ipsum mi interduml</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			-->
-		</div>
-		<!-- End Content Part -->
-
-		<!--=== Footer Version 1 ===-->
-		<div class="footer-v1">
-			<div class="copyright">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-							<p>
-								2015 &copy; All Rights Reserved.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div><!--/copyright-->
-		</div>
-		<!--=== End Footer Version 1 ===-->
-	</div><!--/wrapper-->
-
-	<!-- JS Global Compulsory -->
-	<script src="assets/plugins/jquery/jquery.min.js"></script>
-	<script src="assets/plugins/jquery/jquery-migrate.min.js"></script>
-	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-	<!-- JS Implementing Plugins -->
-	<script src="assets/plugins/back-to-top.js"></script>
-	<script src="assets/plugins/smoothScroll.js"></script>
-	<script src="assets/plugins/jquery.parallax.js"></script>
-	<script src="assets/plugins/backstretch/backstretch-ini.js"></script>
-	<script src="assets/plugins/wow-animations/js/wow.min.js"></script>
-	<script src="assets/plugins/sliding-panel/jquery.sliding-panel.js"></script>
-	<script src="assets/plugins/skrollr/skrollr-ini.js"></script>
-	<script src="assets/plugins/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
-	<script src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
-	<script src="assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>
-	<!-- JS Customization -->
-	<script src="assets/js/custom.js"></script>
-	<!-- JS Page Level -->
-	<script src="assets/js/app.js"></script>
-	<script src="assets/js/plugins/fancy-box.js"></script>
-	<script src="assets/js/plugins/owl-carousel.js"></script>
-	<script src="assets/js/plugins/style-switcher.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function() {
-			App.init();
-			new WOW().init();
-			App.initParallaxBg();
-			StyleSwitcher.initStyleSwitcher();
-			FancyBox.initFancybox();
-			OwlCarousel.initOwlCarousel();
-			$('#cbp-lightbox').cubeportfolio({});
-		});
-	</script>
-	<!--[if lt IE 9]>
-	<script src="assets/plugins/respond.js"></script>
-	<script src="assets/plugins/html5shiv.js"></script>
-	<script src="assets/plugins/placeholder-IE-fixes.js"></script>
-	<![endif]-->
-</body>
-</html>
+<style>
+    .intro {
+        font-size: 1.2em;
+        color: #6c757d;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .home h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .home h2 {
+        border-bottom: 2px solid #e9ecef;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+</style>

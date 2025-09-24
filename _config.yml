@@ -1,0 +1,29 @@
+title: FloydHub Blog
+description: Learn about Deep Learning
+author: FloydHub Team
+email: blog@floydhub.com
+baseurl: ""
+url: "https://floydhub.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+
+# GitHub Pages compatibility
+remote_theme: pages-themes/minima@v2.5.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - floydhub-blog.ghost.2025-09-24-21-16-37.json

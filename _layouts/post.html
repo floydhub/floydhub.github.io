@@ -1,0 +1,90 @@
+---
+layout: default
+---
+
+<article class="post">
+    <header class="post-header">
+        <h1>{{ page.title }}</h1>
+        <div class="post-meta">
+            <time datetime="{{ page.date | date_to_xmlschema }}">
+                {{ page.date | date: "%B %d, %Y" }}
+            </time>
+            {% if page.author %}
+                • by {{ page.author }}
+            {% endif %}
+        </div>
+    </header>
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+    <footer class="post-footer">
+        <div class="post-navigation">
+            {% if page.previous %}
+                <a href="{{ page.previous.url | relative_url }}" class="prev-post">
+                    ← {{ page.previous.title }}
+                </a>
+            {% endif %}
+            {% if page.next %}
+                <a href="{{ page.next.url | relative_url }}" class="next-post">
+                    {{ page.next.title }} →
+                </a>
+            {% endif %}
+        </div>
+    </footer>
+</article>
+
+<style>
+    .post-header {
+        margin-bottom: 30px;
+    }
+    .post-header h1 {
+        margin-bottom: 10px;
+        color: #2c3e50;
+    }
+    .post-content {
+        margin-bottom: 40px;
+    }
+    .post-content h1,
+    .post-content h2,
+    .post-content h3 {
+        margin-top: 30px;
+        margin-bottom: 15px;
+        color: #2c3e50;
+    }
+    .post-content p {
+        margin-bottom: 20px;
+    }
+    .post-content code {
+        background-color: #f8f9fa;
+        padding: 2px 4px;
+        border-radius: 3px;
+        font-family: Monaco, Menlo, Consolas, monospace;
+    }
+    .post-content pre {
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-radius: 5px;
+        overflow-x: auto;
+        margin: 20px 0;
+    }
+    .post-navigation {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #e9ecef;
+    }
+    .post-navigation a {
+        text-decoration: none;
+        color: #007bff;
+        font-weight: 500;
+    }
+    .post-navigation a:hover {
+        text-decoration: underline;
+    }
+    .next-post {
+        margin-left: auto;
+    }
+</style>
