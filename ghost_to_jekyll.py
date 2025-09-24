@@ -10,7 +10,7 @@ from datetime import datetime
 from html2text import HTML2Text
 import os
 
-def convert_ghost_urls(content, base_url="https://blog.floydhub.com"):
+def convert_ghost_urls(content, base_url="https://floydhub.github.io"):
     """Convert Ghost __GHOST_URL__ placeholders to actual URLs"""
     return content.replace("__GHOST_URL__", base_url)
 

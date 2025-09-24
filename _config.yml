@@ -9,6 +9,9 @@ url: "https://floydhub.github.io"
 markdown: kramdown
 highlighter: rouge
 
+# Permalink structure to match Ghost URLs (no date in URL)
+permalink: /:title/
+
 plugins:
   - jekyll-feed
 
