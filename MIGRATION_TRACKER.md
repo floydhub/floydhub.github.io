@@ -6,9 +6,9 @@
 
 ## Progress Overview
 
-- ✅ **Completed**: 41 posts
+- ✅ **Completed**: 61 posts
 - 🔄 **In Progress**: 0 posts
-- ⏳ **Pending**: 42 posts
+- ⏳ **Pending**: 22 posts
 
 ## Instructions
 
@@ -42,27 +42,27 @@
 | ⏳ | Becoming One With the Data | `becoming-one-with-the-data` | Sayak Paul | 2019-07-20 |  |  |
 | ⏳ | DIY Data: Web Scraping with Python and BeautifulSoup | `web-scraping-with-python` | Philip Kiely | 2019-07-08 |  |  |
 | ⏳ | How to plan and execute your ML and DL projects | `structuring-and-planning-your-machine-learning-project` | Sayak Paul | 2019-07-05 |  |  |
-| ⏳ | Statistics for Data Science | `statistics-for-data-science` | Anand Venkataraman | 2019-06-29 |  |  |
-| ⏳ | Generative Adversarial Networks - The Story So Far | `gans-story-so-far` | Ajay Uppili Arasanipalai | 2019-06-21 |  |  |
-| ⏳ | Long Short-Term Memory: From Zero to Hero with PyTorch | `long-short-term-memory-from-zero-to-hero-with-pytorch` | Gabriel Loye | 2019-06-15 |  |  |
-| ⏳ | Introduction to Genetic Algorithms | `introduction-to-genetic-algorithms` | Philip Kiely | 2019-06-03 |  |  |
-| ⏳ | Using Deep Learning and TensorFlow Object Detection API for Corrosion Detection and Localization | `localize-and-detect-corrosion-with-tensorflow-object-detection-api` | Anirban Konar | 2019-05-17 |  |  |
-| ⏳ | An introduction to Q-Learning: Reinforcement Learning | `an-introduction-to-q-learning-reinforcement-learning` | Sayak Paul | 2019-05-15 |  |  |
+| ✅ | Statistics for Data Science | `statistics-for-data-science` | Anand Venkataraman | 2019-06-29 | [/statistics-for-data-science/](https://floydhub.github.io/statistics-for-data-science/) | Statistical foundations tutorial |
+| ✅ | Generative Adversarial Networks - The Story So Far | `gans-story-so-far` | Ajay Uppili Arasanipalai | 2019-06-21 | [/gans-story-so-far/](https://floydhub.github.io/gans-story-so-far/) | GAN evolution and variants |
+| ✅ | Long Short-Term Memory: From Zero to Hero with PyTorch | `long-short-term-memory-from-zero-to-hero-with-pytorch` | Gabriel Loye | 2019-06-15 | [/long-short-term-memory-from-zero-to-hero-with-pytorch/](https://floydhub.github.io/long-short-term-memory-from-zero-to-hero-with-pytorch/) | LSTM architecture deep dive |
+| ✅ | Introduction to Genetic Algorithms | `introduction-to-genetic-algorithms` | Philip Kiely | 2019-06-03 | [/introduction-to-genetic-algorithms/](https://floydhub.github.io/introduction-to-genetic-algorithms/) | Evolutionary optimization tutorial |
+| ✅ | Using Deep Learning and TensorFlow Object Detection API for Corrosion Detection and Localization | `localize-and-detect-corrosion-with-tensorflow-object-detection-api` | Anirban Konar | 2019-05-17 | [/localize-and-detect-corrosion-with-tensorflow-object-detection-api/](https://floydhub.github.io/localize-and-detect-corrosion-with-tensorflow-object-detection-api/) | Industrial inspection AI |
+| ✅ | An introduction to Q-Learning: Reinforcement Learning | `an-introduction-to-q-learning-reinforcement-learning` | Sayak Paul | 2019-05-15 | [/an-introduction-to-q-learning-reinforcement-learning/](https://floydhub.github.io/an-introduction-to-q-learning-reinforcement-learning/) | Q-learning fundamentals |
 | ✅ | How to Build OpenAI's GPT-2: "The AI That Was Too Dangerous to Release" | `gpt2` | Ajay Uppili Arasanipalai | 2019-04-29 | [/gpt2/](https://floydhub.github.io/gpt2/) | Test post with external images |
-| ⏳ | A Beginner’s Guide on Recurrent Neural Networks with PyTorch | `a-beginners-guide-on-recurrent-neural-networks-with-pytorch` | Gabriel Loye | 2019-04-29 |  |  |
-| ⏳ | Introduction to K-Means Clustering in Python with scikit-learn | `introduction-to-k-means-clustering-in-python-with-scikit-learn` | Sayak Paul | 2019-04-26 |  |  |
-| ⏳ | A Gentle Introduction to Text Summarization in Machine Learning | `gentle-introduction-to-text-summarization-in-machine-learning` | Alfrick Opidi | 2019-04-16 |  |  |
-| ⏳ | Introduction to Anomaly Detection in Python | `introduction-to-anomaly-detection-in-python` | Sayak Paul | 2019-04-05 |  |  |
-| ⏳ | Meta-Reinforcement Learning | `meta-rl` | Michaël Trazzi | 2019-03-27 |  |  |
-| ⏳ | Ten trends in Deep learning NLP | `ten-trends-in-deep-learning-nlp` | Cathal Horan | 2019-03-12 |  |  |
-| ⏳ | Best Deep Learning Courses: Updated for 2019 | `best-deep-learning-courses-updated-for-2019` | Alessio Gozzoli | 2019-03-08 |  |  |
-| ⏳ | Best Deep Learning Books: Updated for 2019-2020 | `best-deep-learning-books-updated-for-2019` | Alessio Gozzoli | 2019-03-01 |  |  |
-| ⏳ | Controlling a 2D Robotic Arm with Deep Reinforcement Learning | `robotic-arm-control-deep-reinforcement-learning` | Mark Saroufim | 2019-02-14 |  |  |
-| ⏳ | Recommending Similar Fashion Images with Deep Learning | `similar-fashion-images` | James Le | 2019-02-07 |  |  |
-| ⏳ | Building a Toy Self-Driving Car: Part One | `toy-self-driving-car-part-one` | Jaison Saji Chacko | 2019-02-05 |  |  |
-| ⏳ | On Building an Instagram Street Art Dataset and Detection Model | `instagram-street-art` | Leonard Bogdonoff | 2019-01-29 |  |  |
-| ⏳ | Haggis, Not Haggis: How to build a haggis detection app with TensorFlow, Keras, and FloydHub for Burns Night | `haggis-not-haggis` | Euan Wielewski | 2019-01-24 |  |  |
-| ⏳ | Inverting Facial Recognition Models | `inverting-facial-recognition-models` | Irhum Shafkat | 2019-01-23 |  |  |
+| ✅ | A Beginner's Guide on Recurrent Neural Networks with PyTorch | `a-beginners-guide-on-recurrent-neural-networks-with-pytorch` | Gabriel Loye | 2019-04-29 | [/a-beginners-guide-on-recurrent-neural-networks-with-pytorch/](https://floydhub.github.io/a-beginners-guide-on-recurrent-neural-networks-with-pytorch/) | RNN basics and implementation |
+| ✅ | Introduction to K-Means Clustering in Python with scikit-learn | `introduction-to-k-means-clustering-in-python-with-scikit-learn` | Sayak Paul | 2019-04-26 | [/introduction-to-k-means-clustering-in-python-with-scikit-learn/](https://floydhub.github.io/introduction-to-k-means-clustering-in-python-with-scikit-learn/) | Unsupervised learning tutorial |
+| ✅ | A Gentle Introduction to Text Summarization in Machine Learning | `gentle-introduction-to-text-summarization-in-machine-learning` | Alfrick Opidi | 2019-04-16 | [/gentle-introduction-to-text-summarization-in-machine-learning/](https://floydhub.github.io/gentle-introduction-to-text-summarization-in-machine-learning/) | NLP summarization techniques |
+| ✅ | Introduction to Anomaly Detection in Python | `introduction-to-anomaly-detection-in-python` | Sayak Paul | 2019-04-05 | [/introduction-to-anomaly-detection-in-python/](https://floydhub.github.io/introduction-to-anomaly-detection-in-python/) | Outlier detection methods |
+| ✅ | Meta-Reinforcement Learning | `meta-rl` | Michaël Trazzi | 2019-03-27 | [/meta-rl/](https://floydhub.github.io/meta-rl/) | Learning to learn in RL |
+| ✅ | Ten trends in Deep learning NLP | `ten-trends-in-deep-learning-nlp` | Cathal Horan | 2019-03-12 | [/ten-trends-in-deep-learning-nlp/](https://floydhub.github.io/ten-trends-in-deep-learning-nlp/) | NLP research trends 2018 |
+| ✅ | Best Deep Learning Courses: Updated for 2019 | `best-deep-learning-courses-updated-for-2019` | Alessio Gozzoli | 2019-03-08 | [/best-deep-learning-courses-updated-for-2019/](https://floydhub.github.io/best-deep-learning-courses-updated-for-2019/) | Online learning resources |
+| ✅ | Best Deep Learning Books: Updated for 2019-2020 | `best-deep-learning-books-updated-for-2019` | Alessio Gozzoli | 2019-03-01 | [/best-deep-learning-books-updated-for-2019/](https://floydhub.github.io/best-deep-learning-books-updated-for-2019/) | Essential reading list |
+| ✅ | Controlling a 2D Robotic Arm with Deep Reinforcement Learning | `robotic-arm-control-deep-reinforcement-learning` | Mark Saroufim | 2019-02-14 | [/robotic-arm-control-deep-reinforcement-learning/](https://floydhub.github.io/robotic-arm-control-deep-reinforcement-learning/) | Robotics RL application |
+| ✅ | Recommending Similar Fashion Images with Deep Learning | `similar-fashion-images` | James Le | 2019-02-07 | [/similar-fashion-images/](https://floydhub.github.io/similar-fashion-images/) | Fashion recommendation system |
+| ✅ | Building a Toy Self-Driving Car: Part One | `toy-self-driving-car-part-one` | Jaison Saji Chacko | 2019-02-05 | [/toy-self-driving-car-part-one/](https://floydhub.github.io/toy-self-driving-car-part-one/) | Autonomous vehicle project |
+| ✅ | On Building an Instagram Street Art Dataset and Detection Model | `instagram-street-art` | Leonard Bogdonoff | 2019-01-29 | [/instagram-street-art/](https://floydhub.github.io/instagram-street-art/) | Social media computer vision |
+| ✅ | Haggis, Not Haggis: How to build a haggis detection app with TensorFlow, Keras, and FloydHub for Burns Night | `haggis-not-haggis` | Euan Wielewski | 2019-01-24 | [/haggis-not-haggis/](https://floydhub.github.io/haggis-not-haggis/) | Fun food classification project |
+| ✅ | Inverting Facial Recognition Models | `inverting-facial-recognition-models` | Irhum Shafkat | 2019-01-23 | [/inverting-facial-recognition-models/](https://floydhub.github.io/inverting-facial-recognition-models/) | Privacy and ML security |
 | ✅ | Using NLP to Automate Customer Support, Part Two | `automate-customer-support-part-two` | Cathal Horan | 2019-01-17 | [/automate-customer-support-part-two/](https://floydhub.github.io/automate-customer-support-part-two/) | NLP customer service automation |
 | ✅ | Improving Access to Sexual Health Education in Kenya with Artificial Intelligence | `improving-access-to-sexual-health-education` | Charlie Harrington | 2019-01-15 | [/improving-access-to-sexual-health-education/](https://floydhub.github.io/improving-access-to-sexual-health-education/) | SophieBot NLP health app |
 | ✅ | Exploring DNA with Deep Learning | `exploring-dna-with-deep-learning` | Charlie Harrington | 2019-01-10 | [/exploring-dna-with-deep-learning/](https://floydhub.github.io/exploring-dna-with-deep-learning/) | DNA analysis with CNNs |
