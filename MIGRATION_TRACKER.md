@@ -6,9 +6,9 @@
 
 ## Progress Overview
 
-- ✅ **Completed**: 2 posts
+- ✅ **Completed**: 12 posts
 - 🔄 **In Progress**: 0 posts
-- ⏳ **Pending**: 81 posts
+- ⏳ **Pending**: 71 posts
 
 ## Instructions
 
@@ -93,13 +93,13 @@
 | ⏳ | Benchmarking FloydHub instances | `benchmarking-floydhub-instances` | Alessio Gozzoli | 2017-12-08 |  |  |
 | ⏳ | Checkpointing Tutorial for TensorFlow, Keras, and PyTorch | `checkpointing-tutorial-for-tensorflow-keras-and-pytorch` | Alessio Gozzoli | 2017-11-22 |  |  |
 | ⏳ | Creating Datasets from Public URLs | `creating-datasets-from-public-urls` | Charlie Harrington | 2017-11-04 |  |  |
-| ⏳ | Generating Six-Pack Abs With TensorFlow pix2pix | `generating-six-pack-abs-with-tensorflow` | Naren Thiagarajan | 2017-10-18 |  |  |
-| ⏳ | Colorizing B&W Photos with Neural Networks | `colorizing-b-w-photos-with-neural-networks` | Emil Wallner | 2017-10-14 |  |  |
-| ⏳ | Building Your First ConvNet | `building-your-first-convnet` | Somin Wadhwa | 2017-10-05 |  |  |
-| ⏳ | Restart Jupyter Notebook Workflow | `restart-jupyter-notebook-workflow` | Charlie Harrington | 2017-09-28 |  |  |
-| ⏳ | Getting Started with Deep Learning on FloydHub | `getting-started-with-deep-learning-on-floydhub` | Somin Wadhwa | 2017-09-22 |  |  |
-| ⏳ | Coding the History of Deep Learning | `coding-the-history-of-deep-learning` | Emil Wallner | 2017-09-21 |  |  |
-| ⏳ | Should I buy my own GPUs for Deep Learning? | `should-i-buy-my-own-gpus-for-deep-learning` | Naren Thiagarajan | 2017-09-20 |  |  |
-| ⏳ | My First Weekend of Deep Learning | `my-first-weekend-of-deep-learning` | Emil Wallner | 2017-09-15 |  |  |
-| ⏳ | Hello, README files | `hello-readme-files` | Charlie Harrington | 2017-09-07 |  |  |
-| ⏳ | Tensorboard on FloydHub | `tensorboard-on-floydhub` | Naren Thiagarajan | 2017-09-06 |  |  |
+| ✅ | Generating Six-Pack Abs With TensorFlow pix2pix | `generating-six-pack-abs-with-tensorflow` | Naren Thiagarajan | 2017-10-18 | [/generating-six-pack-abs-with-tensorflow/](https://floydhub.github.io/generating-six-pack-abs-with-tensorflow/) | Fitness motivation with GANs |
+| ✅ | Colorizing B&W Photos with Neural Networks | `colorizing-b-w-photos-with-neural-networks` | Emil Wallner | 2017-10-14 | [/colorizing-b-w-photos-with-neural-networks/](https://floydhub.github.io/colorizing-b-w-photos-with-neural-networks/) | Deep learning colorization tutorial |
+| ✅ | Building Your First ConvNet | `building-your-first-convnet` | Somin Wadhwa | 2017-10-05 | [/building-your-first-convnet/](https://floydhub.github.io/building-your-first-convnet/) | Beginner CNN tutorial |
+| ✅ | Restart Jupyter Notebook Workflow | `restart-jupyter-notebook-workflow` | Charlie Harrington | 2017-09-28 | [/restart-jupyter-notebook-workflow/](https://floydhub.github.io/restart-jupyter-notebook-workflow/) | New restart feature |
+| ✅ | Getting Started with Deep Learning on FloydHub | `getting-started-with-deep-learning-on-floydhub` | Somin Wadhwa | 2017-09-22 | [/getting-started-with-deep-learning-on-floydhub/](https://floydhub.github.io/getting-started-with-deep-learning-on-floydhub/) | Beginner's guide |
+| ✅ | Coding the History of Deep Learning | `coding-the-history-of-deep-learning` | Emil Wallner | 2017-09-21 | [/coding-the-history-of-deep-learning/](https://floydhub.github.io/coding-the-history-of-deep-learning/) | Historical deep learning milestones |
+| ✅ | Should I buy my own GPUs for Deep Learning? | `should-i-buy-my-own-gpus-for-deep-learning` | Naren Thiagarajan | 2017-09-20 | [/should-i-buy-my-own-gpus-for-deep-learning/](https://floydhub.github.io/should-i-buy-my-own-gpus-for-deep-learning/) | Hardware vs cloud comparison |
+| ✅ | My First Weekend of Deep Learning | `my-first-weekend-of-deep-learning` | Emil Wallner | 2017-09-15 | [/my-first-weekend-of-deep-learning/](https://floydhub.github.io/my-first-weekend-of-deep-learning/) | Beginner's journey story |
+| ✅ | Hello, README files | `hello-readme-files` | Charlie Harrington | 2017-09-07 | [/hello-readme-files/](https://floydhub.github.io/hello-readme-files/) | New README feature launch |
+| ✅ | Tensorboard on FloydHub | `tensorboard-on-floydhub` | Naren Thiagarajan | 2017-09-06 | [/tensorboard-on-floydhub/](https://floydhub.github.io/tensorboard-on-floydhub/) | Visualization tool integration |

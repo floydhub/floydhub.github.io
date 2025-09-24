@@ -140,24 +140,24 @@ def get_author_info(post_id, ghost_data):
 
     return None
 
-def extract_test_post():
-    """Extract the GPT-2 post from Ghost JSON"""
+def extract_post_by_slug(target_slug):
+    """Extract a specific post by slug from Ghost JSON"""
 
     # Load Ghost export
     with open('floydhub-blog.ghost.2025-09-24-21-16-37.json', 'r', encoding='utf-8') as f:
         ghost_data = json.load(f)
 
-    # Find the GPT-2 post
+    # Find the target post
     posts = ghost_data['db'][0]['data']['posts']
     target_post = None
 
     for post in posts:
-        if post['slug'] == "gpt2":
+        if post['slug'] == target_slug:
             target_post = post
             break
 
     if not target_post:
-        print("GPT-2 post not found!")
+        print(f"Post with slug '{target_slug}' not found!")
         return
 
     # Get author information
@@ -174,7 +174,6 @@ def extract_test_post():
     if not content_html:
         print("No HTML content found, trying mobiledoc...")
         mobiledoc = json.loads(target_post.get('mobiledoc', '{}'))
-        # For this test, we'll use the HTML version
         content_html = target_post.get('html', '')
 
     # Convert content
@@ -201,7 +200,7 @@ def extract_test_post():
         'author': author_info['name'] if author_info else 'FloydHub Team',
         'excerpt': target_post.get('custom_excerpt') or target_post.get('plaintext', '')[:200] + '...',
         'feature_image': target_post.get('feature_image'),
-        'tags': ['gpt-2', 'nlp', 'language-models', 'openai', 'deep-learning']  # Add relevant tags for GPT-2
+        'tags': []  # Will be populated based on post content
     }
 
     # Remove None values
@@ -234,10 +233,18 @@ def extract_test_post():
     return filepath
 
 if __name__ == "__main__":
+    import sys
+
+    if len(sys.argv) != 2:
+        print("Usage: python ghost_to_jekyll.py <post-slug>")
+        sys.exit(1)
+
+    target_slug = sys.argv[1]
+
     try:
-        filepath = extract_test_post()
+        filepath = extract_post_by_slug(target_slug)
         if filepath:
-            print(f"\n🎉 Test post conversion completed: {filepath}")
+            print(f"\n🎉 Post conversion completed: {filepath}")
     except Exception as e:
         print(f"❌ Error: {e}")
         import traceback
