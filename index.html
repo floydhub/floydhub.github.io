@@ -4,9 +4,9 @@ layout: default
 
 <div class="home">
     {% if site.posts.size > 0 %}
-        <h2>Latest Posts</h2>
+        <h2>Posts</h2>
         <ul class="post-list">
-            {% for post in site.posts limit: 10 %}
+            {% for post in site.posts %}
                 <li>
                     <h2>
                         <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
@@ -21,10 +21,6 @@ layout: default
                 </li>
             {% endfor %}
         </ul>
-
-        {% if site.posts.size > 10 %}
-            <p><a href="/archive.html">View all posts →</a></p>
-        {% endif %}
     {% else %}
         <p>No posts yet. Stay tuned for deep learning insights and tutorials!</p>
     {% endif %}
