@@ -8,13 +8,8 @@ url: "https://floydhub.github.io"
 # Build settings
 markdown: kramdown
 highlighter: rouge
-plugins:
-  - jekyll-feed
 
-# GitHub Pages compatibility
-remote_theme: pages-themes/minima@v2.5.0
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
 
 # Exclude from processing
