@@ -1,0 +1,243 @@
+---
+layout: default
+permalink: /404.html
+---
+
+<div class="error-page">
+    <div class="error-content">
+        <div class="error-number">404</div>
+        <h1 class="error-title">Page Not Found</h1>
+        <p class="error-message">
+            Sorry, the page you're looking for doesn't exist. It might have been moved, deleted, or you entered the wrong URL.
+        </p>
+        
+        <div class="error-actions">
+            <a href="{{ "/" | relative_url }}" class="btn btn-primary">
+                ← Back to Home
+            </a>
+            <a href="javascript:history.back()" class="btn btn-secondary">
+                Go Back
+            </a>
+        </div>
+        
+        <div class="search-suggestion">
+            <p>You can also try:</p>
+            <ul>
+                <li>Checking the URL for typos</li>
+                <li>Going back to the <a href="{{ "/" | relative_url }}">homepage</a></li>
+                <li>Browsing our latest blog posts below</li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Recent Posts Section -->
+    <div class="recent-posts-section">
+        <h2>Recent Posts</h2>
+        <div class="posts-grid">
+            {% for post in site.posts limit:6 %}
+            <div class="post-card">
+                <div class="post-card-content">
+                    <h3 class="post-card-title">
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    </h3>
+                    <div class="post-card-meta">
+                        <time datetime="{{ post.date | date_to_xmlschema }}">
+                            {{ post.date | date: "%B %d, %Y" }}
+                        </time>
+                        {% if post.author %}
+                            <span class="author">{{ post.author }}</span>
+                        {% endif %}
+                    </div>
+                    {% if post.excerpt %}
+                    <div class="post-card-excerpt">
+                        {{ post.excerpt | strip_html | truncatewords: 20 }}
+                    </div>
+                    {% endif %}
+                    <div class="post-card-footer">
+                        <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<style>
+    .error-page {
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .error-content {
+        margin-bottom: 60px;
+    }
+    
+    .error-number {
+        font-size: 8rem;
+        font-weight: 700;
+        color: #e9ecef;
+        line-height: 1;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .error-title {
+        font-size: 2.5rem;
+        color: #2c3e50;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+    
+    .error-message {
+        font-size: 1.2rem;
+        color: #6c757d;
+        line-height: 1.6;
+        margin-bottom: 40px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .error-actions {
+        margin-bottom: 50px;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 12px 24px;
+        margin: 0 10px;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        border: 2px solid transparent;
+    }
+    
+    .btn-primary {
+        background-color: #007bff;
+        color: white;
+        border-color: #007bff;
+    }
+    
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0,123,255,0.3);
+    }
+    
+    .btn-secondary {
+        background-color: transparent;
+        color: #6c757d;
+        border-color: #6c757d;
+    }
+    
+    .btn-secondary:hover {
+        background-color: #6c757d;
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(108,117,125,0.3);
+    }
+    
+    .search-suggestion {
+        text-align: left;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 30px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        border-left: 4px solid #007bff;
+    }
+    
+    .search-suggestion p {
+        font-weight: 600;
+        color: #2c3e50;
+        margin-bottom: 15px;
+    }
+    
+    .search-suggestion ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .search-suggestion li {
+        margin-bottom: 8px;
+        padding-left: 20px;
+        position: relative;
+        color: #6c757d;
+    }
+    
+    .search-suggestion li:before {
+        content: "•";
+        color: #007bff;
+        position: absolute;
+        left: 0;
+        font-weight: bold;
+    }
+    
+    .search-suggestion a {
+        color: #007bff;
+        text-decoration: none;
+    }
+    
+    .search-suggestion a:hover {
+        text-decoration: underline;
+    }
+    
+    .recent-posts-section {
+        margin-top: 60px;
+        padding-top: 40px;
+        border-top: 2px solid #e9ecef;
+    }
+    
+    .recent-posts-section h2 {
+        font-size: 2rem;
+        color: #2c3e50;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+        .error-number {
+            font-size: 6rem;
+        }
+        
+        .error-title {
+            font-size: 2rem;
+        }
+        
+        .error-message {
+            font-size: 1.1rem;
+        }
+        
+        .btn {
+            display: block;
+            margin: 10px auto;
+            max-width: 200px;
+        }
+        
+        .search-suggestion {
+            text-align: left;
+            margin: 20px;
+            padding: 20px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .error-number {
+            font-size: 4rem;
+        }
+        
+        .error-title {
+            font-size: 1.5rem;
+        }
+        
+        .recent-posts-section h2 {
+            font-size: 1.5rem;
+        }
+    }
+</style>
