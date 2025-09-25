@@ -1,12 +1,15 @@
 ---
-layout: "post"
-title: "Ten Techniques Learned From fast.ai"
-date: "2018-08-01 16:49:19 +0000"
-slug: "ten-techniques-from-fast-ai"
-author: "Samuel Lynn-Evans"
-excerpt: "Right now, Jeremy Howard – the co-founder of fast.ai – currently holds the 105th highest score for the plant seedling classification contest on Kaggle, but he's dropping fast. Why? His own students are beating him. And their names can now be found across the tops of leaderboards all over Kaggle."
-feature_image: "__GHOST_URL__/content/images/2018/07/fast.jpeg"
-tags: "[]"
+author: Samuel Lynn-Evans
+date: 2018-08-01 16:49:19 +0000
+excerpt: Right now, Jeremy Howard – the co-founder of fast.ai – currently holds the
+  105th highest score for the plant seedling classification contest on Kaggle, but
+  he's dropping fast. Why? His own students are beating him. And their names can now
+  be found across the tops of leaderboards all over Kaggle.
+feature_image: /assets/images/hero/ten-techniques-from-fast-ai-hero.jpeg
+layout: post
+slug: ten-techniques-from-fast-ai
+tags: '[]'
+title: Ten Techniques Learned From fast.ai
 ---
 
 Right now, Jeremy Howard – the co-founder of [fast.ai](http://www.fast.ai/) – currently holds the 105th highest score for the[ plant seedling classification contest](https://www.kaggle.com/c/plant-seedlings-classification) on Kaggle, but he's dropping fast. Why? His own students are beating him. And their names can now be found across the tops of leaderboards all over Kaggle.

@@ -1,12 +1,12 @@
 ---
-layout: "post"
-title: "Tensorboard on FloydHub"
-date: "2017-09-06 05:06:00 +0000"
-slug: "tensorboard-on-floydhub"
-author: "Naren Thiagarajan"
-excerpt: "Want to run Tensorboard on FloydHub?! No problem! We make it easy."
-feature_image: "__GHOST_URL__/content/images/2018/06/tensorboard-scalars-min.png"
-tags: "[]"
+author: Naren Thiagarajan
+date: 2017-09-06 05:06:00 +0000
+excerpt: Want to run Tensorboard on FloydHub?! No problem! We make it easy.
+feature_image: /assets/images/hero/tensorboard-on-floydhub-hero.png
+layout: post
+slug: tensorboard-on-floydhub
+tags: '[]'
+title: Tensorboard on FloydHub
 ---
 
 ### Tensorboard

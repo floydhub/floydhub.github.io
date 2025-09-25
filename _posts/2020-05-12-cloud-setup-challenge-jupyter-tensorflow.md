@@ -1,12 +1,14 @@
 ---
-layout: "post"
-title: "FloydHub Cloud Setup Challenge:  Jupyter + TensorFlow in 44 seconds [WR]"
-date: "2020-05-12 16:12:59 +0000"
-slug: "cloud-setup-challenge-jupyter-tensorflow"
-author: "Alessio Gozzoli"
-excerpt: "Is it possible for data science beginners to get up and running in under 90 seconds? FloydHub’s team takes on the setup cloud challenge - and walks away with the trophy. (For now!)"
-feature_image: "__GHOST_URL__/content/images/2020/05/big-1.jpg"
-tags: "[]"
+author: Alessio Gozzoli
+date: 2020-05-12 16:12:59 +0000
+excerpt: Is it possible for data science beginners to get up and running in under
+  90 seconds? FloydHub’s team takes on the setup cloud challenge - and walks away
+  with the trophy. (For now!)
+feature_image: /assets/images/hero/cloud-setup-challenge-jupyter-tensorflow-hero.jpg
+layout: post
+slug: cloud-setup-challenge-jupyter-tensorflow
+tags: '[]'
+title: 'FloydHub Cloud Setup Challenge:  Jupyter + TensorFlow in 44 seconds [WR]'
 ---
 
 _Here at Floydhub, we're always looking to push the envelope in terms of how we bring our users and readers new information about AI. We decided to set aside the envelope completely, and channel our favorite sports broadcasters to take on_[ _Cassie Kozyrkov’s recent Jupyter+Tensorflow challenge_](https://towardsdatascience.com/90-second-setup-challenge-jupyter-tensorflow-in-google-cloud-93038bcac996) _. Spoiler: We kind of smashed that record. By a lot._

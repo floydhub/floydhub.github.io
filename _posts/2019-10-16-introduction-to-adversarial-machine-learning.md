@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Introduction to Adversarial Machine Learning"
-date: "2019-10-16 10:19:57 +0000"
-slug: "introduction-to-adversarial-machine-learning"
-author: "Arunava Chakraborty"
-excerpt: "Machine learning advancements lead to new ways to train models, as well as deceive them. This article discusses ways to train and defend against attacks."
-feature_image: "__GHOST_URL__/content/images/2019/10/louis-hansel-7RtM37cLJ3c-unsplash.jpg"
-tags: "[]"
+author: Arunava Chakraborty
+date: 2019-10-16 10:19:57 +0000
+excerpt: Machine learning advancements lead to new ways to train models, as well as
+  deceive them. This article discusses ways to train and defend against attacks.
+feature_image: /assets/images/hero/introduction-to-adversarial-machine-learning-hero.jpg
+layout: post
+slug: introduction-to-adversarial-machine-learning
+tags: '[]'
+title: Introduction to Adversarial Machine Learning
 ---
 
 Here we are in 2019, where we keep seeing State-Of-The-Art (from now on SOTA) classifiers getting published every day; some are proposing entire new architectures, some are proposing tweaks that are needed to train a classifier more accurately.

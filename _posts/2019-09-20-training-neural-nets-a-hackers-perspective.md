@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Training Neural Nets: a Hacker’s Perspective"
-date: "2019-09-20 12:40:15 +0000"
-slug: "training-neural-nets-a-hackers-perspective"
-author: "Sayak Paul"
-excerpt: "This deep dive is all about neural networks - training them using best practices, debugging them and maximizing their performance using cutting edge research."
-feature_image: "__GHOST_URL__/content/images/2019/09/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg"
-tags: "[]"
+author: Sayak Paul
+date: 2019-09-20 12:40:15 +0000
+excerpt: This deep dive is all about neural networks - training them using best practices,
+  debugging them and maximizing their performance using cutting edge research.
+feature_image: /assets/images/hero/training-neural-nets-a-hackers-perspective-hero.jpg
+layout: post
+slug: training-neural-nets-a-hackers-perspective
+tags: '[]'
+title: 'Training Neural Nets: a Hacker’s Perspective'
 ---
 
 > This article is the third part of a mini-series on structuring and executing machine learning projects with a core focus on deep learning. (The earlier two articles are [How to plan and execute your ML and DL projects](https://floydhub.github.io/structuring-and-planning-your-machine-learning-project/) and [Becoming One With the Data](https://floydhub.github.io/becoming-one-with-the-data/).) This article’s aim is to discuss several aspects of training neural networks in a methodical way in order to minimize overfitting and develop a checklist of the steps that make that possible. 

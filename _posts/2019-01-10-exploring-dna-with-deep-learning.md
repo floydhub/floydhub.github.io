@@ -1,12 +1,14 @@
 ---
-layout: "post"
-title: "Exploring DNA with Deep Learning"
-date: "2019-01-10 18:16:50 +0000"
-slug: "exploring-dna-with-deep-learning"
-author: "Charlie Harrington"
-excerpt: "Neural networks are transforming the way we study DNA and population genetics. Learn more about deep learning at Bayer Crop Science from Lex Flagel in this #humansofml interview."
-feature_image: "https://images.unsplash.com/photo-1518152006812-edab29b069ac?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-tags: "[]"
+author: Charlie Harrington
+date: 2019-01-10 18:16:50 +0000
+excerpt: 'Neural networks are transforming the way we study DNA and population genetics.
+  Learn more about deep learning at Bayer Crop Science from Lex Flagel in this #humansofml
+  interview.'
+feature_image: /assets/images/hero/exploring-dna-with-deep-learning-hero.jpg
+layout: post
+slug: exploring-dna-with-deep-learning
+tags: '[]'
+title: Exploring DNA with Deep Learning
 ---
 
 Neural networks are changing the way that Lex Flagel studies DNA. 

@@ -1,12 +1,14 @@
 ---
-layout: "post"
-title: "Recommending Similar Fashion Images with Deep Learning"
-date: "2019-02-07 14:37:11 +0000"
-slug: "similar-fashion-images"
-author: "James Le"
-excerpt: "Explore how deep learning is changing the fashion industry by training your own visual recommendation model for similar fashion images using TensorFlow and FloydHub"
-feature_image: "https://images.unsplash.com/photo-1416339698674-4f118dd3388b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-tags: "[]"
+author: James Le
+date: 2019-02-07 14:37:11 +0000
+excerpt: Explore how deep learning is changing the fashion industry by training your
+  own visual recommendation model for similar fashion images using TensorFlow and
+  FloydHub
+feature_image: /assets/images/hero/similar-fashion-images-hero.jpg
+layout: post
+slug: similar-fashion-images
+tags: '[]'
+title: Recommending Similar Fashion Images with Deep Learning
 ---
 
 Within a few years, machine learning will completely change the fashion industry. Fashion brands from small to big are already using machine learning techniques to predict and design what you’ll be wearing next year, next week, even tomorrow.

@@ -1,12 +1,15 @@
 ---
-layout: "post"
-title: "Asking questions to images with deep learning: a visual-question-answering tutorial"
-date: "2018-08-09 19:06:12 +0000"
-slug: "asking-questions-to-images-with-deep-learning"
-author: "Somin Wadhwa"
-excerpt: "In this deep learning tutorial, we'll build Visual Question Answering (VQA) model that allows people to ask open-ended, common sense questions about the visual world."
-feature_image: "__GHOST_URL__/content/images/2018/08/image6.png"
-tags: "[]"
+author: Somin Wadhwa
+date: 2018-08-09 19:06:12 +0000
+excerpt: In this deep learning tutorial, we'll build Visual Question Answering (VQA)
+  model that allows people to ask open-ended, common sense questions about the visual
+  world.
+feature_image: /assets/images/hero/asking-questions-to-images-with-deep-learning-hero.png
+layout: post
+slug: asking-questions-to-images-with-deep-learning
+tags: '[]'
+title: 'Asking questions to images with deep learning: a visual-question-answering
+  tutorial'
 ---
 
 Improving accessibility through computer interfaces shares a multi-decade history with applied artificial intelligence (AI), most commonly in the area of voice recognition (👋 _Siri!_ 👌 _Google?_). 

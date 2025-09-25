@@ -1,12 +1,14 @@
 ---
-layout: "post"
-title: "Using Deep Learning and TensorFlow Object Detection API for Corrosion Detection and Localization"
-date: "2019-05-17 06:57:38 +0000"
-slug: "localize-and-detect-corrosion-with-tensorflow-object-detection-api"
-author: "Anirban Konar"
-excerpt: "While computer vision techniques have been used with limited success for detecting corrosion from images, Deep Learning has opened up whole new possibilities"
-feature_image: "__GHOST_URL__/content/images/2019/05/front.jpg"
-tags: "[]"
+author: Anirban Konar
+date: 2019-05-17 06:57:38 +0000
+excerpt: While computer vision techniques have been used with limited success for
+  detecting corrosion from images, Deep Learning has opened up whole new possibilities
+feature_image: /assets/images/hero/localize-and-detect-corrosion-with-tensorflow-object-detection-api-hero.jpg
+layout: post
+slug: localize-and-detect-corrosion-with-tensorflow-object-detection-api
+tags: '[]'
+title: Using Deep Learning and TensorFlow Object Detection API for Corrosion Detection
+  and Localization
 ---
 
 > Detecting corrosion and rust manually can be extremely time and effort intensive, and even in some cases dangerous. Also, there are problems in the consistency of estimates – the defects identified vary by the skill of inspector. Ship hull inspection, bridge inspection are some common scenarios where corrosion detection is of critical importance. The manual process of inspection is partly eliminated by having robotic arms or drones taking pictures of components from various angles, and then having an inspector go through these images to determine a rusted component, that needs repair. Even this process can be quite tedious and costly, as engineers have to go through many such images for hours together, to determine the condition of the component. While traditional computer vision techniques have been used with limited success, in the past, in detecting corrosion from images, the advent of Deep Learning has opened up a whole new possibility, which could lead to accurate detection of corrosion with little or no manual intervention. 

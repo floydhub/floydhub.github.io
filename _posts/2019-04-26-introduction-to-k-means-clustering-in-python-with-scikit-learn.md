@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Introduction to K-Means Clustering in Python with scikit-learn"
-date: "2019-04-26 08:24:24 +0000"
-slug: "introduction-to-k-means-clustering-in-python-with-scikit-learn"
-author: "Sayak Paul"
-excerpt: "In this article, get a gentle introduction to the world of unsupervised learning and see the mechanics behind the old faithful K-Means algorithm. "
-feature_image: "__GHOST_URL__/content/images/2019/04/bodie-pyndus-57660-unsplash.jpg"
-tags: "[]"
+author: Sayak Paul
+date: 2019-04-26 08:24:24 +0000
+excerpt: 'In this article, get a gentle introduction to the world of unsupervised
+  learning and see the mechanics behind the old faithful K-Means algorithm. '
+feature_image: /assets/images/hero/introduction-to-k-means-clustering-in-python-with-scikit-learn-hero.jpg
+layout: post
+slug: introduction-to-k-means-clustering-in-python-with-scikit-learn
+tags: '[]'
+title: Introduction to K-Means Clustering in Python with scikit-learn
 ---
 
 > Have you ever organized your bookshelf in a way that the books pertaining to the same subjects are in the same racks or same block? You most likely have. You already know about grouping similar objects together. While the idea is drastically simple, the amount of use cases influenced by this idea is enormous. In machine learning literature, this is often referred to as clustering - automatically grouping similar objects to the same groups.

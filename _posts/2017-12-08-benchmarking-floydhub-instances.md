@@ -1,16 +1,15 @@
 ---
-layout: "post"
-title: "Benchmarking FloydHub instances"
-date: "2017-12-08 05:22:00 +0000"
-slug: "benchmarking-floydhub-instances"
-author: "Alessio Gozzoli"
-excerpt: "This post compares all the CPU and GPU instances offered by FloydHub, so that
-you can choose the right instance type for your training job.
+author: Alessio Gozzoli
+date: 2017-12-08 05:22:00 +0000
+excerpt: 'This post compares all the CPU and GPU instances offered by FloydHub, so
+  that you can choose the right instance type for your training job.
 
-Benchmark
-For our benchmark we decided to use the same test..."
-feature_image: "https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=50d27f3c17bcb1b8102f17b64668b092"
-tags: "[]"
+  Benchmark For our benchmark we decided to use the same test...'
+feature_image: /assets/images/hero/benchmarking-floydhub-instances-hero.jpg
+layout: post
+slug: benchmarking-floydhub-instances
+tags: '[]'
+title: Benchmarking FloydHub instances
 ---
 
 This post compares all the CPU and GPU instances offered by FloydHub, so that you can choose the right instance type for your training job.

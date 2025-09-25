@@ -1,12 +1,14 @@
 ---
-layout: "post"
-title: "When Not to Choose the Best NLP Model"
-date: "2019-08-06 08:29:10 +0000"
-slug: "when-the-best-nlp-model-is-not-the-best-choice"
-author: "Cathal Horan"
-excerpt: "The world of NLP already contains an assortment of pre-trained models and techniques. This article discusses how to best discern which model will work for your goals."
-feature_image: "__GHOST_URL__/content/images/2019/08/jon-flobrant-Cg9QlLuX120-unsplash.jpg"
-tags: "[]"
+author: Cathal Horan
+date: 2019-08-06 08:29:10 +0000
+excerpt: The world of NLP already contains an assortment of pre-trained models and
+  techniques. This article discusses how to best discern which model will work for
+  your goals.
+feature_image: /assets/images/hero/when-the-best-nlp-model-is-not-the-best-choice-hero.jpg
+layout: post
+slug: when-the-best-nlp-model-is-not-the-best-choice
+tags: '[]'
+title: When Not to Choose the Best NLP Model
 ---
 
 In the book [“Deep Survival”, Laurence Gonzales](https://www.amazon.co.uk/Deep-Survival-Who-Lives-Dies/dp/0393353710/ref=sr_1_1?crid=1P7F4N0TFG2TT&keywords=deep+survival+who+lives%2C+who+dies%2C+and+why&qid=1558421826&s=gateway&sprefix=deep+survival%2Caps%2C120&sr=8-1) notes that pilots often warn each other against trying to “land the model instead of the plane”. This reminds pilots not to get too obsessed with their expected models of the world and, as a result, ignore the most relevant information right in front of them. Statisticians echo a similar fear when they note that all models are wrong, but some are useful.

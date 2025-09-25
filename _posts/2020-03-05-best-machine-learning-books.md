@@ -1,12 +1,12 @@
 ---
-layout: "post"
-title: "Best Machine Learning Books (Updated for 2020)"
-date: "2020-03-05 15:37:00 +0000"
-slug: "best-machine-learning-books"
-author: "Alessio Gozzoli"
-excerpt: "The list of the best machine learning & deep learning books for 2020."
-feature_image: "__GHOST_URL__/content/images/2020/03/best-ml-books.png"
-tags: "[]"
+author: Alessio Gozzoli
+date: 2020-03-05 15:37:00 +0000
+excerpt: The list of the best machine learning & deep learning books for 2020.
+feature_image: /assets/images/hero/best-machine-learning-books-hero.png
+layout: post
+slug: best-machine-learning-books
+tags: '[]'
+title: Best Machine Learning Books (Updated for 2020)
 ---
 
 New year, new books! [As I did last year](https://floydhub.github.io/best-deep-learning-books-updated-for-2019/), I've come up with the best recently-published titles on deep learning and machine learning. I did my fair share of digging to pull together this list so you don't have to.

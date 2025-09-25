@@ -1,12 +1,15 @@
 ---
-layout: "post"
-title: "Talking ML and Cloud Transformation at AI-First Companies with @searchguy, aka Antonio Gulli"
-date: "2020-04-03 22:46:13 +0000"
-slug: "talking-ml-and-cloud-transformation-at-ai-first-companies-with-searchguy-aka-antonio-gulli"
-author: "Alessio Gozzoli"
-excerpt: "This Humans of Machine Learning interview has us sitting down with Searchguy, aka Antonio Gulli, who’s been a pioneer in the world of data science for 20+ years now, to talk transformation, opportunity, and mentorship, among other topics. "
-feature_image: "__GHOST_URL__/content/images/2020/04/Screenshot-2020-04-02-at-14.58.07.png"
-tags: "[]"
+author: Alessio Gozzoli
+date: 2020-04-03 22:46:13 +0000
+excerpt: 'This Humans of Machine Learning interview has us sitting down with Searchguy,
+  aka Antonio Gulli, who’s been a pioneer in the world of data science for 20+ years
+  now, to talk transformation, opportunity, and mentorship, among other topics. '
+feature_image: /assets/images/hero/talking-ml-and-cloud-transformation-at-ai-first-companies-with-searchguy-aka-antonio-gulli-hero.png
+layout: post
+slug: talking-ml-and-cloud-transformation-at-ai-first-companies-with-searchguy-aka-antonio-gulli
+tags: '[]'
+title: Talking ML and Cloud Transformation at AI-First Companies with @searchguy,
+  aka Antonio Gulli
 ---
 
 For this [Humans of Machine Learning](https://floydhub.github.io/tag/humans-of-ml/) ([#humansofml](https://twitter.com/hashtag/humansofml)) interview, I’m super excited to share my conversation with Antonio Gulli. Antonio is a part of computer lore - _**he created one of the first public search engines**_ back in 1996 when search was not even a thing. Not to mention that he did this in Italy!

@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Naïve Bayes for Machine Learning – From Zero to Hero"
-date: "2019-11-08 17:09:55 +0000"
-slug: "naive-bayes-for-machine-learning"
-author: "Anand Venkataraman"
-excerpt: "Bayes’ Theorem is about more than just conditional probability, and Naive Bayes is a flavor of the theorem which adds to its complexity and usefulness."
-feature_image: "__GHOST_URL__/content/images/2019/11/franki-chamaki-1K6IQsQbizI-unsplash.jpg"
-tags: "[]"
+author: Anand Venkataraman
+date: 2019-11-08 17:09:55 +0000
+excerpt: Bayes’ Theorem is about more than just conditional probability, and Naive
+  Bayes is a flavor of the theorem which adds to its complexity and usefulness.
+feature_image: /assets/images/hero/naive-bayes-for-machine-learning-hero.jpg
+layout: post
+slug: naive-bayes-for-machine-learning
+tags: '[]'
+title: Naïve Bayes for Machine Learning – From Zero to Hero
 ---
 
 Before I dive into the topic, let us ask a question – what is machine learning all about and why has it suddenly become a buzzword? Machine learning fundamentally is the **“art of prediction”**. It is all about predicting the future, based on the past. The reason it is a buzzword is actually not about data, technology, computing power or any of that stuff. It’s just about human psychology! Yes, we humans are always curious about the future, aren’t we? And what’s more, it’s the age of data and we can make good data-driven predictions. This is the essence of machine learning. The efficacy of a prediction is based on two factors: how accurate it is and how early it is made. You may be able to predict rain with an accuracy of 99%, but if you can only tell just before the first drizzle, it’s of no use!! On the flip side, if you are going to predict rain a week ahead, but the chances of your prediction coming true is only 10% , hmmm, that’s no good either!

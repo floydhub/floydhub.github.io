@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Turning Design Mockups Into Code With Deep Learning"
-date: "2018-01-09 21:17:00 +0000"
-slug: "turning-design-mockups-into-code-with-deep-learning"
-author: "Emil Wallner"
-excerpt: "Within three years deep learning will change front-end development. It will increase prototyping speed and lower the barrier for building software."
-feature_image: "__GHOST_URL__/content/images/2018/06/design-to-markup-optimize-1.gif"
-tags: "[]"
+author: Emil Wallner
+date: 2018-01-09 21:17:00 +0000
+excerpt: Within three years deep learning will change front-end development. It will
+  increase prototyping speed and lower the barrier for building software.
+feature_image: /assets/images/hero/turning-design-mockups-into-code-with-deep-learning-hero.gif
+layout: post
+slug: turning-design-mockups-into-code-with-deep-learning
+tags: '[]'
+title: Turning Design Mockups Into Code With Deep Learning
 ---
 
 ### Ready to build, train, and deploy AI?

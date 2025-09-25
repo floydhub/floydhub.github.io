@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Practical Guide to Hyperparameters Optimization for Deep Learning Models"
-date: "2018-09-05 18:24:41 +0000"
-slug: "guide-to-hyperparameters-search-for-deep-learning-models"
-author: "Alessio Gozzoli"
-excerpt: "Learn techniques for identifying the best hyperparameters for your deep learning projects, including code samples that you can use to get started on FloydHub."
-feature_image: "https://images.unsplash.com/photo-1509581376349-c9994910b6c0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=ee30f25b817d82c89ee060cda00f900f"
-tags: "[]"
+author: Alessio Gozzoli
+date: 2018-09-05 18:24:41 +0000
+excerpt: Learn techniques for identifying the best hyperparameters for your deep learning
+  projects, including code samples that you can use to get started on FloydHub.
+feature_image: /assets/images/hero/guide-to-hyperparameters-search-for-deep-learning-models-hero.jpg
+layout: post
+slug: guide-to-hyperparameters-search-for-deep-learning-models
+tags: '[]'
+title: Practical Guide to Hyperparameters Optimization for Deep Learning Models
 ---
 
 > Are you tired of babysitting your DL models? If so, you're in the right place. In this post, we discuss motivations and strategies behind effectively searching for the best set of hyperparameters for any deep learning model. We'll demonstrate how this can be done on FloydHub, as well as which direction the research is moving. When you're done reading this post, you'll have added some powerful new tools to your data science tool-belt – making the process of finding the best configuration for your deep learning task as automatic as possible. 

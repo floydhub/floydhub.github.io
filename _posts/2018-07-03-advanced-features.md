@@ -1,12 +1,14 @@
 ---
-layout: "post"
-title: "5 advanced features that save you time on FloydHub"
-date: "2018-07-03 23:05:12 +0000"
-slug: "advanced-features"
-author: "Naren Thiagarajan"
-excerpt: "FloydHub has a lot of features that accelerate various stages of your ML workflow. In this post we are sharing the 5 most useful features and how to incorporate them in to your workflow."
-feature_image: "https://images.unsplash.com/photo-1487392882838-c9cd493de5eb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=ecbbb97d148f615c0f4bdbbf8b22585f"
-tags: "[]"
+author: Naren Thiagarajan
+date: 2018-07-03 23:05:12 +0000
+excerpt: FloydHub has a lot of features that accelerate various stages of your ML
+  workflow. In this post we are sharing the 5 most useful features and how to incorporate
+  them in to your workflow.
+feature_image: /assets/images/hero/advanced-features-hero.jpg
+layout: post
+slug: advanced-features
+tags: '[]'
+title: 5 advanced features that save you time on FloydHub
 ---
 
 FloydHub has a lot of features that accelerate various stages of your ML workflow. In this post we are sharing the 5 most useful features and how to incorporate them in to your workflow.

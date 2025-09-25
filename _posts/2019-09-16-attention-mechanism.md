@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Attention Mechanism"
-date: "2019-09-16 06:19:18 +0000"
-slug: "attention-mechanism"
-author: "Gabriel Loye"
-excerpt: "What is Attention, and why is it used in state-of-the-art models? This article discusses the types of Attention and walks you through their implementations."
-feature_image: "https://images.unsplash.com/photo-1517926112623-f32a800790d4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-tags: "[]"
+author: Gabriel Loye
+date: 2019-09-16 06:19:18 +0000
+excerpt: What is Attention, and why is it used in state-of-the-art models? This article
+  discusses the types of Attention and walks you through their implementations.
+feature_image: /assets/images/hero/attention-mechanism-hero.jpg
+layout: post
+slug: attention-mechanism
+tags: '[]'
+title: Attention Mechanism
 ---
 
 **Can I have your Attention please! The introduction of the Attention Mechanism in deep learning has improved the success of various models in recent years, and continues to be an omnipresent component in state-of-the-art models. Therefore, it is vital that we pay Attention to Attention and how it goes about achieving its effectiveness.**

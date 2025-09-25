@@ -1,15 +1,14 @@
 ---
-layout: "post"
-title: "Getting Started with Deep Learning on FloydHub"
-date: "2017-09-22 04:42:00 +0000"
-slug: "getting-started-with-deep-learning-on-floydhub"
-author: "Somin Wadhwa"
-excerpt: "This post is aimed at helping new users (especially the ones who are starting
-out & cannot afford Andrej Karpathy’s rig
-[https://twitter.com/karpathy/status/648256662554341377]) setup an on-the-go
-dee..."
-feature_image: "https://images.unsplash.com/photo-1521321205814-9d673c65c167?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=cbe2f1e4818e849025de2e5c70d86401"
-tags: "[]"
+author: Somin Wadhwa
+date: 2017-09-22 04:42:00 +0000
+excerpt: This post is aimed at helping new users (especially the ones who are starting
+  out & cannot afford Andrej Karpathy’s rig [https://twitter.com/karpathy/status/648256662554341377])
+  setup an on-the-go dee...
+feature_image: /assets/images/hero/getting-started-with-deep-learning-on-floydhub-hero.jpg
+layout: post
+slug: getting-started-with-deep-learning-on-floydhub
+tags: '[]'
+title: Getting Started with Deep Learning on FloydHub
 ---
 
 This post is aimed at helping new users (especially the ones who are starting out & cannot afford [Andrej Karpathy’s rig](https://twitter.com/karpathy/status/648256662554341377)) setup an on-the-go deep learning solution for their small to medium sized projects. I’ll be covering the following -

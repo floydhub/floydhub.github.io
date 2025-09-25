@@ -1,12 +1,14 @@
 ---
-layout: "post"
-title: "Statistics for Data Science"
-date: "2019-06-29 11:17:11 +0000"
-slug: "statistics-for-data-science"
-author: "Anand Venkataraman"
-excerpt: "The article elucidates the importance of statistics in the field of data science,  wherein \"Statistics\" is imagined as a friend to a data scientist and their friendship is unraveled. "
-feature_image: "__GHOST_URL__/content/images/2019/06/isaac-smith-6EnTPvPPL6I-unsplash.jpg"
-tags: "[]"
+author: Anand Venkataraman
+date: 2019-06-29 11:17:11 +0000
+excerpt: 'The article elucidates the importance of statistics in the field of data
+  science,  wherein "Statistics" is imagined as a friend to a data scientist and their
+  friendship is unraveled. '
+feature_image: /assets/images/hero/statistics-for-data-science-hero.jpg
+layout: post
+slug: statistics-for-data-science
+tags: '[]'
+title: Statistics for Data Science
 ---
 
 How many of us are involved in the act of taking "decisions" on a daily basis? Well, small or big the decisions may be, almost all of us take decisions on a daily basis. And we spend a significant amount of time and effort to get our decisions right. So why is this? What does taking a decision really mean? The art of decision making is just this – choosing a plan of action when faced with **uncertainty**. There are two ways to make a decision. One is the intuitive way, wherein one takes a decision out of a [“gut feeling”](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow). The other is the method that employs **data or information.** The former is purely a personal and artistic way of making a decision. But the latter is a logical and scientific way of arriving at the right approach with available data. This quantitative approach to decision making is the essence of **Data Science**. In this discussion, we are just going to see a flavour of this quantitative approach called **“Statistics”.**

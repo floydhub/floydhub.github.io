@@ -1,12 +1,15 @@
 ---
-layout: "post"
-title: "Generating Classical Music with Neural Networks"
-date: "2018-11-28 18:16:03 +0000"
-slug: "generating-classical-music-with-neural-networks"
-author: "Charlie Harrington"
-excerpt: "Christine McLeavey Payne may have finally cured songwriter's block. Her recent project Clara is a long short-term memory (LSTM) neural network that composes piano and chamber music. Just give Clara a taste of your magnum-opus-in-progress, and Clara will figure out what you should play next."
-feature_image: "__GHOST_URL__/content/images/2018/11/piano2.jpeg"
-tags: "[]"
+author: Charlie Harrington
+date: 2018-11-28 18:16:03 +0000
+excerpt: Christine McLeavey Payne may have finally cured songwriter's block. Her recent
+  project Clara is a long short-term memory (LSTM) neural network that composes piano
+  and chamber music. Just give Clara a taste of your magnum-opus-in-progress, and
+  Clara will figure out what you should play next.
+feature_image: /assets/images/hero/generating-classical-music-with-neural-networks-hero.jpeg
+layout: post
+slug: generating-classical-music-with-neural-networks
+tags: '[]'
+title: Generating Classical Music with Neural Networks
 ---
 
 Christine McLeavey Payne may have finally cured songwriter's block. Her recent project [Clara](http://christinemcleavey.com/clara-a-neural-net-music-generator/) is a [long short-term memory (LSTM)](https://floydhub.github.io/long-short-term-memory-from-zero-to-hero-with-pytorch/) neural network that composes piano and chamber music. Just give Clara a taste of your magnum-opus-in-progress, and Clara will figure out what you should play next.

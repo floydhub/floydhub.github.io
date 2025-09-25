@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Gated Recurrent Unit (GRU) With PyTorch"
-date: "2019-07-22 07:33:30 +0000"
-slug: "gru-with-pytorch"
-author: "Gabriel Loye"
-excerpt: "The Gated Recurrent Unit (GRU) is the newer version of the more popular LSTM. Let's unveil this network and explore the differences between these 2 siblings."
-feature_image: "https://images.unsplash.com/photo-1549831144-f197e398adad?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-tags: "[]"
+author: Gabriel Loye
+date: 2019-07-22 07:33:30 +0000
+excerpt: The Gated Recurrent Unit (GRU) is the newer version of the more popular LSTM.
+  Let's unveil this network and explore the differences between these 2 siblings.
+feature_image: /assets/images/hero/gru-with-pytorch-hero.jpg
+layout: post
+slug: gru-with-pytorch
+tags: '[]'
+title: Gated Recurrent Unit (GRU) With PyTorch
 ---
 
 _Have you heard of GRUs?_  

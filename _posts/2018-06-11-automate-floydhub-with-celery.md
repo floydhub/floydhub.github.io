@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Automate FloydHub with Celery"
-date: "2018-06-11 07:40:00 +0000"
-slug: "automate-floydhub-with-celery"
-author: "FloydHub"
-excerpt: "Jelle Hoffman from Ubidots shows how he used Celery to automate their FloydHub API management"
-feature_image: "https://images.unsplash.com/photo-1504890096598-8377c02363d2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=93da90ba3017b6a568f96097c094bc22"
-tags: "[]"
+author: FloydHub
+date: 2018-06-11 07:40:00 +0000
+excerpt: Jelle Hoffman from Ubidots shows how he used Celery to automate their FloydHub
+  API management
+feature_image: /assets/images/hero/automate-floydhub-with-celery-hero.jpg
+layout: post
+slug: automate-floydhub-with-celery
+tags: '[]'
+title: Automate FloydHub with Celery
 ---
 
 👋 I'm Jelle Hoffman - an engineer at [Ubidots](https://ubidots.com). Ubidots is an Internet of Things (IoT) data analytics and visualization company. We transform sensor data into information that powers business decisions, and we're using FloydHub to build and launch our latest feature - detecting anamolies from images captured by IoT devices.

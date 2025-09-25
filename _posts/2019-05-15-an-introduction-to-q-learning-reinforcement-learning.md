@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "An introduction to Q-Learning: Reinforcement Learning"
-date: "2019-05-15 16:25:06 +0000"
-slug: "an-introduction-to-q-learning-reinforcement-learning"
-author: "Sayak Paul"
-excerpt: "Learn about the basic concepts of reinforcement learning and implement a simple RL algorithm called Q-Learning."
-feature_image: "__GHOST_URL__/content/images/2019/05/ricardo-gomez-angel-433649-unsplash.jpg"
-tags: "[]"
+author: Sayak Paul
+date: 2019-05-15 16:25:06 +0000
+excerpt: Learn about the basic concepts of reinforcement learning and implement a
+  simple RL algorithm called Q-Learning.
+feature_image: /assets/images/hero/an-introduction-to-q-learning-reinforcement-learning-hero.jpg
+layout: post
+slug: an-introduction-to-q-learning-reinforcement-learning
+tags: '[]'
+title: 'An introduction to Q-Learning: Reinforcement Learning'
 ---
 
 > Have you ever trained a pet and rewarded it for every correct command you asked for? Do you know that this simple way of rewarding behavior can be modeled in a robot or a software program to make it do useful things? In this article, we are going to step into the world of **reinforcement learning** , another beautiful branch of artificial intelligence, which lets machines learn on their own in a way different from traditional machine learning. Particularly, we will be covering the simplest reinforcement learning algorithm i.e. the Q-Learning algorithm in great detail.

@@ -1,15 +1,15 @@
 ---
-layout: "post"
-title: "Teaching My Robot With TensorFlow"
-date: "2018-01-25 04:49:00 +0000"
-slug: "teaching-my-robot-with-tensorflow"
-author: "Charlie Harrington"
-excerpt: "If you're like me, then you'd do pretty much anything to have your own R2-D2 or
-BB-8 robotic buddy. Just imagine the adorable adventures you'd have together!
+author: Charlie Harrington
+date: 2018-01-25 04:49:00 +0000
+excerpt: 'If you''re like me, then you''d do pretty much anything to have your own
+  R2-D2 or BB-8 robotic buddy. Just imagine the adorable adventures you''d have together!
 
-I'm delighted to report that the Anki Coz..."
-feature_image: "https://images.unsplash.com/photo-1508175800969-525c72a047dd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=8eb41ac5512139aa4d36228fd9fb9b99"
-tags: "[]"
+  I''m delighted to report that the Anki Coz...'
+feature_image: /assets/images/hero/teaching-my-robot-with-tensorflow-hero.jpg
+layout: post
+slug: teaching-my-robot-with-tensorflow
+tags: '[]'
+title: Teaching My Robot With TensorFlow
 ---
 
 If you're like me, then you'd do pretty much anything to have your own R2-D2 or BB-8 robotic buddy. Just imagine the adorable adventures you'd have together!

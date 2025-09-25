@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Using NLP to Automate Customer Support, Part Two"
-date: "2019-01-17 18:06:39 +0000"
-slug: "automate-customer-support-part-two"
-author: "Cathal Horan"
-excerpt: "Let's build an NLP model that can help out your customer support agents by suggesting previously-asked, similar questions."
-feature_image: "https://images.unsplash.com/photo-1525422847952-7f91db09a364?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-tags: "[]"
+author: Cathal Horan
+date: 2019-01-17 18:06:39 +0000
+excerpt: Let's build an NLP model that can help out your customer support agents by
+  suggesting previously-asked, similar questions.
+feature_image: /assets/images/hero/automate-customer-support-part-two-hero.jpg
+layout: post
+slug: automate-customer-support-part-two
+tags: '[]'
+title: Using NLP to Automate Customer Support, Part Two
 ---
 
 Let's build a natural language processing (NLP) model that can help out your customer support agents by suggesting previously-asked, similar questions.

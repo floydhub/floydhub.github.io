@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Recognize relatives using deep learning"
-date: "2018-11-21 19:50:03 +0000"
-slug: "build-image-classification-app-with-fastai"
-author: "Charlie Harrington"
-excerpt: "Building a cousin image classification app using a convolutional neural net for your Thanksgiving family reunion using fast.ai and FloydHub."
-feature_image: "__GHOST_URL__/content/images/2018/11/app.png"
-tags: "[]"
+author: Charlie Harrington
+date: 2018-11-21 19:50:03 +0000
+excerpt: Building a cousin image classification app using a convolutional neural net
+  for your Thanksgiving family reunion using fast.ai and FloydHub.
+feature_image: /assets/images/hero/build-image-classification-app-with-fastai-hero.png
+layout: post
+slug: build-image-classification-app-with-fastai
+tags: '[]'
+title: Recognize relatives using deep learning
 ---
 
 I have _a lot_ of cousins. Like 36 or something. And, yes, these are _real-deal_ first-cousins. None of that _once-removed_ or _second cousins_ stuff over here (but we've got plenty of those, too – 👋 Hi, Dolan clan!)

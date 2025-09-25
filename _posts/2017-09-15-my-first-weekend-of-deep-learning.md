@@ -1,12 +1,14 @@
 ---
-layout: "post"
-title: "My First Weekend of Deep Learning"
-date: "2017-09-15 04:51:00 +0000"
-slug: "my-first-weekend-of-deep-learning"
-author: "Emil Wallner"
-excerpt: "The current wave of deep learning took off five years ago. Exponential progress in computing power followed by a few success stories created the hype. It’s the technology that drives cars, beats humans in Atari games, and diagnoses cancer."
-feature_image: "https://images.unsplash.com/photo-1521198807864-bc8cfc485949?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=3f3ede4028a9e65ba9c46f0520c4792f"
-tags: "[]"
+author: Emil Wallner
+date: 2017-09-15 04:51:00 +0000
+excerpt: The current wave of deep learning took off five years ago. Exponential progress
+  in computing power followed by a few success stories created the hype. It’s the
+  technology that drives cars, beats humans in Atari games, and diagnoses cancer.
+feature_image: /assets/images/hero/my-first-weekend-of-deep-learning-hero.jpg
+layout: post
+slug: my-first-weekend-of-deep-learning
+tags: '[]'
+title: My First Weekend of Deep Learning
 ---
 
 ### Ready to build, train, and deploy AI?

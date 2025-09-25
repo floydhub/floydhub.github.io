@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "A Pirate's Guide to Accuracy, Precision, Recall, and Other Scores"
-date: "2019-10-31 12:49:52 +0000"
-slug: "a-pirates-guide-to-accuracy-precision-recall-and-other-scores"
-author: "Philip Kiely"
-excerpt: "Once you've built your classifier, you need to evaluate its effectiveness with metrics like accuracy, precision, recall, F1-Score, and ROC curve."
-feature_image: "__GHOST_URL__/content/images/2019/10/alonso-reyes-mG_rp41aYqM-unsplash.jpg"
-tags: "[]"
+author: Philip Kiely
+date: 2019-10-31 12:49:52 +0000
+excerpt: Once you've built your classifier, you need to evaluate its effectiveness
+  with metrics like accuracy, precision, recall, F1-Score, and ROC curve.
+feature_image: /assets/images/hero/a-pirates-guide-to-accuracy-precision-recall-and-other-scores-hero.jpg
+layout: post
+slug: a-pirates-guide-to-accuracy-precision-recall-and-other-scores
+tags: '[]'
+title: A Pirate's Guide to Accuracy, Precision, Recall, and Other Scores
 ---
 
 Whether you're inventing a new classification algorithm or investigating the efficacy of a new drug, getting results is not the end of the process. Your last step is to determine the correctness of the results. There are a great number of methods and implementations for this task. Like many aspects of data science, there is no single best measurement for results quality; the problem domain and data in question determine appropriate approaches.

@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "The Future of AI is Open"
-date: "2020-06-02 13:27:29 +0000"
-slug: "the-future-of-ai-is-open"
-author: "Alessio Gozzoli"
-excerpt: "This Humans of ML interview with Han Xiao covers the ethics of AI, open-source entrepreneurship, how writing made Han a better coder, and more."
-feature_image: "__GHOST_URL__/content/images/2020/06/han-hofml.png"
-tags: "[]"
+author: Alessio Gozzoli
+date: 2020-06-02 13:27:29 +0000
+excerpt: This Humans of ML interview with Han Xiao covers the ethics of AI, open-source
+  entrepreneurship, how writing made Han a better coder, and more.
+feature_image: /assets/images/hero/the-future-of-ai-is-open-hero.png
+layout: post
+slug: the-future-of-ai-is-open
+tags: '[]'
+title: The Future of AI is Open
 ---
 
 For this Humans of Machine Learning ([#humansofml](https://twitter.com/hashtag/humansofml)) interview, I’m thrilled to share my conversation with [Han Xiao](https://www.linkedin.com/in/hxiao87/). I had been looking forward to this interview for a while. I’ve followed Han since the early days of [his personal blog](https://hanxiao.io/) and have really been inspired by him. I’ve always found his thoughts particularly interesting, detailed and clear, and I’m excited to share them with you.  

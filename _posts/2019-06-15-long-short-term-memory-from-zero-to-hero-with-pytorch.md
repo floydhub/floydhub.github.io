@@ -1,12 +1,14 @@
 ---
-layout: "post"
-title: "Long Short-Term Memory: From Zero to Hero with PyTorch"
-date: "2019-06-15 12:48:36 +0000"
-slug: "long-short-term-memory-from-zero-to-hero-with-pytorch"
-author: "Gabriel Loye"
-excerpt: "Long Short-Term Memory (LSTM) Networks have been widely used to solve various sequential tasks. Let's find out how these networks work and how we can implement them."
-feature_image: "https://images.unsplash.com/photo-1534531688091-a458257992cb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-tags: "[]"
+author: Gabriel Loye
+date: 2019-06-15 12:48:36 +0000
+excerpt: Long Short-Term Memory (LSTM) Networks have been widely used to solve various
+  sequential tasks. Let's find out how these networks work and how we can implement
+  them.
+feature_image: /assets/images/hero/long-short-term-memory-from-zero-to-hero-with-pytorch-hero.jpg
+layout: post
+slug: long-short-term-memory-from-zero-to-hero-with-pytorch
+tags: '[]'
+title: 'Long Short-Term Memory: From Zero to Hero with PyTorch'
 ---
 
 Just like us, [Recurrent Neural Networks](https://floydhub.github.io/a-beginners-guide-on-recurrent-neural-networks-with-pytorch/) (RNNs) can be very forgetful. This struggle with short-term memory causes RNNs to lose their effectiveness in most tasks. However, do not fret, Long Short-Term Memory networks (LSTMs) have great memories and can remember information which the vanilla RNN is unable to!  

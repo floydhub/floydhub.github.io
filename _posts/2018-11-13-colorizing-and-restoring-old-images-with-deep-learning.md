@@ -1,12 +1,14 @@
 ---
-layout: "post"
-title: "DeOldify: Colorizing and Restoring Old Images and Videos with Deep Learning"
-date: "2018-11-13 19:01:30 +0000"
-slug: "colorizing-and-restoring-old-images-with-deep-learning"
-author: "Charlie Harrington"
-excerpt: "Jason Antic's DeOldify deep learning project not only colorizes images but also restores them with stunning results. Learn more about his approach in this FloydHub #humansofml interview."
-feature_image: "__GHOST_URL__/content/images/2018/11/pasted-image-0.png"
-tags: "[]"
+author: Charlie Harrington
+date: 2018-11-13 19:01:30 +0000
+excerpt: 'Jason Antic''s DeOldify deep learning project not only colorizes images
+  but also restores them with stunning results. Learn more about his approach in this
+  FloydHub #humansofml interview.'
+feature_image: /assets/images/hero/colorizing-and-restoring-old-images-with-deep-learning-hero.png
+layout: post
+slug: colorizing-and-restoring-old-images-with-deep-learning
+tags: '[]'
+title: 'DeOldify: Colorizing and Restoring Old Images and Videos with Deep Learning'
 ---
 
 Colorizing black and white images with deep learning has become an impressive [showcase](https://floydhub.github.io/colorizing-b-w-photos-with-neural-networks/) for the real-world application of neural networks in our lives.

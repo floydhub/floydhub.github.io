@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Workspaces on FloydHub"
-date: "2018-06-05 20:51:34 +0000"
-slug: "workspaces"
-author: "Sai Soundararaj"
-excerpt: "Meet Workspaces 👋- a new cloud IDE for deep learning, powered by FloydHub GPUs"
-feature_image: "__GHOST_URL__/content/images/2018/06/ws-min.png"
-tags: "[]"
+author: Sai Soundararaj
+date: 2018-06-05 20:51:34 +0000
+excerpt: Meet Workspaces 👋- a new cloud IDE for deep learning, powered by FloydHub
+  GPUs
+feature_image: /assets/images/hero/workspaces-hero.png
+layout: post
+slug: workspaces
+tags: '[]'
+title: Workspaces on FloydHub
 ---
 
 Meet **Workspaces** 👋 - a new cloud IDE for deep learning, powered by FloydHub.

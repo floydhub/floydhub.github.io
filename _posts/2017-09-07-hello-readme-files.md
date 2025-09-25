@@ -1,15 +1,15 @@
 ---
-layout: "post"
-title: "Hello, README files"
-date: "2017-09-07 04:59:00 +0000"
-slug: "hello-readme-files"
-author: "Charlie Harrington"
-excerpt: "We're introducing a new feature to help you explore projects and share your work
-on FloydHub that you may already recognize - README files.
+author: Charlie Harrington
+date: 2017-09-07 04:59:00 +0000
+excerpt: 'We''re introducing a new feature to help you explore projects and share
+  your work on FloydHub that you may already recognize - README files.
 
-Starting today, whenever you include a README file in your ..."
-feature_image: "__GHOST_URL__/content/images/2018/06/wave-1-min.png"
-tags: "[]"
+  Starting today, whenever you include a README file in your ...'
+feature_image: /assets/images/hero/hello-readme-files-hero.png
+layout: post
+slug: hello-readme-files
+tags: '[]'
+title: Hello, README files
 ---
 
 We're introducing a new feature to help you explore projects and share your work on FloydHub that you may already recognize - README files.

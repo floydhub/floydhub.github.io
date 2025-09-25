@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Building a Toy Self-Driving Car: Part One"
-date: "2019-02-05 14:00:50 +0000"
-slug: "toy-self-driving-car-part-one"
-author: "Jaison Saji Chacko"
-excerpt: "Learn the history and technology of autonomous cars in this Part 1 of a series on building a self-driving toy car with Raspberry Pi, Keras, and FloydHub GPUs."
-feature_image: "__GHOST_URL__/content/images/2019/02/car-2.jpeg"
-tags: "[]"
+author: Jaison Saji Chacko
+date: 2019-02-05 14:00:50 +0000
+excerpt: Learn the history and technology of autonomous cars in this Part 1 of a series
+  on building a self-driving toy car with Raspberry Pi, Keras, and FloydHub GPUs.
+feature_image: /assets/images/hero/toy-self-driving-car-part-one-hero.jpeg
+layout: post
+slug: toy-self-driving-car-part-one
+tags: '[]'
+title: 'Building a Toy Self-Driving Car: Part One'
 ---
 
 You don’t need to be a VC-funded startup to build your own self-driving car. Especially if that car is tiny, remote-controlled, and can easily fit on your desk.

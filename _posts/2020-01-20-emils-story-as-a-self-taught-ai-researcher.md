@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Emil’s Story as a Self-Taught AI Researcher"
-date: "2020-01-20 18:20:58 +0000"
-slug: "emils-story-as-a-self-taught-ai-researcher"
-author: "Alessio Gozzoli"
-excerpt: "This Humans of Machine Learning interview covers Emil Wallner and his hero’s journey, self-taught approach to education, experience with AI, and path to Google."
-feature_image: "__GHOST_URL__/content/images/2020/01/emil-cover.jpg"
-tags: "[]"
+author: Alessio Gozzoli
+date: 2020-01-20 18:20:58 +0000
+excerpt: This Humans of Machine Learning interview covers Emil Wallner and his hero’s
+  journey, self-taught approach to education, experience with AI, and path to Google.
+feature_image: /assets/images/hero/emils-story-as-a-self-taught-ai-researcher-hero.jpg
+layout: post
+slug: emils-story-as-a-self-taught-ai-researcher
+tags: '[]'
+title: Emil’s Story as a Self-Taught AI Researcher
 ---
 
 For this [Humans of Machine Learning](https://floydhub.github.io/tag/humans-of-ml/) ([#humansofml](https://twitter.com/hashtag/humansofml)) interview, I’m super excited to share my conversation with Emil Wallner. Emil is living, breathing proof that it’s possible to pursue serious AI research as a self-taught creator. Emil is currently doing machine learning research at Google Art & Culture and an independent researcher in reasoning. 

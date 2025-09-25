@@ -1,12 +1,14 @@
 ---
-layout: "post"
-title: "Colorizing B&W Photos with Neural Networks"
-date: "2017-10-14 00:11:00 +0000"
-slug: "colorizing-b-w-photos-with-neural-networks"
-author: "Emil Wallner"
-excerpt: "I’ll show you how to build your own colorization neural net in three steps. The first section breaks down the core logic. We’ll build a bare-bones 40-line neural network as an “Alpha\" colorization bot."
-feature_image: "__GHOST_URL__/content/images/2018/06/woman_results-1-min.png"
-tags: "[]"
+author: Emil Wallner
+date: 2017-10-14 00:11:00 +0000
+excerpt: I’ll show you how to build your own colorization neural net in three steps.
+  The first section breaks down the core logic. We’ll build a bare-bones 40-line neural
+  network as an “Alpha" colorization bot.
+feature_image: /assets/images/hero/colorizing-b-w-photos-with-neural-networks-hero.png
+layout: post
+slug: colorizing-b-w-photos-with-neural-networks
+tags: '[]'
+title: Colorizing B&W Photos with Neural Networks
 ---
 
 ### Ready to build, train, and deploy AI?

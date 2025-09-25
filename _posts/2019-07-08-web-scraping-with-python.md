@@ -1,12 +1,15 @@
 ---
-layout: "post"
-title: "DIY Data: Web Scraping with Python and BeautifulSoup"
-date: "2019-07-08 13:18:16 +0000"
-slug: "web-scraping-with-python"
-author: "Philip Kiely"
-excerpt: "Getting sufficient clean, reliable data is one of the hardest parts of data science. Web scraping automates the process of visiting web pages, downloading the data, and cleaning the results. With this technique, we can create new datasets from a large compendium of web pages."
-feature_image: "__GHOST_URL__/content/images/2019/07/macro_spider_web.png"
-tags: "[]"
+author: Philip Kiely
+date: 2019-07-08 13:18:16 +0000
+excerpt: Getting sufficient clean, reliable data is one of the hardest parts of data
+  science. Web scraping automates the process of visiting web pages, downloading the
+  data, and cleaning the results. With this technique, we can create new datasets
+  from a large compendium of web pages.
+feature_image: /assets/images/hero/web-scraping-with-python-hero.png
+layout: post
+slug: web-scraping-with-python
+tags: '[]'
+title: 'DIY Data: Web Scraping with Python and BeautifulSoup'
 ---
 
 ### Ready to build, train, and deploy AI?

@@ -82,6 +82,35 @@ def download_image(url, local_path, ghost_base_url="https://floydhub.ghost.io"):
         print(f"❌ Error downloading {url}: {e}")
         return False
 
+def download_hero_image(feature_image_url, post_slug, ghost_base_url="https://floydhub.ghost.io"):
+    """Download hero image and return local path"""
+    if not feature_image_url:
+        return None
+
+    try:
+        # Get file extension from URL
+        parsed_url = urlparse(feature_image_url)
+        file_ext = os.path.splitext(parsed_url.path)[1] or '.jpg'
+
+        # Create local filename
+        hero_filename = f"{post_slug}-hero{file_ext}"
+        local_path = f"assets/images/hero/{hero_filename}"
+        jekyll_path = f"/assets/images/hero/{hero_filename}"
+
+        print(f"🖼️  Downloading hero image: {feature_image_url}")
+
+        # Download the hero image
+        if download_image(feature_image_url, local_path):
+            print(f"✅ Hero image downloaded: {hero_filename}")
+            return jekyll_path
+        else:
+            print(f"❌ Failed to download hero image")
+            return feature_image_url  # Fallback to original URL
+
+    except Exception as e:
+        print(f"❌ Error processing hero image: {e}")
+        return feature_image_url  # Fallback to original URL
+
 def process_images_in_content(content, ghost_base_url="https://floydhub.ghost.io"):
     """Download images and update their references in content"""
 
@@ -191,6 +220,13 @@ def extract_post_by_slug(target_slug):
     else:
         print("ℹ️  No images found to download")
 
+    # Download hero image if available
+    hero_image_path = None
+    if target_post.get('feature_image'):
+        hero_image_path = download_hero_image(target_post['feature_image'], target_post['slug'])
+    else:
+        print("ℹ️  No hero image found")
+
     # Create Jekyll frontmatter
     frontmatter = {
         'layout': 'post',
@@ -199,7 +235,7 @@ def extract_post_by_slug(target_slug):
         'slug': target_post['slug'],
         'author': author_info['name'] if author_info else 'FloydHub Team',
         'excerpt': target_post.get('custom_excerpt') or target_post.get('plaintext', '')[:200] + '...',
-        'feature_image': target_post.get('feature_image'),
+        'feature_image': hero_image_path or target_post.get('feature_image'),
         'tags': []  # Will be populated based on post content
     }
 

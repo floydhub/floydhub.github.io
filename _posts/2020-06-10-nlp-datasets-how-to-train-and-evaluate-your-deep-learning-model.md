@@ -1,12 +1,15 @@
 ---
-layout: "post"
-title: "NLP Datasets: How good is your deep learning model?"
-date: "2020-06-10 14:45:49 +0000"
-slug: "nlp-datasets-how-to-train-and-evaluate-your-deep-learning-model"
-author: "Cathal Horan"
-excerpt: "With the rapid advance in NLP models we have outpaced out ability to measure just how good they are at human level language tasks. We need better NLP datasets now more than ever to both evaluate how good these models are and to be able to tweak them for out own business domains."
-feature_image: "__GHOST_URL__/content/images/2020/06/nlp-dataset.jpg"
-tags: "[]"
+author: Cathal Horan
+date: 2020-06-10 14:45:49 +0000
+excerpt: With the rapid advance in NLP models we have outpaced out ability to measure
+  just how good they are at human level language tasks. We need better NLP datasets
+  now more than ever to both evaluate how good these models are and to be able to
+  tweak them for out own business domains.
+feature_image: /assets/images/hero/nlp-datasets-how-to-train-and-evaluate-your-deep-learning-model-hero.jpg
+layout: post
+slug: nlp-datasets-how-to-train-and-evaluate-your-deep-learning-model
+tags: '[]'
+title: 'NLP Datasets: How good is your deep learning model?'
 ---
 
 In a previous [post](https://floydhub.github.io/tokenization-nlp/) we talked about how tokenizers are the key to understanding how [deep learning Natural Language Processing](https://floydhub.github.io/ten-trends-in-deep-learning-nlp/) (NLP) models read and process text. Once a model is able to read and process text it can start learning how to perform different NLP tasks. At that point we need to start figuring out just how good the model is in terms of its range of learned tasks. Is it good at just one task or does it perform well on a range of tasks? Does it learn new tasks easily and with little training? And how well does it compare to other NLP models which perform the same or similar tasks? 

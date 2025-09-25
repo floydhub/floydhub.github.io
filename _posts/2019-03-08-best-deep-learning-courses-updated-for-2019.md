@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Best Deep Learning Courses: Updated for 2019"
-date: "2019-03-08 08:09:07 +0000"
-slug: "best-deep-learning-courses-updated-for-2019"
-author: "Alessio Gozzoli"
-excerpt: "The list of the best machine learning & deep learning courses and MOOCs for 2019."
-feature_image: "__GHOST_URL__/content/images/2019/03/david-travis-547046-unsplash.jpg"
-tags: "[]"
+author: Alessio Gozzoli
+date: 2019-03-08 08:09:07 +0000
+excerpt: The list of the best machine learning & deep learning courses and MOOCs for
+  2019.
+feature_image: /assets/images/hero/best-deep-learning-courses-updated-for-2019-hero.jpg
+layout: post
+slug: best-deep-learning-courses-updated-for-2019
+tags: '[]'
+title: 'Best Deep Learning Courses: Updated for 2019'
 ---
 
 [If books aren’t your thing](https://floydhub.github.io/best-deep-learning-books-updated-for-2019/), don’t worry, you can enroll or watch online courses! The interweb is now full of [MOOCs](https://en.wikipedia.org/wiki/Massive_open_online_course) that have lowered the barrier to being taught by experts. What’s more you get to do it at your pace and design your own curriculum. Great time to be alive for [lifelong learners](https://en.wikipedia.org/wiki/Lifelong_learning) 🙂.

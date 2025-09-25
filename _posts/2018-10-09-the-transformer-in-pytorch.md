@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "How to code The Transformer in PyTorch"
-date: "2018-10-09 17:17:14 +0000"
-slug: "the-transformer-in-pytorch"
-author: "Samuel Lynn-Evans"
-excerpt: "Learn how to code a transformer model in PyTorch with an English-to-French language translation task"
-feature_image: "__GHOST_URL__/content/images/2018/10/tra.jpeg"
-tags: "[]"
+author: Samuel Lynn-Evans
+date: 2018-10-09 17:17:14 +0000
+excerpt: Learn how to code a transformer model in PyTorch with an English-to-French
+  language translation task
+feature_image: /assets/images/hero/the-transformer-in-pytorch-hero.jpeg
+layout: post
+slug: the-transformer-in-pytorch
+tags: '[]'
+title: How to code The Transformer in PyTorch
 ---
 
 Could [The Transformer](https://arxiv.org/abs/1706.03762) be another nail in the coffin for RNNs?

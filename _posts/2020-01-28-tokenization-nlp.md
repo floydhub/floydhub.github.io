@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Tokenizers: How machines read"
-date: "2020-01-28 19:25:51 +0000"
-slug: "tokenization-nlp"
-author: "Cathal Horan"
-excerpt: "We will cover often-overlooked concepts vital to NLP, such as Byte Pair Encoding, and discuss how understanding them leads to better models."
-feature_image: "__GHOST_URL__/content/images/2020/01/robot-reading-2.jpg"
-tags: "[]"
+author: Cathal Horan
+date: 2020-01-28 19:25:51 +0000
+excerpt: We will cover often-overlooked concepts vital to NLP, such as Byte Pair Encoding,
+  and discuss how understanding them leads to better models.
+feature_image: /assets/images/hero/tokenization-nlp-hero.jpg
+layout: post
+slug: tokenization-nlp
+tags: '[]'
+title: 'Tokenizers: How machines read'
 ---
 
 The world of Deep Learning (DL) Natural Language Processing (NLP) is evolving at a rapid pace. We tried to capture some of these trends in an earlier [post which you can check out](https://floydhub.github.io/ten-trends-in-deep-learning-nlp/) if you want more background into these developments. Two of the most important trends are the [Transformer (2017)](https://floydhub.github.io/the-transformer-in-pytorch/) architecture and the [BERT (2018)](https://arxiv.org/pdf/1810.04805.pdf) language model, which is the most famous model to take advantage of the former architecture. These two developments, in particular, have been pivotal in helping machines perform much better at a wide range of language-reading tasks.   

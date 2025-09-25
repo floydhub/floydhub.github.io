@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Building Your First ConvNet"
-date: "2017-10-05 00:18:00 +0000"
-slug: "building-your-first-convnet"
-author: "Somin Wadhwa"
-excerpt: "Learn how to build your first ConvNet (Convolutional Neural Networks) to classify dogs and cats."
-feature_image: "https://images.unsplash.com/photo-1517105274840-437212774105?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=4ddacf0ea542e23525a5166bcc67aad8"
-tags: "[]"
+author: Somin Wadhwa
+date: 2017-10-05 00:18:00 +0000
+excerpt: Learn how to build your first ConvNet (Convolutional Neural Networks) to
+  classify dogs and cats.
+feature_image: /assets/images/hero/building-your-first-convnet-hero.jpg
+layout: post
+slug: building-your-first-convnet
+tags: '[]'
+title: Building Your First ConvNet
 ---
 
 Convolutional Neural Networks (ConvNets) are increasingly popular, and for all the right reasons. ConvNets have the unique property of retaining translational invariance. In elaborative terms, they exploit spatially-local correlation by enforcing a local connectivity pattern between neurons of adjacent layers.

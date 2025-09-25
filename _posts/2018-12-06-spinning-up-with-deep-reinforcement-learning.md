@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Spinning Up a Pong AI With Deep Reinforcement Learning"
-date: "2018-12-06 18:35:19 +0000"
-slug: "spinning-up-with-deep-reinforcement-learning"
-author: "Michaël Trazzi"
-excerpt: "Dive into deep reinforcement learning by training a model to play the classic 1970s video game Pong — using Keras, FloydHub, and OpenAI's \"Spinning Up.\""
-feature_image: "__GHOST_URL__/content/images/2018/12/pong-2.gif"
-tags: "[]"
+author: Michaël Trazzi
+date: 2018-12-06 18:35:19 +0000
+excerpt: Dive into deep reinforcement learning by training a model to play the classic
+  1970s video game Pong — using Keras, FloydHub, and OpenAI's "Spinning Up."
+feature_image: /assets/images/hero/spinning-up-with-deep-reinforcement-learning-hero.gif
+layout: post
+slug: spinning-up-with-deep-reinforcement-learning
+tags: '[]'
+title: Spinning Up a Pong AI With Deep Reinforcement Learning
 ---
 
 Within a few years, Deep Reinforcement Learning (Deep RL) will completely transform robotics – an industry with the potential to [automate](https://www.mckinsey.com/business-functions/operations/our-insights/human-plus-machine-a-new-era-of-automation-in-manufacturing) 64% of global manufacturing. Hard-to-engineer behaviors will become a piece of cake for robots, so long as there are enough Deep RL practitioners to implement them. 

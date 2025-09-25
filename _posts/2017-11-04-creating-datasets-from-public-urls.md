@@ -1,16 +1,16 @@
 ---
-layout: "post"
-title: "Creating Datasets from Public URLs"
-date: "2017-11-04 04:38:00 +0000"
-slug: "creating-datasets-from-public-urls"
-author: "Charlie Harrington"
-excerpt: "We're trying to make it easier to discover and use interesting datasets on
-FloydHub. To that end, we just released an improved file-viewer to help you dig
-in and explore data directly on FloydHub.
+author: Charlie Harrington
+date: 2017-11-04 04:38:00 +0000
+excerpt: 'We''re trying to make it easier to discover and use interesting datasets
+  on FloydHub. To that end, we just released an improved file-viewer to help you dig
+  in and explore data directly on FloydHub.
 
-Fo..."
-feature_image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=163e3ea37d2c0fda3f586d5552752f59"
-tags: "[]"
+  Fo...'
+feature_image: /assets/images/hero/creating-datasets-from-public-urls-hero.jpg
+layout: post
+slug: creating-datasets-from-public-urls
+tags: '[]'
+title: Creating Datasets from Public URLs
 ---
 
 We're trying to make it easier to discover and use interesting datasets on FloydHub. To that end, we just released an improved file-viewer to help you dig in and explore data directly on FloydHub.

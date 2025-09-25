@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "A Beginner’s Guide on Recurrent Neural Networks with PyTorch"
-date: "2019-04-29 13:29:47 +0000"
-slug: "a-beginners-guide-on-recurrent-neural-networks-with-pytorch"
-author: "Gabriel Loye"
-excerpt: "Learn the basics of Recurrent Neural Networks and build a simple Language Model with PyTorch"
-feature_image: "https://images.unsplash.com/photo-1527266237111-a4989d028b4b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-tags: "[]"
+author: Gabriel Loye
+date: 2019-04-29 13:29:47 +0000
+excerpt: Learn the basics of Recurrent Neural Networks and build a simple Language
+  Model with PyTorch
+feature_image: /assets/images/hero/a-beginners-guide-on-recurrent-neural-networks-with-pytorch-hero.jpg
+layout: post
+slug: a-beginners-guide-on-recurrent-neural-networks-with-pytorch
+tags: '[]'
+title: A Beginner’s Guide on Recurrent Neural Networks with PyTorch
 ---
 
 > Recurrent Neural Networks(RNNs) have been the answer to most problems dealing with sequential data and Natural Language Processing(NLP) problems for many years, and its variants such as the [LSTM](https://floydhub.github.io/long-short-term-memory-from-zero-to-hero-with-pytorch/) are still widely used in numerous state-of-the-art models to this date. In this post, I’ll be covering the basic concepts around RNNs and implementing a plain vanilla RNN model with PyTorch to generate text.

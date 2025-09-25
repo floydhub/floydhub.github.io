@@ -1,12 +1,12 @@
 ---
-layout: "post"
-title: "Inverting Facial Recognition Models"
-date: "2019-01-23 18:58:47 +0000"
-slug: "inverting-facial-recognition-models"
-author: "Irhum Shafkat"
-excerpt: "Can we teach a neural net to convert face embedding vectors back to images?"
-feature_image: "__GHOST_URL__/content/images/2019/01/header.jpg"
-tags: "[]"
+author: Irhum Shafkat
+date: 2019-01-23 18:58:47 +0000
+excerpt: Can we teach a neural net to convert face embedding vectors back to images?
+feature_image: /assets/images/hero/inverting-facial-recognition-models-hero.jpg
+layout: post
+slug: inverting-facial-recognition-models
+tags: '[]'
+title: Inverting Facial Recognition Models
 ---
 
 Let’s begin with a question. Suppose I were to give you the following 128 dimensional vector in full, along with the information that this is the output from a face embedding model typically used in face recognition. Could you tell me whose face this represents? 

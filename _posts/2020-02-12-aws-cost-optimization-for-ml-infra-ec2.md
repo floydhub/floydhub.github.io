@@ -1,12 +1,14 @@
 ---
-layout: "post"
-title: "AWS Cost Optimization for ML Infrastructure - EC2 spend"
-date: "2020-02-12 13:35:36 +0000"
-slug: "aws-cost-optimization-for-ml-infra-ec2"
-author: "Naren Thiagarajan"
-excerpt: "[Series] Based on his deep experience, FloydHub CTO Naren discusses how should companies think about & setup their ML infrastructure. This article focuses on AWS EC2 machines."
-feature_image: "__GHOST_URL__/content/images/2020/02/narenfin6.png"
-tags: "[]"
+author: Naren Thiagarajan
+date: 2020-02-12 13:35:36 +0000
+excerpt: '[Series] Based on his deep experience, FloydHub CTO Naren discusses how
+  should companies think about & setup their ML infrastructure. This article focuses
+  on AWS EC2 machines.'
+feature_image: /assets/images/hero/aws-cost-optimization-for-ml-infra-ec2-hero.png
+layout: post
+slug: aws-cost-optimization-for-ml-infra-ec2
+tags: '[]'
+title: AWS Cost Optimization for ML Infrastructure - EC2 spend
 ---
 
 AWS is currently the market leader in the cloud infrastructure space with nearly [50% market penetration](https://www.gartner.com/en/newsroom/press-releases/2019-07-29-gartner-says-worldwide-iaas-public-cloud-services-market-grew-31point3-percent-in-2018). With substantial investments in AWS already existing in organizations, as a natural extension, AWS EC2 is the most widely used building block for Machine Learning projects. Machine Learning requires a large amount of _flexible_ compute capabilities to develop, train and test models. Organizations often spend a large amount of money on EC2 as their data science team ramps up model training. This guide offers practical advice on how to setup machine learning infrastructure at your company to get the most out of the EC2 instances and optimize your overall AWS EC2 bill.

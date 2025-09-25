@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "N-Shot Learning: Learning More with Less Data"
-date: "2019-08-02 10:03:27 +0000"
-slug: "n-shot-learning"
-author: "Heet Sankesara"
-excerpt: "Is it possible to use machine learning with small data? Yes, it is! Here's N-Shot Learning. "
-feature_image: "__GHOST_URL__/content/images/2019/08/photo-1452611545118-2b35b308caf5.jpeg"
-tags: "[]"
+author: Heet Sankesara
+date: 2019-08-02 10:03:27 +0000
+excerpt: 'Is it possible to use machine learning with small data? Yes, it is! Here''s
+  N-Shot Learning. '
+feature_image: /assets/images/hero/n-shot-learning-hero.jpeg
+layout: post
+slug: n-shot-learning
+tags: '[]'
+title: 'N-Shot Learning: Learning More with Less Data'
 ---
 
 > _Artificial Intelligence is the new electricity - Andrew NG_

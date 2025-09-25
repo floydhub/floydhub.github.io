@@ -1,15 +1,15 @@
 ---
-layout: "post"
-title: "Restart Jupyter Notebook Workflow"
-date: "2017-09-28 04:35:00 +0000"
-slug: "restart-jupyter-notebook-workflow"
-author: "Charlie Harrington"
-excerpt: "We snuck in a new feature that should make your Jupyter notebook workflow on
-FloydHub oh-so-much easier - the restart button.
+author: Charlie Harrington
+date: 2017-09-28 04:35:00 +0000
+excerpt: 'We snuck in a new feature that should make your Jupyter notebook workflow
+  on FloydHub oh-so-much easier - the restart button.
 
-Now you can spin up a Jupyter notebook from the FloydHub web dashboard in..."
-feature_image: "https://images.unsplash.com/photo-1478754117940-f5bc84311001?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=13f64da3197a73eadef4f21523ba056f"
-tags: "[]"
+  Now you can spin up a Jupyter notebook from the FloydHub web dashboard in...'
+feature_image: /assets/images/hero/restart-jupyter-notebook-workflow-hero.jpg
+layout: post
+slug: restart-jupyter-notebook-workflow
+tags: '[]'
+title: Restart Jupyter Notebook Workflow
 ---
 
 We snuck in a new feature that should make your Jupyter notebook workflow on FloydHub oh-so-much easier - the **restart** button.

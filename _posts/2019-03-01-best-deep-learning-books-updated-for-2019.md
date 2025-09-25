@@ -1,12 +1,12 @@
 ---
-layout: "post"
-title: "Best Deep Learning Books: Updated for 2019-2020"
-date: "2019-03-01 22:24:39 +0000"
-slug: "best-deep-learning-books-updated-for-2019"
-author: "Alessio Gozzoli"
-excerpt: "The list of the best machine learning & deep learning books for 2019."
-feature_image: "__GHOST_URL__/content/images/2019/03/aaron-burden-236415-unsplash.jpg"
-tags: "[]"
+author: Alessio Gozzoli
+date: 2019-03-01 22:24:39 +0000
+excerpt: The list of the best machine learning & deep learning books for 2019.
+feature_image: /assets/images/hero/best-deep-learning-books-updated-for-2019-hero.jpg
+layout: post
+slug: best-deep-learning-books-updated-for-2019
+tags: '[]'
+title: 'Best Deep Learning Books: Updated for 2019-2020'
 ---
 
 Are you looking to do some deep learning about deep learning? I’ve done my fair share of digging to pull together this list. Just so you don't have to. 

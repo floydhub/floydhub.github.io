@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "How to plan and execute your ML and DL projects"
-date: "2019-07-05 14:25:37 +0000"
-slug: "structuring-and-planning-your-machine-learning-project"
-author: "Sayak Paul"
-excerpt: "This article gives the readers a checklist to structure their machine learning (applies to deep ones too) projects in effective ways."
-feature_image: "__GHOST_URL__/content/images/2019/06/hudson-hintze-ZTO5ntSqUKA-unsplash.jpg"
-tags: "[]"
+author: Sayak Paul
+date: 2019-07-05 14:25:37 +0000
+excerpt: This article gives the readers a checklist to structure their machine learning
+  (applies to deep ones too) projects in effective ways.
+feature_image: /assets/images/hero/structuring-and-planning-your-machine-learning-project-hero.jpg
+layout: post
+slug: structuring-and-planning-your-machine-learning-project
+tags: '[]'
+title: How to plan and execute your ML and DL projects
 ---
 
 > “Cracking” practical machine learning projects require an incredibly disciplined way to get executed, despite all the successful SoTA achievements obtained in the last couple of years.

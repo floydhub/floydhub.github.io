@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Using Sentence Embeddings to Automate Customer Support, Part One"
-date: "2018-12-19 18:16:46 +0000"
-slug: "automate-customer-support-part-one"
-author: "Cathal Horan"
-excerpt: "Most of your customer support questions have already been asked. Learn how to use sentence embeddings to automate your customer support with AI."
-feature_image: "https://images.unsplash.com/photo-1518351004844-2eae75c25577?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-tags: "[]"
+author: Cathal Horan
+date: 2018-12-19 18:16:46 +0000
+excerpt: Most of your customer support questions have already been asked. Learn how
+  to use sentence embeddings to automate your customer support with AI.
+feature_image: /assets/images/hero/automate-customer-support-part-one-hero.jpg
+layout: post
+slug: automate-customer-support-part-one
+tags: '[]'
+title: Using Sentence Embeddings to Automate Customer Support, Part One
 ---
 
 Most of your company's customer support questions have _already been asked and answered._

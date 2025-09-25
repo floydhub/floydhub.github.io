@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Generating Commencement Speeches With Markov Chains"
-date: "2018-06-19 17:04:34 +0000"
-slug: "markov-chains"
-author: "Charlie Harrington"
-excerpt: "Generate your own commencement speeches using Markov chains in Python on FloydHub."
-feature_image: "https://images.unsplash.com/photo-1519070994522-88c6b756330e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=679a7c57e512050be826e4219a51d1d2"
-tags: "[]"
+author: Charlie Harrington
+date: 2018-06-19 17:04:34 +0000
+excerpt: Generate your own commencement speeches using Markov chains in Python on
+  FloydHub.
+feature_image: /assets/images/hero/markov-chains-hero.jpg
+layout: post
+slug: markov-chains
+tags: '[]'
+title: Generating Commencement Speeches With Markov Chains
 ---
 
 Imagine this. You're the founder _slash_ CEO _slash_ product-visionary of a three month-old electric scooter startup. In between transforming the global transportation market and dabbling in your first angel investments (you know, just to get your feet wet), you've been asked by your beloved alma mater to deliver this year's commencement address to the graduating class.

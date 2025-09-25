@@ -1,12 +1,14 @@
 ---
-layout: "post"
-title: "Reading Minds with Deep Learning"
-date: "2018-11-29 20:52:08 +0000"
-slug: "reading-minds-with-deep-learning"
-author: "Samuel Lynn-Evans"
-excerpt: "Explore the latest trends in Brain-Computer Interfaces - and train a deep learning model to predict what people are doing from fluctuations in their brain voltage readings."
-feature_image: "__GHOST_URL__/content/images/2018/11/brain.jpeg"
-tags: "[]"
+author: Samuel Lynn-Evans
+date: 2018-11-29 20:52:08 +0000
+excerpt: Explore the latest trends in Brain-Computer Interfaces - and train a deep
+  learning model to predict what people are doing from fluctuations in their brain
+  voltage readings.
+feature_image: /assets/images/hero/reading-minds-with-deep-learning-hero.jpeg
+layout: post
+slug: reading-minds-with-deep-learning
+tags: '[]'
+title: Reading Minds with Deep Learning
 ---
 
 To live is to translate. When we listen, vibrating air particles are translated into words. When we see, bouncing electromagnetic (EM) waves become vision. The signals that surround us, whether they're EM waves or vibrating air, are constantly being transformed by our brains into information and understanding. 

@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Becoming One With the Data"
-date: "2019-07-20 11:20:18 +0000"
-slug: "becoming-one-with-the-data"
-author: "Sayak Paul"
-excerpt: "This article discusses effective ways of handling the data in machine learning projects. "
-feature_image: "__GHOST_URL__/content/images/2019/07/jeremy-thomas-rMmibFe4czY-unsplash.jpg"
-tags: "[]"
+author: Sayak Paul
+date: 2019-07-20 11:20:18 +0000
+excerpt: 'This article discusses effective ways of handling the data in machine learning
+  projects. '
+feature_image: /assets/images/hero/becoming-one-with-the-data-hero.jpg
+layout: post
+slug: becoming-one-with-the-data
+tags: '[]'
+title: Becoming One With the Data
 ---
 
 This article serves as the successor to the article [How to plan and execute your ML and DL projects](https://floydhub.github.io/structuring-and-planning-your-machine-learning-project/). It focuses on data-specific aspects of our experiments that are typically carried out before we set out for the modeling part. The motivation comes from the following statement made by Andrej Karpathy in his blog [A Recipe for Training Neural Networks](http://karpathy.github.io/2019/04/25/recipe/):  

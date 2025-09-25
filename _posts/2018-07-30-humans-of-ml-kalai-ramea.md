@@ -1,12 +1,14 @@
 ---
-layout: "post"
-title: "Exploring Computational Creativity with Neural Networks"
-date: "2018-07-30 17:11:52 +0000"
-slug: "humans-of-ml-kalai-ramea"
-author: "Charlie Harrington"
-excerpt: "The FloydHub #humansofml interview with Kalai Ramea - a researcher at Palo Alto Research Center where she works on fundamental machine learning research involving computer vision, NLP, and big data analytics."
-feature_image: "__GHOST_URL__/content/images/2018/07/Screen-Shot-2018-07-25-at-9.57.52-PM.png"
-tags: "[]"
+author: Charlie Harrington
+date: 2018-07-30 17:11:52 +0000
+excerpt: 'The FloydHub #humansofml interview with Kalai Ramea - a researcher at Palo
+  Alto Research Center where she works on fundamental machine learning research involving
+  computer vision, NLP, and big data analytics.'
+feature_image: /assets/images/hero/humans-of-ml-kalai-ramea-hero.png
+layout: post
+slug: humans-of-ml-kalai-ramea
+tags: '[]'
+title: Exploring Computational Creativity with Neural Networks
 ---
 
 Kalai Ramea is a researcher at Palo Alto Research Center (previously known as Xerox PARC) where she works on fundamental machine learning research involving computer vision, NLP, and big data analytics. Before joining the team at PARC, Kalai received her Ph.D. from University of California, Davis, where she focused on developing quantitative models in the domains of energy, transportation and climate.

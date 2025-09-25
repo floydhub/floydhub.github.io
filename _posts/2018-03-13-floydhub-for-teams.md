@@ -1,12 +1,15 @@
 ---
-layout: "post"
-title: "FloydHub for Teams"
-date: "2018-03-13 18:37:00 +0000"
-slug: "floydhub-for-teams"
-author: "Charlie Harrington"
-excerpt: "We're launching a Teams plan on FloydHub today. You can now have a secure, centralized hub for your entire data science team's model development, training, and deployment pipeline, along with roles-based permissions, consolidated billing, and even more collaboration magic."
-feature_image: "__GHOST_URL__/content/images/2018/06/team-min.jpg"
-tags: "[]"
+author: Charlie Harrington
+date: 2018-03-13 18:37:00 +0000
+excerpt: We're launching a Teams plan on FloydHub today. You can now have a secure,
+  centralized hub for your entire data science team's model development, training,
+  and deployment pipeline, along with roles-based permissions, consolidated billing,
+  and even more collaboration magic.
+feature_image: /assets/images/hero/floydhub-for-teams-hero.jpg
+layout: post
+slug: floydhub-for-teams
+tags: '[]'
+title: FloydHub for Teams
 ---
 
 We're pretty excited about today's release. This emoji sums it up well: 🎉. Let me try to get you pumped up, too.

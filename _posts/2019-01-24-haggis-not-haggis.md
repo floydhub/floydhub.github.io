@@ -1,12 +1,14 @@
 ---
-layout: "post"
-title: "Haggis, Not Haggis: How to build a haggis detection app with TensorFlow, Keras, and FloydHub for Burns Night"
-date: "2019-01-24 18:31:13 +0000"
-slug: "haggis-not-haggis"
-author: "Euan Wielewski"
-excerpt: "Use TensorFlow to build your own haggis-hunting app for Burns Night! The Scottish quest for the mythical wild haggis just got easier with deep learning."
-feature_image: "__GHOST_URL__/content/images/2019/01/image_preview.jpeg"
-tags: "[]"
+author: Euan Wielewski
+date: 2019-01-24 18:31:13 +0000
+excerpt: Use TensorFlow to build your own haggis-hunting app for Burns Night! The
+  Scottish quest for the mythical wild haggis just got easier with deep learning.
+feature_image: /assets/images/hero/haggis-not-haggis-hero.jpeg
+layout: post
+slug: haggis-not-haggis
+tags: '[]'
+title: 'Haggis, Not Haggis: How to build a haggis detection app with TensorFlow, Keras,
+  and FloydHub for Burns Night'
 ---
 
 ## An address to a Haggis

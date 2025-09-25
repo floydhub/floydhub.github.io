@@ -1,12 +1,15 @@
 ---
-layout: "post"
-title: "Generative Adversarial Networks - The Story So Far"
-date: "2019-06-21 10:17:08 +0000"
-slug: "gans-story-so-far"
-author: "Ajay Uppili Arasanipalai"
-excerpt: "Generative adversarial networks (GANs) have been the go-to state of the art algorithm to image generation in the last few years. In this article, you will learn about the most significant breakthroughs in this field, including BigGAN, StyleGAN, and many more."
-feature_image: "__GHOST_URL__/content/images/2019/06/benjamin-behre-429210-unsplash.jpg"
-tags: "[]"
+author: Ajay Uppili Arasanipalai
+date: 2019-06-21 10:17:08 +0000
+excerpt: Generative adversarial networks (GANs) have been the go-to state of the art
+  algorithm to image generation in the last few years. In this article, you will learn
+  about the most significant breakthroughs in this field, including BigGAN, StyleGAN,
+  and many more.
+feature_image: /assets/images/hero/gans-story-so-far-hero.jpg
+layout: post
+slug: gans-story-so-far
+tags: '[]'
+title: Generative Adversarial Networks - The Story So Far
 ---
 
 When Ian Goodfellow dreamt up the idea of Generative Adversarial Networks (GANs) over a mug of beer back in 2014, he probably didn’t expect to see the field advance so fast:

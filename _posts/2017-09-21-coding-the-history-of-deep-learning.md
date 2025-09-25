@@ -1,12 +1,14 @@
 ---
-layout: "post"
-title: "Coding the History of Deep Learning"
-date: "2017-09-21 04:47:00 +0000"
-slug: "coding-the-history-of-deep-learning"
-author: "Emil Wallner"
-excerpt: "There are six snippets of code that made deep learning what it is today. This article covers the inventors and the background to their breakthroughs. Each story includes simple code samples on FloydHub and GitHub to play around with."
-feature_image: "__GHOST_URL__/content/images/2018/06/alpha_go-1-min.jpg"
-tags: "[]"
+author: Emil Wallner
+date: 2017-09-21 04:47:00 +0000
+excerpt: There are six snippets of code that made deep learning what it is today.
+  This article covers the inventors and the background to their breakthroughs. Each
+  story includes simple code samples on FloydHub and GitHub to play around with.
+feature_image: /assets/images/hero/coding-the-history-of-deep-learning-hero.jpg
+layout: post
+slug: coding-the-history-of-deep-learning
+tags: '[]'
+title: Coding the History of Deep Learning
 ---
 
 ### Ready to build, train, and deploy AI?

@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Introduction to Anomaly Detection in Python"
-date: "2019-04-05 16:47:30 +0000"
-slug: "introduction-to-anomaly-detection-in-python"
-author: "Sayak Paul"
-excerpt: "Learn what anomalies are and several approaches to detect them along with a case study. "
-feature_image: "__GHOST_URL__/content/images/2019/04/will-myers-986006-unsplash.jpg"
-tags: "[]"
+author: Sayak Paul
+date: 2019-04-05 16:47:30 +0000
+excerpt: 'Learn what anomalies are and several approaches to detect them along with
+  a case study. '
+feature_image: /assets/images/hero/introduction-to-anomaly-detection-in-python-hero.jpg
+layout: post
+slug: introduction-to-anomaly-detection-in-python
+tags: '[]'
+title: Introduction to Anomaly Detection in Python
 ---
 
 > There are always some students in a classroom who either outperform the other students or failed to even pass with a bare minimum when it comes to securing marks in subjects. Most of the times, the marks of the students are generally normally distributed apart from the ones just mentioned. These marks can be termed as extreme highs and extreme lows respectively. In Statistics and other related areas like Machine Learning, these values are referred to as Anomalies or Outliers.

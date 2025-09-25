@@ -1,12 +1,19 @@
 ---
-layout: post
-title: "Metrics on FloydHub"
-date: 2018-03-30 06:25:28 +0000
-slug: metrics-on-floydhub
 author: Naren Thiagarajan
-excerpt: "Learn how FloydHub's new metrics features give you real-time insights into training performance and system resource utilization for optimal deep learning model development."
-feature_image: "https://images.unsplash.com/photo-1433840496881-cbd845929862?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=f048aea7591e2f3b7ff164a3f0fbdbc6"
-tags: [metrics, monitoring, deep-learning, training, gpu]
+date: 2018-03-30 06:25:28 +0000
+excerpt: Learn how FloydHub's new metrics features give you real-time insights into
+  training performance and system resource utilization for optimal deep learning model
+  development.
+feature_image: /assets/images/hero/metrics-on-floydhub-hero.jpg
+layout: post
+slug: metrics-on-floydhub
+tags:
+- metrics
+- monitoring
+- deep-learning
+- training
+- gpu
+title: Metrics on FloydHub
 ---
 
 At FloydHub we offer [cutting edge infrastructure](https://floydhub.github.io/benchmarking-floydhub-instances/) for training your machine learning projects. These are highly tuned instances in the cloud that come pre-installed with the [frameworks of your choice](https://docs.floydhub.com/guides/environments/). With the machines running in the cloud it is critical to monitor them at training time to ensure you are making the best use of the hardware. And now you can do that with FloydHub metrics!

@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "On Building an Instagram Street Art Dataset and Detection Model"
-date: "2019-01-29 20:59:04 +0000"
-slug: "instagram-street-art"
-author: "Leonard Bogdonoff"
-excerpt: "Build your own deep learning dataset and detection model using public Instagram photos of #streetart."
-feature_image: "__GHOST_URL__/content/images/2019/01/cover.png"
-tags: "[]"
+author: Leonard Bogdonoff
+date: 2019-01-29 20:59:04 +0000
+excerpt: 'Build your own deep learning dataset and detection model using public Instagram
+  photos of #streetart.'
+feature_image: /assets/images/hero/instagram-street-art-hero.png
+layout: post
+slug: instagram-street-art
+tags: '[]'
+title: On Building an Instagram Street Art Dataset and Detection Model
 ---
 
 What if you could pump all of the Instagram photos of Banksy's artwork into a program that could pinpoint where the next one's likely to be?

@@ -1,12 +1,12 @@
 ---
-layout: "post"
-title: "Controlling a 2D Robotic Arm with Deep Reinforcement Learning"
-date: "2019-02-14 17:20:30 +0000"
-slug: "robotic-arm-control-deep-reinforcement-learning"
-author: "Mark Saroufim"
-excerpt: "Learn how to control a robotic arm using deep reinforcement learning techniques."
-feature_image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ"
-tags: "[]"
+author: Mark Saroufim
+date: 2019-02-14 17:20:30 +0000
+excerpt: Learn how to control a robotic arm using deep reinforcement learning techniques.
+feature_image: /assets/images/hero/robotic-arm-control-deep-reinforcement-learning-hero.jpg
+layout: post
+slug: robotic-arm-control-deep-reinforcement-learning
+tags: '[]'
+title: Controlling a 2D Robotic Arm with Deep Reinforcement Learning
 ---
 
 Let’s face it — we all need an extra hand sometimes. 

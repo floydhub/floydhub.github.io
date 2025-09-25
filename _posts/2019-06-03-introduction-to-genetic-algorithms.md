@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Introduction to Genetic Algorithms"
-date: "2019-06-03 14:23:43 +0000"
-slug: "introduction-to-genetic-algorithms"
-author: "Philip Kiely"
-excerpt: "Genetic algorithms are a specific approach to optimization problems that can estimate known solutions and simulate evolutionary behavior in complex systems."
-feature_image: "__GHOST_URL__/content/images/2019/06/michael-schiffer-792680-unsplash.jpg"
-tags: "[]"
+author: Philip Kiely
+date: 2019-06-03 14:23:43 +0000
+excerpt: Genetic algorithms are a specific approach to optimization problems that
+  can estimate known solutions and simulate evolutionary behavior in complex systems.
+feature_image: /assets/images/hero/introduction-to-genetic-algorithms-hero.jpg
+layout: post
+slug: introduction-to-genetic-algorithms
+tags: '[]'
+title: Introduction to Genetic Algorithms
 ---
 
 When you're solving a problem, how do you know if the answer you've found is correct? In many domains, there is a single correct answer. A mathematical function may have a global maximum or other well-defined attributes. However, other problems, like how a cell behaves in a petri dish, do not have clear solutions. Enter evolution, which does not design towards a known solution but optimizes around constraints. Genetic algorithms are a specific approach to optimization problems that can estimate known solutions and simulate evolutionary behavior in complex systems.

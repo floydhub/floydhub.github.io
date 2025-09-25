@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Counting the Crowd at Shake Shack with Deep Learning"
-date: "2018-08-29 19:47:01 +0000"
-slug: "humans-of-ml-dimitri-roche"
-author: "Charlie Harrington"
-excerpt: "The FloydHub #humansofml interview with Dimitri Roche - a software engineer who built a Shake Shack crowd-counting CoreML app using deep learning and FloydHub"
-feature_image: "__GHOST_URL__/content/images/2018/08/Screen-Shot-2018-08-29-at-10.13.19-AM-1.png"
-tags: "[]"
+author: Charlie Harrington
+date: 2018-08-29 19:47:01 +0000
+excerpt: 'The FloydHub #humansofml interview with Dimitri Roche - a software engineer
+  who built a Shake Shack crowd-counting CoreML app using deep learning and FloydHub'
+feature_image: /assets/images/hero/humans-of-ml-dimitri-roche-hero.png
+layout: post
+slug: humans-of-ml-dimitri-roche
+tags: '[]'
+title: Counting the Crowd at Shake Shack with Deep Learning
 ---
 
 Dimitri Roche is a software engineer based in New York City, where our paths first aligned based on a mutual love of Shake Shack.

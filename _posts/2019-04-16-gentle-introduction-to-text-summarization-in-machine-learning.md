@@ -1,12 +1,14 @@
 ---
-layout: "post"
-title: "A Gentle Introduction to Text Summarization in Machine Learning"
-date: "2019-04-16 06:23:32 +0000"
-slug: "gentle-introduction-to-text-summarization-in-machine-learning"
-author: "Alfrick Opidi"
-excerpt: "Text summarization is a common problem in the fields of machine learning and natural language processing (NLP). In this article, we'll explore how to create a simple extractive text summarization algorithm. "
-feature_image: "__GHOST_URL__/content/images/2019/04/romain-vignes-53940-unsplash.jpg"
-tags: "[]"
+author: Alfrick Opidi
+date: 2019-04-16 06:23:32 +0000
+excerpt: 'Text summarization is a common problem in the fields of machine learning
+  and natural language processing (NLP). In this article, we''ll explore how to create
+  a simple extractive text summarization algorithm. '
+feature_image: /assets/images/hero/gentle-introduction-to-text-summarization-in-machine-learning-hero.jpg
+layout: post
+slug: gentle-introduction-to-text-summarization-in-machine-learning
+tags: '[]'
+title: A Gentle Introduction to Text Summarization in Machine Learning
 ---
 
 > Have you ever summarized a lengthy document into a short paragraph? How long did you take? Manually generating a summary can be time consuming and tedious. Automatic text summarization promises to overcome such difficulties and allow you to generate the key ideas in a piece of writing easily. 

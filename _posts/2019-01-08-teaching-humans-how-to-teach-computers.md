@@ -1,12 +1,14 @@
 ---
-layout: "post"
-title: "Teaching Humans How to Teach Computers"
-date: "2019-01-08 18:20:15 +0000"
-slug: "teaching-humans-how-to-teach-computers"
-author: "Charlie Harrington"
-excerpt: "Resistance is futile — Siraj Raval will teach artificial intelligence (AI) literacy to every single person in this galactic quadrant. Learn more about Siraj's background and journey in this FloydHub #humansofml interview."
-feature_image: "__GHOST_URL__/content/images/2018/12/Screen-Shot-2018-12-21-at-12.33.46-PM.png"
-tags: "[]"
+author: Charlie Harrington
+date: 2019-01-08 18:20:15 +0000
+excerpt: 'Resistance is futile — Siraj Raval will teach artificial intelligence (AI)
+  literacy to every single person in this galactic quadrant. Learn more about Siraj''s
+  background and journey in this FloydHub #humansofml interview.'
+feature_image: /assets/images/hero/teaching-humans-how-to-teach-computers-hero.png
+layout: post
+slug: teaching-humans-how-to-teach-computers
+tags: '[]'
+title: Teaching Humans How to Teach Computers
 ---
 
 Resistance is futile — Siraj Raval will teach artificial intelligence (AI) literacy to every single person in this galactic quadrant. 

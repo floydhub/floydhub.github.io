@@ -1,12 +1,12 @@
 ---
-layout: "post"
-title: "Ten trends in Deep learning NLP"
-date: "2019-03-12 18:17:41 +0000"
-slug: "ten-trends-in-deep-learning-nlp"
-author: "Cathal Horan"
-excerpt: "Let's uncover the Top 10 NLP trends of 2019."
-feature_image: "__GHOST_URL__/content/images/2019/03/dmitry-ratushny-67024-unsplash.jpg"
-tags: "[]"
+author: Cathal Horan
+date: 2019-03-12 18:17:41 +0000
+excerpt: Let's uncover the Top 10 NLP trends of 2019.
+feature_image: /assets/images/hero/ten-trends-in-deep-learning-nlp-hero.jpg
+layout: post
+slug: ten-trends-in-deep-learning-nlp
+tags: '[]'
+title: Ten trends in Deep learning NLP
 ---
 
 2018 was a busy year for deep learning based Natural Language Processing (NLP) research. Prior to this the most high profile incumbent was Word2Vec which was first published in 2013. 

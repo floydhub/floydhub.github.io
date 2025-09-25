@@ -1,14 +1,14 @@
 ---
-layout: "post"
-title: "Generating Six-Pack Abs With TensorFlow pix2pix"
-date: "2017-10-18 23:53:00 +0000"
-slug: "generating-six-pack-abs-with-tensorflow"
-author: "Naren Thiagarajan"
-excerpt: "Visualizing results can be a powerful form of motivation and preparation.
-However, in the fitness domain, it can often be difficult to clearly see this
-future outcome. Can we use deep learning to brin..."
-feature_image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=d3b67b26c276ca06abfb1e42ca1731ee"
-tags: "[]"
+author: Naren Thiagarajan
+date: 2017-10-18 23:53:00 +0000
+excerpt: Visualizing results can be a powerful form of motivation and preparation.
+  However, in the fitness domain, it can often be difficult to clearly see this future
+  outcome. Can we use deep learning to brin...
+feature_image: /assets/images/hero/generating-six-pack-abs-with-tensorflow-hero.jpg
+layout: post
+slug: generating-six-pack-abs-with-tensorflow
+tags: '[]'
+title: Generating Six-Pack Abs With TensorFlow pix2pix
 ---
 
 Visualizing results can be a powerful form of motivation and preparation. However, in the fitness domain, it can often be difficult to clearly see this future outcome. Can we use deep learning to bring people closer to their individual fitness goals by helping them visualize their future results?

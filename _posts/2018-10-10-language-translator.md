@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Found in translation: Building a language translator from scratch with deep learning"
-date: "2018-10-10 17:37:04 +0000"
-slug: "language-translator"
-author: "Samuel Lynn-Evans"
-excerpt: "Build an English-French language translator from scratch using PyTorch."
-feature_image: "__GHOST_URL__/content/images/2018/10/header.jpeg"
-tags: "[]"
+author: Samuel Lynn-Evans
+date: 2018-10-10 17:37:04 +0000
+excerpt: Build an English-French language translator from scratch using PyTorch.
+feature_image: /assets/images/hero/language-translator-hero.jpeg
+layout: post
+slug: language-translator
+tags: '[]'
+title: 'Found in translation: Building a language translator from scratch with deep
+  learning'
 ---
 
 Neural networks have won me over.

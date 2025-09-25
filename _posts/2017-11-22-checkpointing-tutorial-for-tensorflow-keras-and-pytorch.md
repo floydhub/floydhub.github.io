@@ -1,15 +1,13 @@
 ---
-layout: "post"
-title: "Checkpointing Tutorial for TensorFlow, Keras, and PyTorch"
-date: "2017-11-22 05:48:00 +0000"
-slug: "checkpointing-tutorial-for-tensorflow-keras-and-pytorch"
-author: "Alessio Gozzoli"
-excerpt: " Ready to build, train, and deploy AI?
-Get started with FloydHub's collaborative AI platform for free
-Try FloydHub for free
-[https://www.floydhub.com/?utm_source=blog&utm_medium=banner-checkpointing-s..."
-feature_image: "https://images.unsplash.com/photo-1474546652694-a33dd8161d66?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=62a31a4a0ec39ecda178464988df6e22"
-tags: "[]"
+author: Alessio Gozzoli
+date: 2017-11-22 05:48:00 +0000
+excerpt: ' Ready to build, train, and deploy AI? Get started with FloydHub''s collaborative
+  AI platform for free Try FloydHub for free [https://www.floydhub.com/?utm_source=blog&utm_medium=banner-checkpointing-s...'
+feature_image: /assets/images/hero/checkpointing-tutorial-for-tensorflow-keras-and-pytorch-hero.jpg
+layout: post
+slug: checkpointing-tutorial-for-tensorflow-keras-and-pytorch
+tags: '[]'
+title: Checkpointing Tutorial for TensorFlow, Keras, and PyTorch
 ---
 
 ### Ready to build, train, and deploy AI?

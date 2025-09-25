@@ -1,14 +1,14 @@
 ---
-layout: "post"
-title: "Should I buy my own GPUs for Deep Learning?"
-date: "2017-09-20 04:48:00 +0000"
-slug: "should-i-buy-my-own-gpus-for-deep-learning"
-author: "Naren Thiagarajan"
-excerpt: "Deep learning algorithms involve huge amounts of matrix multiplications and
-other operations which can be massively parallelized. GPUs usually consist of
-thousands of cores which can speed up these op..."
-feature_image: "__GHOST_URL__/content/images/2018/06/nvidia.jpg"
-tags: "[]"
+author: Naren Thiagarajan
+date: 2017-09-20 04:48:00 +0000
+excerpt: Deep learning algorithms involve huge amounts of matrix multiplications and
+  other operations which can be massively parallelized. GPUs usually consist of thousands
+  of cores which can speed up these op...
+feature_image: /assets/images/hero/should-i-buy-my-own-gpus-for-deep-learning-hero.jpg
+layout: post
+slug: should-i-buy-my-own-gpus-for-deep-learning
+tags: '[]'
+title: Should I buy my own GPUs for Deep Learning?
 ---
 
 Deep learning algorithms involve huge amounts of matrix multiplications and other operations which can be massively parallelized. GPUs usually consist of thousands of cores which can speed up these operations by a huge factor and reduce training time drastically. This makes GPUs essential to doing effective deep learning. Most data scientists are now faced with a question of whether to buy GPUs off the shelf and set up their own rigs or instead spin up cloud instances with GPUs.

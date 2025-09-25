@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Improving Access to Sexual Health Education in Kenya with Artificial Intelligence"
-date: "2019-01-15 18:06:13 +0000"
-slug: "improving-access-to-sexual-health-education"
-author: "Charlie Harrington"
-excerpt: "Irving Amukasa built an AI chatbot to answer questions about reproductive health for young people in Kenya. Learn more in this #humansofml interview."
-feature_image: "__GHOST_URL__/content/images/2019/01/irving.png"
-tags: "[]"
+author: Charlie Harrington
+date: 2019-01-15 18:06:13 +0000
+excerpt: 'Irving Amukasa built an AI chatbot to answer questions about reproductive
+  health for young people in Kenya. Learn more in this #humansofml interview.'
+feature_image: /assets/images/hero/improving-access-to-sexual-health-education-hero.png
+layout: post
+slug: improving-access-to-sexual-health-education
+tags: '[]'
+title: Improving Access to Sexual Health Education in Kenya with Artificial Intelligence
 ---
 
 Irving Amukasa wants to stop the spread of misinformation about sexual health in his home country of Kenya. 

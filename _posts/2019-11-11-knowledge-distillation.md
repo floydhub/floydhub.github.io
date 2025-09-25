@@ -1,12 +1,13 @@
 ---
-layout: "post"
-title: "Distilling knowledge from Neural Networks to build smaller and faster models"
-date: "2019-11-11 18:00:00 +0000"
-slug: "knowledge-distillation"
-author: "Alex Amadori"
-excerpt: "This article discusses GPT-2 and BERT models, as well using knowledge distillation to create highly accurate models with fewer parameters than their teachers"
-feature_image: "__GHOST_URL__/content/images/2019/11/teacherclass.jpeg"
-tags: "[]"
+author: Alex Amadori
+date: 2019-11-11 18:00:00 +0000
+excerpt: This article discusses GPT-2 and BERT models, as well using knowledge distillation
+  to create highly accurate models with fewer parameters than their teachers
+feature_image: /assets/images/hero/knowledge-distillation-hero.jpeg
+layout: post
+slug: knowledge-distillation
+tags: '[]'
+title: Distilling knowledge from Neural Networks to build smaller and faster models
 ---
 
 Not every smartphone owner carries around a high-end GPU and a power generator in their pockets. For most practical situations, we need compact models with small memory footprints and fast inference times.That said, you might have noticed that many recent advancements in Deep Learning are all about scaling up our models to gargantuan proportions. How can we take advantage of these new models while remaining under reasonable computing constraints?  
