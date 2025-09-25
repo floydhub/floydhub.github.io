@@ -2,7 +2,28 @@
 layout: default
 ---
 
+{% if page.feature_image %}
+<div class="hero-image">
+    <img src="{{ page.feature_image | relative_url }}" alt="{{ page.title }}" />
+    <div class="hero-overlay">
+        <div class="hero-content">
+            <h1 class="hero-title">{{ page.title }}</h1>
+            <div class="hero-meta">
+                <time datetime="{{ page.date | date_to_xmlschema }}">
+                    {{ page.date | date: "%B %d, %Y" }}
+                </time>
+                {% if page.author %}
+                    <span class="author-separator">•</span>
+                    <span class="author-name">by {{ page.author }}</span>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
 <article class="post">
+    {% unless page.feature_image %}
     <header class="post-header">
         <h1>{{ page.title }}</h1>
         <div class="post-meta">
@@ -15,6 +36,7 @@ layout: default
             {% endif %}
         </div>
     </header>
+    {% endunless %}
 
     <div class="post-content">
         {{ content }}
@@ -37,6 +59,65 @@ layout: default
 </article>
 
 <style>
+    /* Hero Image Styles */
+    .hero-image {
+        position: relative;
+        width: 100vw;
+        height: 60vh;
+        margin-left: calc(-50vw + 50%);
+        margin-bottom: 40px;
+        overflow: hidden;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .hero-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-content {
+        text-align: center;
+        color: white;
+        max-width: 800px;
+        padding: 0 20px;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        line-height: 1.2;
+    }
+
+    .hero-meta {
+        font-size: 1.1rem;
+        opacity: 0.9;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    }
+
+    .hero-meta .author-separator {
+        margin: 0 12px;
+    }
+
+    .hero-meta .author-name {
+        font-weight: 500;
+    }
+
+    /* Regular post header (for posts without hero images) */
     .post-header {
         margin-bottom: 30px;
     }
@@ -54,6 +135,35 @@ layout: default
     .author-name {
         color: #495057;
         font-weight: 500;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 768px) {
+        .hero-image {
+            height: 40vh;
+        }
+
+        .hero-title {
+            font-size: 2rem;
+        }
+
+        .hero-meta {
+            font-size: 1rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .hero-image {
+            height: 35vh;
+        }
+
+        .hero-title {
+            font-size: 1.5rem;
+        }
+
+        .hero-meta {
+            font-size: 0.9rem;
+        }
     }
     .post-content {
         margin-bottom: 40px;

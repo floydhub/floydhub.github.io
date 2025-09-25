@@ -5,7 +5,7 @@ date: "2021-08-22 01:00:00 +0000"
 slug: "floydhub-has-shut-down"
 author: "Naren Thiagarajan"
 excerpt: "FloydHub - our ML platform used by thousands of Data Scientists and AI enthusiasts was shut down on August 20, 2021."
-feature_image: "https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fHN1bnNldHxlbnwwfHx8fDE2MzE2ODMxNDE&ixlib=rb-1.2.1&q=80&w=2000"
+feature_image: "/assets/images/hero/floydhub-shutdown-hero.jpg"
 tags: "[]"
 ---
 
