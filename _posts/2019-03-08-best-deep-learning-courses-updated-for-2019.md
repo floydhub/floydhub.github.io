@@ -6,7 +6,7 @@ excerpt: The list of the best machine learning & deep learning courses and MOOCs
 feature_image: /assets/images/hero/best-deep-learning-courses-updated-for-2019-hero.jpg
 layout: post
 slug: best-deep-learning-courses-updated-for-2019
-tags: '[]'
+tags: [machine-learning]
 title: 'Best Deep Learning Courses: Updated for 2019'
 ---
 

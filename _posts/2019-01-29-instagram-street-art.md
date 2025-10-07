@@ -6,7 +6,7 @@ excerpt: 'Build your own deep learning dataset and detection model using public 
 feature_image: /assets/images/hero/instagram-street-art-hero.png
 layout: post
 slug: instagram-street-art
-tags: '[]'
+tags: [machine-learning]
 title: On Building an Instagram Street Art Dataset and Detection Model
 ---
 

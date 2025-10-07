@@ -5,7 +5,7 @@ excerpt: Let's uncover the Top 10 NLP trends of 2019.
 feature_image: /assets/images/hero/ten-trends-in-deep-learning-nlp-hero.jpg
 layout: post
 slug: ten-trends-in-deep-learning-nlp
-tags: '[]'
+tags: [machine-learning]
 title: Ten trends in Deep learning NLP
 ---
 

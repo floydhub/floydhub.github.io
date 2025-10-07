@@ -7,7 +7,7 @@ excerpt: 'Neural networks are transforming the way we study DNA and population g
 feature_image: /assets/images/hero/exploring-dna-with-deep-learning-hero.jpg
 layout: post
 slug: exploring-dna-with-deep-learning
-tags: '[]'
+tags: [machine-learning]
 title: Exploring DNA with Deep Learning
 ---
 

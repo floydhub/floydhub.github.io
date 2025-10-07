@@ -6,7 +6,7 @@ excerpt: Building a cousin image classification app using a convolutional neural
 feature_image: /assets/images/hero/build-image-classification-app-with-fastai-hero.png
 layout: post
 slug: build-image-classification-app-with-fastai
-tags: '[]'
+tags: [machine-learning]
 title: Recognize relatives using deep learning
 ---
 

@@ -7,7 +7,7 @@ excerpt: There are six snippets of code that made deep learning what it is today
 feature_image: /assets/images/hero/coding-the-history-of-deep-learning-hero.jpg
 layout: post
 slug: coding-the-history-of-deep-learning
-tags: '[]'
+tags: [machine-learning]
 title: Coding the History of Deep Learning
 ---
 

@@ -6,7 +6,7 @@ excerpt: Within three years deep learning will change front-end development. It 
 feature_image: /assets/images/hero/turning-design-mockups-into-code-with-deep-learning-hero.gif
 layout: post
 slug: turning-design-mockups-into-code-with-deep-learning
-tags: '[]'
+tags: [machine-learning]
 title: Turning Design Mockups Into Code With Deep Learning
 ---
 

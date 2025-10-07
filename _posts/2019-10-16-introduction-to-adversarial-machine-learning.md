@@ -6,7 +6,7 @@ excerpt: Machine learning advancements lead to new ways to train models, as well
 feature_image: /assets/images/hero/introduction-to-adversarial-machine-learning-hero.jpg
 layout: post
 slug: introduction-to-adversarial-machine-learning
-tags: '[]'
+tags: [machine-learning]
 title: Introduction to Adversarial Machine Learning
 ---
 

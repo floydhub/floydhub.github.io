@@ -6,7 +6,7 @@ excerpt: The Gated Recurrent Unit (GRU) is the newer version of the more popular
 feature_image: /assets/images/hero/gru-with-pytorch-hero.jpg
 layout: post
 slug: gru-with-pytorch
-tags: '[]'
+tags: [machine-learning]
 title: Gated Recurrent Unit (GRU) With PyTorch
 ---
 

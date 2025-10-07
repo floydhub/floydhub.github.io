@@ -6,7 +6,7 @@ excerpt: Most of your customer support questions have already been asked. Learn 
 feature_image: /assets/images/hero/automate-customer-support-part-one-hero.jpg
 layout: post
 slug: automate-customer-support-part-one
-tags: '[]'
+tags: [machine-learning]
 title: Using Sentence Embeddings to Automate Customer Support, Part One
 ---
 

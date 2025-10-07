@@ -7,7 +7,7 @@ excerpt: 'Jason Antic''s DeOldify deep learning project not only colorizes image
 feature_image: /assets/images/hero/colorizing-and-restoring-old-images-with-deep-learning-hero.png
 layout: post
 slug: colorizing-and-restoring-old-images-with-deep-learning
-tags: '[]'
+tags: [machine-learning]
 title: 'DeOldify: Colorizing and Restoring Old Images and Videos with Deep Learning'
 ---
 

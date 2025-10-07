@@ -5,7 +5,7 @@ excerpt: Build an English-French language translator from scratch using PyTorch.
 feature_image: /assets/images/hero/language-translator-hero.jpeg
 layout: post
 slug: language-translator
-tags: '[]'
+tags: [machine-learning]
 title: 'Found in translation: Building a language translator from scratch with deep
   learning'
 ---

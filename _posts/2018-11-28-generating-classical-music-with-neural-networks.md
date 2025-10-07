@@ -8,7 +8,7 @@ excerpt: Christine McLeavey Payne may have finally cured songwriter's block. Her
 feature_image: /assets/images/hero/generating-classical-music-with-neural-networks-hero.jpeg
 layout: post
 slug: generating-classical-music-with-neural-networks
-tags: '[]'
+tags: [machine-learning]
 title: Generating Classical Music with Neural Networks
 ---
 

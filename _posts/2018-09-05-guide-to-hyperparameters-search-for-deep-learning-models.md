@@ -6,7 +6,7 @@ excerpt: Learn techniques for identifying the best hyperparameters for your deep
 feature_image: /assets/images/hero/guide-to-hyperparameters-search-for-deep-learning-models-hero.jpg
 layout: post
 slug: guide-to-hyperparameters-search-for-deep-learning-models
-tags: '[]'
+tags: [machine-learning]
 title: Practical Guide to Hyperparameters Optimization for Deep Learning Models
 ---
 

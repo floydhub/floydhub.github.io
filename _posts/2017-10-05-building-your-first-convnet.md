@@ -6,7 +6,7 @@ excerpt: Learn how to build your first ConvNet (Convolutional Neural Networks) t
 feature_image: /assets/images/hero/building-your-first-convnet-hero.jpg
 layout: post
 slug: building-your-first-convnet
-tags: '[]'
+tags: [machine-learning]
 title: Building Your First ConvNet
 ---
 

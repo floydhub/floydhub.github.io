@@ -7,7 +7,7 @@ excerpt: Deep learning algorithms involve huge amounts of matrix multiplications
 feature_image: /assets/images/hero/should-i-buy-my-own-gpus-for-deep-learning-hero.jpg
 layout: post
 slug: should-i-buy-my-own-gpus-for-deep-learning
-tags: '[]'
+tags: [machine-learning]
 title: Should I buy my own GPUs for Deep Learning?
 ---
 

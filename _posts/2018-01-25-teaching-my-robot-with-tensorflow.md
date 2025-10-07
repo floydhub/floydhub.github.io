@@ -8,7 +8,7 @@ excerpt: 'If you''re like me, then you''d do pretty much anything to have your o
 feature_image: /assets/images/hero/teaching-my-robot-with-tensorflow-hero.jpg
 layout: post
 slug: teaching-my-robot-with-tensorflow
-tags: '[]'
+tags: [machine-learning]
 title: Teaching My Robot With TensorFlow
 ---
 

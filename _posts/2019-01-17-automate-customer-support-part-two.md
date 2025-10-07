@@ -6,7 +6,7 @@ excerpt: Let's build an NLP model that can help out your customer support agents
 feature_image: /assets/images/hero/automate-customer-support-part-two-hero.jpg
 layout: post
 slug: automate-customer-support-part-two
-tags: '[]'
+tags: [machine-learning]
 title: Using NLP to Automate Customer Support, Part Two
 ---
 

@@ -7,7 +7,7 @@ excerpt: This post is aimed at helping new users (especially the ones who are st
 feature_image: /assets/images/hero/getting-started-with-deep-learning-on-floydhub-hero.jpg
 layout: post
 slug: getting-started-with-deep-learning-on-floydhub
-tags: '[]'
+tags: [machine-learning]
 title: Getting Started with Deep Learning on FloydHub
 ---
 

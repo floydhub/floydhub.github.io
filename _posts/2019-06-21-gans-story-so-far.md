@@ -8,7 +8,7 @@ excerpt: Generative adversarial networks (GANs) have been the go-to state of the
 feature_image: /assets/images/hero/gans-story-so-far-hero.jpg
 layout: post
 slug: gans-story-so-far
-tags: '[]'
+tags: [machine-learning]
 title: Generative Adversarial Networks - The Story So Far
 ---
 

@@ -6,7 +6,7 @@ excerpt: We will cover often-overlooked concepts vital to NLP, such as Byte Pair
 feature_image: /assets/images/hero/tokenization-nlp-hero.jpg
 layout: post
 slug: tokenization-nlp
-tags: '[]'
+tags: [machine-learning]
 title: 'Tokenizers: How machines read'
 ---
 

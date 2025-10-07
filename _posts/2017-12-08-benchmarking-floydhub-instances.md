@@ -8,7 +8,7 @@ excerpt: 'This post compares all the CPU and GPU instances offered by FloydHub, 
 feature_image: /assets/images/hero/benchmarking-floydhub-instances-hero.jpg
 layout: post
 slug: benchmarking-floydhub-instances
-tags: '[]'
+tags: [machine-learning]
 title: Benchmarking FloydHub instances
 ---
 

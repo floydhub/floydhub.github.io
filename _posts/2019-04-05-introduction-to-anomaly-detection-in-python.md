@@ -6,7 +6,7 @@ excerpt: 'Learn what anomalies are and several approaches to detect them along w
 feature_image: /assets/images/hero/introduction-to-anomaly-detection-in-python-hero.jpg
 layout: post
 slug: introduction-to-anomaly-detection-in-python
-tags: '[]'
+tags: [machine-learning]
 title: Introduction to Anomaly Detection in Python
 ---
 

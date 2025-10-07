@@ -6,7 +6,7 @@ excerpt: 'In this article, get a gentle introduction to the world of unsupervise
 feature_image: /assets/images/hero/introduction-to-k-means-clustering-in-python-with-scikit-learn-hero.jpg
 layout: post
 slug: introduction-to-k-means-clustering-in-python-with-scikit-learn
-tags: '[]'
+tags: [machine-learning]
 title: Introduction to K-Means Clustering in Python with scikit-learn
 ---
 

@@ -6,7 +6,7 @@ excerpt: Genetic algorithms are a specific approach to optimization problems tha
 feature_image: /assets/images/hero/introduction-to-genetic-algorithms-hero.jpg
 layout: post
 slug: introduction-to-genetic-algorithms
-tags: '[]'
+tags: [machine-learning]
 title: Introduction to Genetic Algorithms
 ---
 

@@ -7,7 +7,7 @@ excerpt: Explore the latest trends in Brain-Computer Interfaces - and train a de
 feature_image: /assets/images/hero/reading-minds-with-deep-learning-hero.jpeg
 layout: post
 slug: reading-minds-with-deep-learning
-tags: '[]'
+tags: [machine-learning]
 title: Reading Minds with Deep Learning
 ---
 

@@ -6,7 +6,7 @@ excerpt: ' Ready to build, train, and deploy AI? Get started with FloydHub''s co
 feature_image: /assets/images/hero/checkpointing-tutorial-for-tensorflow-keras-and-pytorch-hero.jpg
 layout: post
 slug: checkpointing-tutorial-for-tensorflow-keras-and-pytorch
-tags: '[]'
+tags: [machine-learning]
 title: Checkpointing Tutorial for TensorFlow, Keras, and PyTorch
 ---
 

@@ -7,7 +7,7 @@ excerpt: I’ll show you how to build your own colorization neural net in three 
 feature_image: /assets/images/hero/colorizing-b-w-photos-with-neural-networks-hero.png
 layout: post
 slug: colorizing-b-w-photos-with-neural-networks
-tags: '[]'
+tags: [machine-learning]
 title: Colorizing B&W Photos with Neural Networks
 ---
 

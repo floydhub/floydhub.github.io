@@ -8,7 +8,7 @@ excerpt: With the rapid advance in NLP models we have outpaced out ability to me
 feature_image: /assets/images/hero/nlp-datasets-how-to-train-and-evaluate-your-deep-learning-model-hero.jpg
 layout: post
 slug: nlp-datasets-how-to-train-and-evaluate-your-deep-learning-model
-tags: '[]'
+tags: [machine-learning]
 title: 'NLP Datasets: How good is your deep learning model?'
 ---
 

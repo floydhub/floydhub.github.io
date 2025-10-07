@@ -6,7 +6,7 @@ excerpt: Learn the basics of Recurrent Neural Networks and build a simple Langua
 feature_image: /assets/images/hero/a-beginners-guide-on-recurrent-neural-networks-with-pytorch-hero.jpg
 layout: post
 slug: a-beginners-guide-on-recurrent-neural-networks-with-pytorch
-tags: '[]'
+tags: [machine-learning]
 title: A Beginner’s Guide on Recurrent Neural Networks with PyTorch
 ---
 

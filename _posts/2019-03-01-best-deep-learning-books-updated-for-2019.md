@@ -5,7 +5,7 @@ excerpt: The list of the best machine learning & deep learning books for 2019.
 feature_image: /assets/images/hero/best-deep-learning-books-updated-for-2019-hero.jpg
 layout: post
 slug: best-deep-learning-books-updated-for-2019
-tags: '[]'
+tags: [machine-learning]
 title: 'Best Deep Learning Books: Updated for 2019-2020'
 ---
 

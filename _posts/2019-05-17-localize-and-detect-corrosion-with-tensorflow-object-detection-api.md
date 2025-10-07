@@ -6,7 +6,7 @@ excerpt: While computer vision techniques have been used with limited success fo
 feature_image: /assets/images/hero/localize-and-detect-corrosion-with-tensorflow-object-detection-api-hero.jpg
 layout: post
 slug: localize-and-detect-corrosion-with-tensorflow-object-detection-api
-tags: '[]'
+tags: [machine-learning]
 title: Using Deep Learning and TensorFlow Object Detection API for Corrosion Detection
   and Localization
 ---

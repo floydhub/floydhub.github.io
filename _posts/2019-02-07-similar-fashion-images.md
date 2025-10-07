@@ -7,7 +7,7 @@ excerpt: Explore how deep learning is changing the fashion industry by training 
 feature_image: /assets/images/hero/similar-fashion-images-hero.jpg
 layout: post
 slug: similar-fashion-images
-tags: '[]'
+tags: [machine-learning]
 title: Recommending Similar Fashion Images with Deep Learning
 ---
 

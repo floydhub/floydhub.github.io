@@ -7,7 +7,7 @@ excerpt: Visualizing results can be a powerful form of motivation and preparatio
 feature_image: /assets/images/hero/generating-six-pack-abs-with-tensorflow-hero.jpg
 layout: post
 slug: generating-six-pack-abs-with-tensorflow
-tags: '[]'
+tags: [machine-learning]
 title: Generating Six-Pack Abs With TensorFlow pix2pix
 ---
 

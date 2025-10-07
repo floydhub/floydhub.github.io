@@ -6,7 +6,7 @@ excerpt: Learn how to code a transformer model in PyTorch with an English-to-Fre
 feature_image: /assets/images/hero/the-transformer-in-pytorch-hero.jpeg
 layout: post
 slug: the-transformer-in-pytorch
-tags: '[]'
+tags: [machine-learning]
 title: How to code The Transformer in PyTorch
 ---
 

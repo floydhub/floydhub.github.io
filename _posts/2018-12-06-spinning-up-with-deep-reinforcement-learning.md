@@ -6,7 +6,7 @@ excerpt: Dive into deep reinforcement learning by training a model to play the c
 feature_image: /assets/images/hero/spinning-up-with-deep-reinforcement-learning-hero.gif
 layout: post
 slug: spinning-up-with-deep-reinforcement-learning
-tags: '[]'
+tags: [machine-learning]
 title: Spinning Up a Pong AI With Deep Reinforcement Learning
 ---
 

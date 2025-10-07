@@ -6,7 +6,7 @@ excerpt: Bayes’ Theorem is about more than just conditional probability, and N
 feature_image: /assets/images/hero/naive-bayes-for-machine-learning-hero.jpg
 layout: post
 slug: naive-bayes-for-machine-learning
-tags: '[]'
+tags: [machine-learning]
 title: Naïve Bayes for Machine Learning – From Zero to Hero
 ---
 

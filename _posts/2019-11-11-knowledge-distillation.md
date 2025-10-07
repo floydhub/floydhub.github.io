@@ -6,7 +6,7 @@ excerpt: This article discusses GPT-2 and BERT models, as well using knowledge d
 feature_image: /assets/images/hero/knowledge-distillation-hero.jpeg
 layout: post
 slug: knowledge-distillation
-tags: '[]'
+tags: [machine-learning]
 title: Distilling knowledge from Neural Networks to build smaller and faster models
 ---
 

@@ -7,7 +7,7 @@ excerpt: 'Text summarization is a common problem in the fields of machine learni
 feature_image: /assets/images/hero/gentle-introduction-to-text-summarization-in-machine-learning-hero.jpg
 layout: post
 slug: gentle-introduction-to-text-summarization-in-machine-learning
-tags: '[]'
+tags: [machine-learning]
 title: A Gentle Introduction to Text Summarization in Machine Learning
 ---
 

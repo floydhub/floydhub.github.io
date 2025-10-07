@@ -6,7 +6,7 @@ excerpt: 'Is it possible to use machine learning with small data? Yes, it is! He
 feature_image: /assets/images/hero/n-shot-learning-hero.jpeg
 layout: post
 slug: n-shot-learning
-tags: '[]'
+tags: [machine-learning]
 title: 'N-Shot Learning: Learning More with Less Data'
 ---
 

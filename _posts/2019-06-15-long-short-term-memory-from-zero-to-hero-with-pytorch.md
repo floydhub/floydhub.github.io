@@ -7,7 +7,7 @@ excerpt: Long Short-Term Memory (LSTM) Networks have been widely used to solve v
 feature_image: /assets/images/hero/long-short-term-memory-from-zero-to-hero-with-pytorch-hero.jpg
 layout: post
 slug: long-short-term-memory-from-zero-to-hero-with-pytorch
-tags: '[]'
+tags: [machine-learning]
 title: 'Long Short-Term Memory: From Zero to Hero with PyTorch'
 ---
 

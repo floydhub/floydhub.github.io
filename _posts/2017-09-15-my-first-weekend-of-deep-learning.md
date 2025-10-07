@@ -7,7 +7,7 @@ excerpt: The current wave of deep learning took off five years ago. Exponential 
 feature_image: /assets/images/hero/my-first-weekend-of-deep-learning-hero.jpg
 layout: post
 slug: my-first-weekend-of-deep-learning
-tags: '[]'
+tags: [machine-learning]
 title: My First Weekend of Deep Learning
 ---
 

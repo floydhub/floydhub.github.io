@@ -6,7 +6,7 @@ excerpt: Once you've built your classifier, you need to evaluate its effectivene
 feature_image: /assets/images/hero/a-pirates-guide-to-accuracy-precision-recall-and-other-scores-hero.jpg
 layout: post
 slug: a-pirates-guide-to-accuracy-precision-recall-and-other-scores
-tags: '[]'
+tags: [machine-learning]
 title: A Pirate's Guide to Accuracy, Precision, Recall, and Other Scores
 ---
 

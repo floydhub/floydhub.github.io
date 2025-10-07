@@ -6,7 +6,7 @@ excerpt: Use TensorFlow to build your own haggis-hunting app for Burns Night! Th
 feature_image: /assets/images/hero/haggis-not-haggis-hero.jpeg
 layout: post
 slug: haggis-not-haggis
-tags: '[]'
+tags: [machine-learning]
 title: 'Haggis, Not Haggis: How to build a haggis detection app with TensorFlow, Keras,
   and FloydHub for Burns Night'
 ---

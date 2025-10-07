@@ -6,7 +6,7 @@ excerpt: Learn about the basic concepts of reinforcement learning and implement 
 feature_image: /assets/images/hero/an-introduction-to-q-learning-reinforcement-learning-hero.jpg
 layout: post
 slug: an-introduction-to-q-learning-reinforcement-learning
-tags: '[]'
+tags: [machine-learning]
 title: 'An introduction to Q-Learning: Reinforcement Learning'
 ---
 

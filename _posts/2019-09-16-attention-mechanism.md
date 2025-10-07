@@ -6,7 +6,7 @@ excerpt: What is Attention, and why is it used in state-of-the-art models? This 
 feature_image: /assets/images/hero/attention-mechanism-hero.jpg
 layout: post
 slug: attention-mechanism
-tags: '[]'
+tags: [machine-learning]
 title: Attention Mechanism
 ---
 

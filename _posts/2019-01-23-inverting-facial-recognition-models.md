@@ -5,7 +5,7 @@ excerpt: Can we teach a neural net to convert face embedding vectors back to ima
 feature_image: /assets/images/hero/inverting-facial-recognition-models-hero.jpg
 layout: post
 slug: inverting-facial-recognition-models
-tags: '[]'
+tags: [machine-learning]
 title: Inverting Facial Recognition Models
 ---
 

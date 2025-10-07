@@ -5,7 +5,7 @@ excerpt: Learn how to control a robotic arm using deep reinforcement learning te
 feature_image: /assets/images/hero/robotic-arm-control-deep-reinforcement-learning-hero.jpg
 layout: post
 slug: robotic-arm-control-deep-reinforcement-learning
-tags: '[]'
+tags: [machine-learning]
 title: Controlling a 2D Robotic Arm with Deep Reinforcement Learning
 ---
 

@@ -6,7 +6,7 @@ excerpt: This deep dive is all about neural networks - training them using best 
 feature_image: /assets/images/hero/training-neural-nets-a-hackers-perspective-hero.jpg
 layout: post
 slug: training-neural-nets-a-hackers-perspective
-tags: '[]'
+tags: [machine-learning]
 title: 'Training Neural Nets: a Hacker’s Perspective'
 ---
 

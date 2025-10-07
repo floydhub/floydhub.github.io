@@ -8,7 +8,7 @@ excerpt: Right now, Jeremy Howard – the co-founder of fast.ai – currently ho
 feature_image: /assets/images/hero/ten-techniques-from-fast-ai-hero.jpeg
 layout: post
 slug: ten-techniques-from-fast-ai
-tags: '[]'
+tags: [machine-learning]
 title: Ten Techniques Learned From fast.ai
 ---
 

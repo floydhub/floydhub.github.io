@@ -7,7 +7,7 @@ excerpt: In this deep learning tutorial, we'll build Visual Question Answering (
 feature_image: /assets/images/hero/asking-questions-to-images-with-deep-learning-hero.png
 layout: post
 slug: asking-questions-to-images-with-deep-learning
-tags: '[]'
+tags: [machine-learning]
 title: 'Asking questions to images with deep learning: a visual-question-answering
   tutorial'
 ---

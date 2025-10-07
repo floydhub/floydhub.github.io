@@ -6,7 +6,7 @@ excerpt: Learn the history and technology of autonomous cars in this Part 1 of a
 feature_image: /assets/images/hero/toy-self-driving-car-part-one-hero.jpeg
 layout: post
 slug: toy-self-driving-car-part-one
-tags: '[]'
+tags: [machine-learning]
 title: 'Building a Toy Self-Driving Car: Part One'
 ---
 
