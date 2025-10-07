@@ -1,0 +1,174 @@
+---
+layout: default
+---
+
+<div class="tag-page">
+    <header class="tag-header">
+        <h1>Posts tagged with "{{ page.tag }}"</h1>
+        <p class="tag-description">{{ page.description }}</p>
+    </header>
+
+    <div class="posts">
+        {% for post in site.tags[page.tag] %}
+        <article class="post-card">
+            {% if post.feature_image %}
+            <a href="{{ post.url | relative_url }}" class="post-image-link">
+                <img src="{{ post.feature_image | relative_url }}" alt="{{ post.title }}" class="post-image">
+            </a>
+            {% endif %}
+            <div class="post-card-content">
+                <h2 class="post-card-title">
+                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </h2>
+                <div class="post-card-meta">
+                    <time datetime="{{ post.date | date_to_xmlschema }}">
+                        {{ post.date | date: "%B %d, %Y" }}
+                    </time>
+                    {% if post.author %}
+                        <span class="author-separator">•</span>
+                        <span class="author-name">by {{ post.author }}</span>
+                    {% endif %}
+                </div>
+                {% if post.excerpt %}
+                <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+                {% endif %}
+                <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+</div>
+
+<style>
+    .tag-page {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+
+    .tag-header {
+        text-align: center;
+        margin-bottom: 60px;
+        padding-bottom: 30px;
+        border-bottom: 2px solid #e9ecef;
+    }
+
+    .tag-header h1 {
+        font-size: 2.5rem;
+        color: #2c3e50;
+        margin-bottom: 15px;
+    }
+
+    .tag-description {
+        font-size: 1.2rem;
+        color: #6c757d;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .posts {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 30px;
+        margin-bottom: 40px;
+    }
+
+    .post-card {
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        transition: transform 0.2s, box-shadow 0.2s;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    }
+
+    .post-image-link {
+        display: block;
+        overflow: hidden;
+        height: 200px;
+    }
+
+    .post-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s;
+    }
+
+    .post-card:hover .post-image {
+        transform: scale(1.05);
+    }
+
+    .post-card-content {
+        padding: 25px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post-card-title {
+        margin: 0 0 12px 0;
+        font-size: 1.5rem;
+        line-height: 1.3;
+    }
+
+    .post-card-title a {
+        color: #2c3e50;
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+
+    .post-card-title a:hover {
+        color: #007bff;
+    }
+
+    .post-card-meta {
+        color: #6c757d;
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+
+    .author-separator {
+        margin: 0 8px;
+    }
+
+    .author-name {
+        color: #495057;
+    }
+
+    .post-card-excerpt {
+        color: #495057;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        flex: 1;
+    }
+
+    .read-more {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: 500;
+        align-self: flex-start;
+        transition: color 0.2s;
+    }
+
+    .read-more:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+        .posts {
+            grid-template-columns: 1fr;
+        }
+
+        .tag-header h1 {
+            font-size: 2rem;
+        }
+    }
+</style>
